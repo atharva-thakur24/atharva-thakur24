@@ -39,9 +39,7 @@
         width="520"
       />
 
-    </td>
-
-   
+  
   <td
       width="45%"
       align="center"
