@@ -13,6 +13,6 @@
 
 ![GitHub Stats Card](https://ghstats.dev/api/card?username=atharva-thakur24&theme=midnight&border_radius=13.5)
    
-<img src="https://ghstats.dev/api/sparkline?username=atharva-thakur24&theme=midnight&days=30&width=441&height=240&title=Contribution+Graph" alt="Contribution Sparkline" />
+<img src="https://ghstats.dev/api/sparkline?username=atharva-thakur24&theme=midnight&days=30&width=330&height=143&title=Contribution+Graph" alt="Contribution Sparkline" />
 
 </div>
