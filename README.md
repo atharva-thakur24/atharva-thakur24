@@ -21,33 +21,34 @@
 
 <div align="center">
 
-<table width="100%" border="0" cellspacing="0" cellpadding="0" style="border: none;">
-  <tr style="border: none;">
+<table
+  width="100%"
+  border="0"
+  cellspacing="0"
+  cellpadding="0"
+  style="border: 0; border-collapse: collapse; outline: 0;"
+>
+  <tr style="border: 0;">
 
-    
  <td
       width="55%"
       align="center"
       valign="middle"
-      style="border: none; padding-right: 25px;"
+      style="border: 0; padding-right: 25px;"
     >
-
-      
- <img
+   <img
         src="https://ghstats.dev/api/card?username=atharva-thakur24&theme=midnight&border_radius=13.5"
         alt="GitHub Stats Card"
         width="520"
       />
+    </td>
 
-  
-  <td
+ <td
       width="45%"
       align="center"
       valign="middle"
-      style="border: none; padding-left: 25px;"
+      style="border: 0; padding-left: 25px;"
     >
-
-     
    <img
         src="https://ghstats.dev/api/sparkline?username=atharva-thakur24&theme=midnight&days=30&width=330&height=143&title=Contribution+Graph"
         alt="Contribution Graph"
@@ -61,8 +62,7 @@
         alt="Top Languages"
         width="330"
       />
-
-   </td>
+    </td>
 
   </tr>
 </table>
