@@ -9,6 +9,3 @@
 
 </div>
 
-<div align="center">
-  <img src="https://pages.dev" width="100%" alt="Typing SVG" />
-</div>
