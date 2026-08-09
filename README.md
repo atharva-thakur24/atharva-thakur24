@@ -9,16 +9,8 @@
 
 </div>
 
-<div style="display: flex; gap: 10px; flex-wrap: wrap;">
-  <img src="https://ghstats.dev/api/card?username=atharva-thakur24&theme=midnight&border_radius=13.5" alt="GitHub Stats Card" height="143" />
+<div style="display: flex; gap: 10px; flex-wrap: wrap; align="center">
+  <img src="https://ghstats.dev/api/card?username=atharva-thakur24&theme=midnight&border_radius=13.5" alt="GitHub Stats Card" height="243" />
   <img src="https://ghstats.dev/api/sparkline?username=atharva-thakur24&theme=midnight&days=30&width=330&height=143&title=Contribution+Graph" alt="Contribution Sparkline" height="143" />
 </div>
 
-
-<div display="inline">
-
-![GitHub Stats Card](https://ghstats.dev/api/card?username=atharva-thakur24&theme=midnight&border_radius=13.5)
-   
-<img src="https://ghstats.dev/api/sparkline?username=atharva-thakur24&theme=midnight&days=30&width=330&height=143&title=Contribution+Graph" alt="Contribution Sparkline" />
-
-</div>
