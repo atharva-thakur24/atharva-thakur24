@@ -19,9 +19,6 @@
   flex-wrap: nowrap;
 ">
 
-  <!-- ==================== -->
-  <!-- LEFT: STATS CARD      -->
-  <!-- ==================== -->
 
   <img
     src="https://ghstats.dev/api/card?username=atharva-thakur24&theme=midnight&border_radius=13.5"
@@ -29,9 +26,6 @@
     height="360"
   />
 
-  <!-- ==================== -->
-  <!-- RIGHT: GRAPH + LANGS  -->
-  <!-- ==================== -->
 
   <div style="
     display: flex;
@@ -41,10 +35,8 @@
     gap: 10px;
   ">
 
-    <!-- Contribution Graph -->
  <img src="https://ghstats.dev/api/sparkline?username=atharva-thakur24&theme=midnight&days=30&width=330&height=143&title=Contribution+Graph" alt="Contribution Sparkline" height="180"/>
 
-    <!-- Languages -->
    <img
       src="https://ghstats.dev/api/langs?username=atharva-thakur24&theme=midnight&max_langs=5&layout=donut"
       alt="Top Languages"
