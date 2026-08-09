@@ -9,21 +9,47 @@
 
 </div>
 
-<div align="center">
+<div style="
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  width: 100%;
+  flex-wrap: nowrap;
+">
 
-<div style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; align-items: flex-start;">
+  <!-- ==================== -->
+  <!-- LEFT: STATS CARD      -->
+  <!-- ==================== -->
 
-  <!-- Section 1: Stats Card -->
-  <img src="https://ghstats.dev/api/card?username=atharva-thakur24&theme=midnight&border_radius=13.5" alt="GitHub Stats Card" height="360" />
+  <img
+    src="https://ghstats.dev/api/card?username=atharva-thakur24&theme=midnight&border_radius=13.5"
+    alt="GitHub Stats Card"
+    height="360"
+  />
 
-  <!-- Section 2: Contribution Graph (above) + Languages (below) -->
-  <div style="display: flex; flex-direction: column; gap: 12px;">
-    <img src="https://ghstats.dev/api/sparkline?username=atharva-thakur24&theme=midnight&days=30&width=330&height=143&title=Contribution+Graph" alt="Contribution Graph" height="180" />
-    <img src="https://ghstats.dev/api/langs?username=atharva-thakur24&theme=midnight&max_langs=5&layout=donut" alt="Top Languages" height="180" />
+  <!-- ==================== -->
+  <!-- RIGHT: GRAPH + LANGS  -->
+  <!-- ==================== -->
+
+  <div style="
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  ">
+
+    <!-- Contribution Graph -->
+ <img src="https://ghstats.dev/api/sparkline?username=atharva-thakur24&theme=midnight&days=30&width=330&height=143&title=Contribution+Graph" alt="Contribution Sparkline" height="180"/>
+
+    <!-- Languages -->
+   <img
+      src="https://ghstats.dev/api/langs?username=atharva-thakur24&theme=midnight&max_langs=5&layout=donut"
+      alt="Top Languages"
+    />
+
   </div>
-
-</div>
-
-</div>
 
 </div>
