@@ -21,27 +21,42 @@
 
 <div align="center">
 
-<table width="100%">
-  <tr>
-    <td width="55%" align="center" valign="middle">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="border: none;">
+  <tr style="border: none;">
 
-   <img
+    
+ <td
+      width="55%"
+      align="center"
+      valign="middle"
+      style="border: none; padding-right: 25px;"
+    >
+
+      
+ <img
         src="https://ghstats.dev/api/card?username=atharva-thakur24&theme=midnight&border_radius=13.5"
         alt="GitHub Stats Card"
         width="520"
       />
 
- </td>
+    </td>
 
- <td width="45%" align="center" valign="middle">
+   
+  <td
+      width="45%"
+      align="center"
+      valign="middle"
+      style="border: none; padding-left: 25px;"
+    >
 
- <img
+     
+   <img
         src="https://ghstats.dev/api/sparkline?username=atharva-thakur24&theme=midnight&days=30&width=330&height=143&title=Contribution+Graph"
         alt="Contribution Graph"
         width="330"
       />
 
- <br />
+   <br />
 
    <img
         src="https://ghstats.dev/api/langs?username=atharva-thakur24&theme=midnight&max_langs=5&layout=donut"
@@ -49,7 +64,8 @@
         width="330"
       />
 
-  </td>
+   </td>
+
   </tr>
 </table>
 </div>
