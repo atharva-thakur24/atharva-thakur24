@@ -9,39 +9,42 @@
 
 </div>
 
-<div style="
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 50px;
-  width: 100%;
-  flex-wrap: nowrap;
-">
+<div align="center">
 
+<table width="100%">
+  <tr>
+    <!-- LEFT: STATS CARD -->
+    <td width="55%" align="center" valign="middle">
 
-  <img
-    src="https://ghstats.dev/api/card?username=atharva-thakur24&theme=midnight&border_radius=13.5"
-    alt="GitHub Stats Card"
-    height="360"
-  />
-
-
-  <div style="
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-  ">
-
- <img src="https://ghstats.dev/api/sparkline?username=atharva-thakur24&theme=midnight&days=30&width=330&height=143&title=Contribution+Graph" alt="Contribution Sparkline" height="180"/>
-
+      <!-- YOUR EXISTING STATS CARD -->
    <img
-      src="https://ghstats.dev/api/langs?username=atharva-thakur24&theme=midnight&max_langs=5&layout=donut"
-      alt="Top Languages"
-    />
+        src="https://ghstats.dev/api/card?username=atharva-thakur24&theme=midnight&border_radius=13.5"
+        alt="GitHub Stats Card"
+        width="520"
+      />
 
-  </div>
+ </td>
 
+ <!-- RIGHT: GRAPH + LANGUAGES -->
+ <td width="45%" align="center" valign="middle">
+
+      <!-- CONTRIBUTION GRAPH -->
+ <img
+        src="https://ghstats.dev/api/sparkline?username=atharva-thakur24&theme=midnight&days=30&width=330&height=143&title=Contribution+Graph"
+        alt="Contribution Graph"
+        width="330"
+      />
+
+ <br />
+
+      <!-- LANGUAGES -->
+   <img
+        src="https://ghstats.dev/api/langs?username=atharva-thakur24&theme=midnight&max_langs=5&layout=donut"
+        alt="Top Languages"
+        width="330"
+      />
+
+  </td>
+  </tr>
+</table>
 </div>
