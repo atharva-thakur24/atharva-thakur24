@@ -3,6 +3,12 @@
    <img alt="Logo for Atharva Thakur Creates" src="art/header-light.png">
 </picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="light.svg">
+  <img src="light.svg" alt="Thakur Atharva Mahadev - Profile Card">
+</picture>
+
 <div align="center">
 
 <table width="100%">
