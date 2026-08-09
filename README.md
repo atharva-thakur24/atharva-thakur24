@@ -27,9 +27,6 @@
   <!-- Column 2: Sparkline (above) + Info (below) -->
   <div style="display: flex; flex-direction: column; gap: 10px; align-items: center;">
     <img src="https://ghstats.dev/api/sparkline?username=atharva-thakur24&theme=midnight&days=30&width=330&height=143&title=Contribution+Graph" alt="Contribution Sparkline" height="180" />
-    <div style="background: #161b22; border-radius: 13.5px; padding: 15px 30px; border: 1px solid #30363d; width: 330px; text-align: center;">
-      <span style="color: #f0f6fc; font-weight: 600;">🔥 Today: 19 contributions</span>
-    </div>
   </div>
 
   <!-- Column 3: Languages -->
