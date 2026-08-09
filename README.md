@@ -9,3 +9,4 @@
 
 </div>
 
+<img src="https://ghstats.dev/api/sparkline?username=atharva-thakur24&theme=midnight&days=30&width=441&height=240&title=Contribution+Graph" alt="Contribution Sparkline" />
