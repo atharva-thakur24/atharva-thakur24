@@ -13,10 +13,8 @@
 
 <table width="100%">
   <tr>
-    <!-- LEFT: STATS CARD -->
     <td width="55%" align="center" valign="middle">
 
-      <!-- YOUR EXISTING STATS CARD -->
    <img
         src="https://ghstats.dev/api/card?username=atharva-thakur24&theme=midnight&border_radius=13.5"
         alt="GitHub Stats Card"
@@ -25,10 +23,8 @@
 
  </td>
 
- <!-- RIGHT: GRAPH + LANGUAGES -->
  <td width="45%" align="center" valign="middle">
 
-      <!-- CONTRIBUTION GRAPH -->
  <img
         src="https://ghstats.dev/api/sparkline?username=atharva-thakur24&theme=midnight&days=30&width=330&height=143&title=Contribution+Graph"
         alt="Contribution Graph"
@@ -37,7 +33,6 @@
 
  <br />
 
-      <!-- LANGUAGES -->
    <img
         src="https://ghstats.dev/api/langs?username=atharva-thakur24&theme=midnight&max_langs=5&layout=donut"
         alt="Top Languages"
