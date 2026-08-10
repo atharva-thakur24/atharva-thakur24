@@ -100,7 +100,9 @@
 </p>
 
 <p>
-     💡 <strong>My approach:</strong> Learn continuously, build consistently,
+     <strong>My approach:</strong> I believe in
+  <strong>building with purpose, learning by doing, and improving with every
+  project</strong>. Learn continuously, build consistently,
         and create solutions that are simple, useful, and reliable.
       </p>
 
