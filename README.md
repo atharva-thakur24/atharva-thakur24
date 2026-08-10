@@ -124,6 +124,17 @@
         scalable applications, automation, and innovative solutions to
         real-world problems.
       </p>
+<p>
+  <strong>Beyond coding:</strong> I enjoy experimenting with new ideas,
+  exploring emerging technologies, and transforming concepts into
+  projects that challenge me to learn something new.
+</p>
+
+<p>
+  <strong>Long-term goal:</strong> To become a versatile software
+  developer capable of designing, building, and scaling products
+  that combine strong engineering with excellent user experiences.
+</p>
 
    </td>
 
