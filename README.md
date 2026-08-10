@@ -93,8 +93,19 @@
 </picture>
 
 <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="art/header-dark.png">
-   <img alt="Logo for Atharva Thakur Creates" src="art/header-light.png">
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="art/prod.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="art/prol.svg"
+  />
+  <img
+    src="art/prol.svg"
+    alt="Projects Banner"
+    width="100%"
+  />
 </picture>
 
 <div align="center">
