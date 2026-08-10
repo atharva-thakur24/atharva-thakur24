@@ -67,49 +67,65 @@
 </div>
 </div>
 
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
+<table
+  width="100%"
+  border="0"
+  cellspacing="0"
+  cellpadding="0"
+  style="border:0; border-collapse:collapse; table-layout:fixed;"
+>
+  <tr style="border:0;">
 
-  <td width="30%" align="center" valign="middle">
-
-  <img
+  <td
+      width="30%"
+      align="center"
+      valign="middle"
+      style="border:0; padding:10px;"
+    >
+   <img
         src="art/code.gif"
-        width="260"
+        width="100%"
         alt="Animated Developer"
       />
-   </td>
-  <td width="70%" valign="middle">
+    </td>
 
+  <td
+      width="70%"
+      valign="middle"
+      style="border:0; padding:10px 20px;"
+    >
    <h2>👋 About Me</h2>
 
-   <p>
-        I'm <strong>Atharva Thakur</strong>, a passionate developer who enjoys
+  <p>
+        I'm <strong>Atharva Thakur</strong>, a developer passionate about
         building modern, practical, and user-focused digital experiences.
-        </p>
-   <p>
+      </p>
+
+  <p>
         I work across <strong>web development, application development,
-        UI/UX design, and cloud technologies</strong>, with a strong interest
-        in turning ideas into polished and functional products.
+        UI/UX design, and cloud technologies</strong>, with a focus on
+        turning ideas into polished and functional products.
+      </p>
+  <p>
+        I work with technologies including
+        <strong>JavaScript, Python, React, Firebase</strong>, and modern
+        web development tools, with an emphasis on clean architecture,
+        responsive interfaces, maintainable code, and thoughtful
+        user experiences.
       </p>
 
-<p>
-  I work with technologies including <strong>JavaScript, Python, React,
-  Firebase, and modern web development tools</strong>, with a strong emphasis
-  on clean architecture, responsive interfaces, maintainable code, and
-  thoughtful user experiences.
-</p>
-
-<p>
-     <strong>My approach:</strong> I believe in
-  <strong>building with purpose, learning by doing, and improving with every
-  project</strong>. Learn continuously, build consistently,
-        and create solutions that are simple, useful, and reliable.
+   <p>
+        <strong>My approach:</strong> I believe in building with purpose,
+        learning by doing, and continuously improving through every project.
       </p>
 
-<p>
-  <strong>Currently:</strong> Learning, experimenting, and building projects baised on Modern web technologies, scalable applications, automation, and innovative projects that turn real-world problems into simple and effective digital solutions.
-</p>
- </td>
+ <p>
+        <strong>Currently:</strong> I'm exploring modern web technologies,
+        scalable applications, automation, and innovative solutions to
+        real-world problems.
+      </p>
+
+    </td>
 
   </tr>
 </table>
