@@ -70,17 +70,43 @@
    <img alt="Logo for Atharva Thakur Creates" src="art/header-light.png">
 </picture>
 
+
 <div align="center">
 
 ### Languages and Tools
-<a href="https://www.python.org" target="_blank"><img align="left" gap="15px" alt="Python" height ="42px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/python/python.svg"></a>
-<a href="https://developer.android.com" target="_blank"> <img align="left" gap="35px" alt="Android" height ="42px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/android/android.svg"> </a>
-<a href="https://www.java.com" target="_blank"><img align="left" alt="Java" gap="15px" height ="42px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/java/java.svg"></a>
-<a href="https://firebase.google.com/" target="_blank"> <img align="left" gap="15px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/firebase/firebase.svg" alt="firebase" height ="42px"/> </a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img align="left" gap="15px" alt="JavaScript" height ="42px"  src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/javascript/javascript.svg"> </a>
-<a href="https://reactjs.org/" target="_blank"> <img align="left" gap="15px" alt="React" height ="42px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/react/react.svg"></a>
-<a href="https://www.figma.com/" target="_blank"><img src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/figma/figma.svg" alt="figma" gap="15px" align="left" height='42px'/> </a>
-<a href="https://git-scm.com/" target="_blank"> <img src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/git-scm/git-scm.svg" align="left" gap="15px" alt="git" height='42px'/> </a>
+
+<a href="https://www.python.org" target="_blank">
+  <img alt="Python" height="42px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/python/python.svg">
+</a>
+
+<a href="https://developer.android.com" target="_blank">
+  <img alt="Android" height="42px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/android/android.svg">
+</a>
+
+<a href="https://www.java.com" target="_blank">
+  <img alt="Java" height="42px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/java/java.svg">
+</a>
+
+<a href="https://firebase.google.com/" target="_blank">
+  <img alt="Firebase" height="42px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/firebase/firebase.svg">
+</a>
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+  <img alt="JavaScript" height="42px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/javascript/javascript.svg">
+</a>
+
+<a href="https://reactjs.org/" target="_blank">
+  <img alt="React" height="42px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/react/react.svg">
+</a>
+
+<a href="https://www.figma.com/" target="_blank">
+  <img alt="Figma" height="42px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/figma/figma.svg">
+</a>
+
+<a href="https://git-scm.com/" target="_blank">
+  <img alt="Git" height="42px" src="https://raw.githubusercontent.com/rahul-jha98/github_readme_icons/main/language_and_tools/square/git-scm/git-scm.svg">
+</a>
 
 </div>
+
 
