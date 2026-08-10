@@ -17,6 +17,46 @@
 
 </div>
 
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+
+  <td width="30%" align="center" valign="middle">
+
+  <img
+        src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif"
+        width="260"
+        alt="Animated Developer"
+      />
+   </td>
+  <td width="70%" valign="middle">
+
+   <h2>👋 About Me</h2>
+
+   <p>
+        I'm <strong>Atharva Thakur</strong>, a passionate developer who enjoys
+        building modern, practical, and user-focused digital experiences.
+        </p>
+   <p>
+        I work across <strong>web development, application development,
+        UI/UX design, and cloud technologies</strong>, with a strong interest
+        in turning ideas into polished and functional products.
+      </p>
+
+<p>
+      🚀 <strong>Currently exploring:</strong> Modern web technologies,
+        scalable applications, automation, and innovative projects.
+      </p>
+
+ <p>
+        💡 <strong>My approach:</strong> Learn continuously, build consistently,
+        and create solutions that are simple, useful, and reliable.
+      </p>
+
+ </td>
+
+  </tr>
+</table>
+
 <div align="center">
 
 <div align="center">
