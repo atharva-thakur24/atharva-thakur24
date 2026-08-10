@@ -24,6 +24,7 @@
     alt="Atharva's GitHub Streak"
   />
 
+</picture>
 </div>
 
 
