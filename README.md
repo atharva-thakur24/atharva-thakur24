@@ -93,15 +93,20 @@
       </p>
 
 <p>
-      🚀 <strong>Currently exploring:</strong> Modern web technologies,
-        scalable applications, automation, and innovative projects.
-      </p>
+  I work with technologies including <strong>JavaScript, Python, React,
+  Firebase, and modern web development tools</strong>, with a strong emphasis
+  on clean architecture, responsive interfaces, maintainable code, and
+  thoughtful user experiences.
+</p>
 
- <p>
-        💡 <strong>My approach:</strong> Learn continuously, build consistently,
+<p>
+     💡 <strong>My approach:</strong> Learn continuously, build consistently,
         and create solutions that are simple, useful, and reliable.
       </p>
 
+<p>
+  <strong>Currently:</strong> Learning, experimenting, and building projects baised on Modern web technologies, scalable applications, automation, and innovative projects that turn real-world problems into simple and effective digital solutions.
+</p>
  </td>
 
   </tr>
