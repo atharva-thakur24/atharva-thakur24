@@ -17,9 +17,12 @@
   media="(prefers-color-scheme: light)"
   srcset="https://streak-stats.demolab.com?user=atharva-thakur24&theme=solarized-light"
 />
-   
-   <img width="100%" src="https://streak-stats.demolab.com/?user=atharva-thakur24&hide_border=true&background=FFFFFF&stroke=0891B2&ring=7C3AED&fire=059669&currStreakLabel=0891B2&sideLabels=475569&currStreakNum=0F172A&sideNums=0F172A&dates=94A3B8&titleColor=0891B2&card_width=1180" alt="Atharva's streak" />
-</picture>
+
+  <img
+    src="https://streak-stats.demolab.com?user=atharva-thakur24&theme=solarized-light"
+    width="100%"
+    alt="Atharva's GitHub Streak"
+  />
 
 </div>
 
