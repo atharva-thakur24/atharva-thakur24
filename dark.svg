@@ -63,7 +63,7 @@
 </g>
 
 <!-- SYSTEM INFO HEADER -->
-<text x="450" y="55" font-size="14" fill="#22D3EE" font-weight="700">SYSTEM.INFO</text>
+<text x="450" y="55" font-size="14" fill="#22D3EE" font-weight="700">PROFILE.INFO</text>
 <line x1="450" y1="65" x2="1145" y2="65" stroke="#475569" stroke-width="1" stroke-dasharray="4 2"/>
 
 <!-- LIVE INDICATOR -->
@@ -75,122 +75,132 @@
 <!-- INFO ROWS -->
 <g transform="translate(450, 100)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.50s" fill="freeze"/>
-  <text x="0" y="12" font-size="12" fill="#94A3B8">
-    <tspan fill="#22D3EE">Subject</tspan>
-    <tspan fill="#475569">..........................................................</tspan>
+  <text x="15" y="3" font-size="12" fill="#94A3B8">
+    <tspan fill="#22D3EE">Name</tspan>
+    <tspan fill="#475569">......................................................................</tspan>
     <tspan fill="#F8FAFC">Thakur Atharva Mahadev</tspan>
   </text>
 </g>
 <g transform="translate(450, 131)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.58s" fill="freeze"/>
-  <text x="0" y="12" font-size="12" fill="#94A3B8">
+  <text x="15" y="3" font-size="12" fill="#94A3B8">
     <tspan fill="#A78BFA">Role</tspan>
     <tspan fill="#475569">.................................................................</tspan>
-    <tspan fill="#F8FAFC">AI Driven Coder</tspan>
+    <tspan fill="#F8FAFC">AI Driven Coder - Developer</tspan>
   </text>
 </g>
 <g transform="translate(450, 162)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.66s" fill="freeze"/>
-  <text x="0" y="12" font-size="12" fill="#94A3B8">
+  <text x="15" y="3" font-size="12" fill="#94A3B8">
     <tspan fill="#22D3EE">Origin</tspan>
-    <tspan fill="#475569">...................................................................</tspan>
+    <tspan fill="#475569">.............................................................................</tspan>
     <tspan fill="#F8FAFC">Mumbai, India</tspan>
   </text>
 </g>
 <g transform="translate(450, 193)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.74s" fill="freeze"/>
-  <text x="0" y="12" font-size="9.5" fill="#94A3B8">
+  <text x="15" y="3" font-size="9.5" fill="#94A3B8">
     <tspan fill="#A78BFA">Education</tspan>
-    <tspan fill="#475569">........................................</tspan>
+    <tspan fill="#475569">..................................................................</tspan>
     <tspan fill="#F8FAFC">10th, 12th, B.Tech Computer Science Engineering</tspan>
   </text>
 </g>
 <g transform="translate(450, 224)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.82s" fill="freeze"/>
-  <text x="0" y="12" font-size="9.5" fill="#94A3B8">
+  <text x="15" y="3" font-size="9.5" fill="#94A3B8">
     <tspan fill="#10B981">Status</tspan>
-    <tspan fill="#475569">.......................................</tspan>
+    <tspan fill="#475569">...................................................................</tspan>
     <tspan fill="#F8FAFC">3rd Year B.Tech CSE Student | Open to Internships</tspan>
   </text>
 </g>
 <g transform="translate(450, 255)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.90s" fill="freeze"/>
-  <text x="0" y="12" font-size="12" fill="#94A3B8">
+  <text x="15" y="3" font-size="12" fill="#94A3B8">
     <tspan fill="#22D3EE">Company</tspan>
-    <tspan fill="#475569">..................................................................</tspan>
+    <tspan fill="#475569">...........................................................................</tspan>
     <tspan fill="#F8FAFC">Still Learning</tspan>
   </text>
 </g>
 <g transform="translate(450, 286)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="0.98s" fill="freeze"/>
-  <text x="0" y="12" font-size="9.5" fill="#94A3B8">
+  <text x="15" y="3" font-size="9.5" fill="#94A3B8">
     <tspan fill="#A78BFA">ToolChain</tspan>
-    <tspan fill="#475569">..................................................................</tspan>
-    <tspan fill="#F8FAFC">Python, Git, N8N</tspan>
+    <tspan fill="#475569">........................................................................................</tspan>
+    <tspan fill="#F8FAFC">C Lang, Python, Git, Java</tspan>
   </text>
 </g>
 <g transform="translate(450, 317)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.06s" fill="freeze"/>
-  <text x="0" y="12" font-size="12" fill="#94A3B8">
+  <text x="15" y="3" font-size="12" fill="#94A3B8">
     <tspan fill="#22D3EE">Core.Lang</tspan>
-    <tspan fill="#475569">.................................................................</tspan>
-    <tspan fill="#F8FAFC">C, Python, Java</tspan>
+    <tspan fill="#475569">............................................................</tspan>
+    <tspan fill="#F8FAFC">C, Python, Java, Javascript</tspan>
   </text>
 </g>
 <g transform="translate(450, 348)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.14s" fill="freeze"/>
-  <text x="0" y="12" font-size="12" fill="#94A3B8">
+  <text x="15" y="3" font-size="12" fill="#94A3B8">
     <tspan fill="#A78BFA">Core.Frontend</tspan>
-    <tspan fill="#475569">...........................................................</tspan>
-    <tspan fill="#F8FAFC">HTML, CSS, JavaScript</tspan>
+    <tspan fill="#475569">.............................................</tspan>
+    <tspan fill="#F8FAFC">HTML, CSS, Tailwind, JavaScript, React</tspan>
   </text>
 </g>
 <g transform="translate(450, 379)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.22s" fill="freeze"/>
-  <text x="0" y="12" font-size="12" fill="#94A3B8">
+  <text x="15" y="3" font-size="12" fill="#94A3B8">
     <tspan fill="#22D3EE">Core.Backend</tspan>
-    <tspan fill="#475569">..............................................................</tspan>
-    <tspan fill="#F8FAFC">Firebase, Supabase</tspan>
+    <tspan fill="#475569">.........................................................</tspan>
+    <tspan fill="#F8FAFC">Firebase, Supabase, Node js</tspan>
   </text>
 </g>
 <g transform="translate(450, 410)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.30s" fill="freeze"/>
-  <text x="0" y="12" font-size="12" fill="#94A3B8">
+  <text x="15" y="3" font-size="12" fill="#94A3B8">
     <tspan fill="#A78BFA">Core.Database</tspan>
-    <tspan fill="#475569">..............................................................</tspan>
-    <tspan fill="#F8FAFC">Firebase, Supabase</tspan>
+    <tspan fill="#475569">..........................................................</tspan>
+    <tspan fill="#F8FAFC">Firebase, Supabase, MySQL</tspan>
   </text>
 </g>
 <g transform="translate(450, 441)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.38s" fill="freeze"/>
-  <text x="0" y="12" font-size="12" fill="#94A3B8">
+  <text x="15" y="3" font-size="12" fill="#94A3B8">
     <tspan fill="#10B981">Grid.Mail</tspan>
-    <tspan fill="#475569">........................................................</tspan>
+    <tspan fill="#475569">...............................................................</tspan>
     <tspan fill="#F8FAFC">thakuratharvam@gmail.com</tspan>
   </text>
 </g>
 <g transform="translate(450, 472)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.46s" fill="freeze"/>
-  <text x="0" y="12" font-size="12" fill="#94A3B8">
+  <text x="15" y="3" font-size="12" fill="#94A3B8">
     <tspan fill="#22D3EE">Grid.Portfolio</tspan>
-    <tspan fill="#475569">.....................................................................</tspan>
+    <tspan fill="#475569">.......................................................................</tspan>
     <tspan fill="#F8FAFC">coming soon</tspan>
   </text>
 </g>
 <g transform="translate(450, 503)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.54s" fill="freeze"/>
-  <text x="0" y="12" font-size="12" fill="#94A3B8">
+  <text x="15" y="3" font-size="12" fill="#94A3B8">
     <tspan fill="#A78BFA">Grid.LinkedIn</tspan>
-    <tspan fill="#475569">...............................................................</tspan>
-    <tspan fill="#F8FAFC">your-linkedin-url</tspan>
+    <tspan fill="#475569">.......................................................................</tspan>
+    <tspan fill="#F8FAFC">linkedin-url</tspan>
   </text>
 </g>
 <g transform="translate(450, 534)" opacity="0">
   <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.62s" fill="freeze"/>
-  <text x="0" y="12" font-size="12" fill="#94A3B8">
+  <text x="15" y="3" font-size="12" fill="#94A3B8">
     <tspan fill="#10B981">Grid.GitHub</tspan>
-    <tspan fill="#475569">................................................................</tspan>
+    <tspan fill="#475569">.....................................................................</tspan>
     <tspan fill="#F8FAFC">atharva-thakur24</tspan>
   </text>
 </g>
+<g transform="translate(450, 565)" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="1.70s" fill="freeze"/>
+  <text x="15" y="3" font-size="12" fill="#94A3B8">
+    <tspan fill="#22D3EE">Grid.Instagram</tspan>
+    <tspan fill="#475569">..................................................................</tspan>
+    <tspan fill="#F8FAFC">atharva-thakur24</tspan>
+  </text>
+</g>
+<text x="665" y="590" font-size="11" fill="#94A3B8" letter-spacing="1">v More About me and Project in Readme v</text>
+
 </svg>
