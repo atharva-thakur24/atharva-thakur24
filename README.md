@@ -99,10 +99,10 @@
   />
   <source
     media="(prefers-color-scheme: light)"
-    srcset="art/prol.svg"
+    srcset="art/prol1.svg"
   />
   <img
-    src="art/prol.svg"
+    src="art/prol1.svg"
     alt="Projects Banner"
     width="100%"
   />
