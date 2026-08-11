@@ -10,6 +10,27 @@
 </picture>
 
 <div align="center">
+
+<picture>
+
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://streak-stats.demolab.com?user=atharva-thakur24&theme=github-dark-blue"
+  />
+
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://streak-stats.demolab.com?user=atharva-thakur24&theme=ayu-light"
+  />
+
+  <img
+    src="https://streak-stats.demolab.com?user=atharva-thakur24&theme=ayu-light"
+    width="100%"
+    alt="Atharva's GitHub Streak"
+  />
+
+</picture>
+
 <picture>
 
   <source
