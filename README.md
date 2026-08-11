@@ -106,54 +106,6 @@
 
 </div>
 
-<div align="center">
-
-<div align="center">
-
-<table width="100%" style="border: 1px solid transparent !important; border-collapse: collapse !important;">
-
-  <tr style="border: 1px solid transparent !important;">
-    <td
-      width="55%"
-      align="center"
-      valign="middle"
-      style="border: 1px solid transparent !important;"
-    >
-   <img
-        src="https://ghstats.dev/api/card?username=atharva-thakur24&theme=midnight&border_radius=13.5"
-        alt="GitHub Stats Card"
-        width="520"
-      />
-    </td>
-
- <td
-      width="45%"
-      align="center"
-      valign="middle"
-      style="border: 1px solid transparent !important;"
-    >
-   <img
-        src="https://ghstats.dev/api/sparkline?username=atharva-thakur24&theme=midnight&days=30&width=330&height=143&title=Contribution+Graph"
-        alt="Contribution Graph"
-        width="330"
-      />
-
-   <br />
-
-   <img
-        src="https://ghstats.dev/api/langs?username=atharva-thakur24&theme=midnight&max_langs=5&layout=donut"
-        alt="Top Languages"
-        width="330"
-      />
-    </td>
-
-  </tr>
-
-</table>
-
-</div>
-</div>
-
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
