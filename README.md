@@ -28,7 +28,83 @@
 
 </div>
 
+<div align="center">
 
+<table width="100%" style="border: 1px solid transparent !important; border-collapse: collapse !important;">
+
+  <tr style="border: 1px solid transparent !important;">
+
+  <td
+      width="55%"
+      align="center"
+      valign="middle"
+      style="border: 1px solid transparent !important;"
+    >
+
+  <picture>
+        <source
+          media="(prefers-color-scheme: dark)"
+          srcset="https://ghstats.dev/api/card?username=atharva-thakur24&theme=midnight&border_radius=13.5"
+        />
+   <source
+          media="(prefers-color-scheme: light)"
+          srcset="https://ghstats.dev/api/card?username=atharva-thakur24&theme=light&border_radius=13.5"
+        />
+ <img
+          src="https://ghstats.dev/api/card?username=atharva-thakur24&theme=midnight&border_radius=13.5"
+          alt="GitHub Stats Card"
+          width="520"
+        />
+   </picture>
+
+  </td>
+
+ <td
+      width="45%"
+      align="center"
+      valign="middle"
+      style="border: 1px solid transparent !important;"
+    >
+  <picture>
+   <source
+          media="(prefers-color-scheme: dark)"
+          srcset="https://ghstats.dev/api/sparkline?username=atharva-thakur24&theme=midnight&days=30&width=330&height=143&title=Contribution+Graph"
+        />
+  <source
+          media="(prefers-color-scheme: light)"
+          srcset="https://ghstats.dev/api/sparkline?username=atharva-thakur24&theme=light&days=30&width=330&height=143&title=Contribution+Graph"
+        />
+ <img
+          src="https://ghstats.dev/api/sparkline?username=atharva-thakur24&theme=midnight&days=30&width=330&height=143&title=Contribution+Graph"
+          alt="Contribution Graph"
+          width="330"
+        />
+      </picture>
+
+  <br />
+
+ <picture>
+        <source
+          media="(prefers-color-scheme: dark)"
+          srcset="https://ghstats.dev/api/langs?username=atharva-thakur24&theme=midnight&max_langs=5&layout=donut"
+        />
+   <source
+          media="(prefers-color-scheme: light)"
+          srcset="https://ghstats.dev/api/langs?username=atharva-thakur24&theme=light&max_langs=5&layout=donut"
+        />
+   <img
+          src="https://ghstats.dev/api/langs?username=atharva-thakur24&theme=midnight&max_langs=5&layout=donut"
+          alt="Top Languages"
+          width="330"
+        />
+      </picture>
+ </td>
+
+  </tr>
+
+</table>
+
+</div>
 
 <div align="center">
 
