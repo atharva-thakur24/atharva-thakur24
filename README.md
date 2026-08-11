@@ -95,7 +95,7 @@
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="art/prod.svg"
+    srcset="art/prod1.svg"
   />
   <source
     media="(prefers-color-scheme: light)"
