@@ -24,13 +24,12 @@
   />
 
   <img
-    src="https://streak-stats.demolab.com?user=atharva-thakur24&theme=ayu-light"
+    src="https://streak-stats.demolab.com?user=atharva-thakur24&theme=github-dark-blue"
     width="100%"
     alt="Atharva's GitHub Streak"
   />
 
 </picture>
-
 
 </div>
 
