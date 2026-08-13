@@ -3,4 +3,9 @@ profile
 card
 stats
 about
-project
+projectBanner
+profile
+card
+Banner
+profile
+card
