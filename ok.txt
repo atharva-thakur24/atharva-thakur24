@@ -2,3 +2,4 @@ Banner
 profile
 card
 stats
+about
