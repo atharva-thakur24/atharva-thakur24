@@ -1,16 +1,4 @@
-Banner
-profile
-Banner
-profile
-card
-card
-profile
-card
-Banner
-profile
-card
-card
-profile
+
 card
 Banner
 profile
