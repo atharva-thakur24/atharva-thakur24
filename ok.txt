@@ -1,8 +1,5 @@
 Banner
 profile
-card
-stats
-about
 Banner
 profile
 card
