@@ -19,7 +19,7 @@
   />
 
 
-   <img width="100%" src="https://github-readme-streak-stats.herokuapp.com?user=atharva-thakur24&theme=ayu-light" alt="Atharva's streak"/><a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=atharva-thakur24&theme=ayu-light&card_width=470&card_height=179" width="100%" alt="GitHub Streak" /></a>
+<a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=atharva-thakur24&theme=ayu-light&card_width=470&card_height=179" width="100%" alt="Atharva's  Streak" /></a>
 
  
 </picture>
