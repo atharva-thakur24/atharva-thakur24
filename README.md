@@ -21,9 +21,6 @@
 <source media="(prefers-color-scheme: light)"
     srcset="https://github-readme-streak-stats.herokuapp.com?user=atharva-thakur24&theme=ayu-light&card_width=470&card_height=179"/>
 
- 
-</picture>
-
 </picture>
 
 </div>
