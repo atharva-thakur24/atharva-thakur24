@@ -1,11 +1,7 @@
 
 card
-Banner
-profile
-card
 profile
 card
 Banner
 profile
 card
-
