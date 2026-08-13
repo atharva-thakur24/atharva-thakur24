@@ -19,7 +19,7 @@
   />
 
 
-   <img width="100%" src="https://github-readme-streak-stats.herokuapp.com?user=atharva-thakur24&theme=ayu-light&card_width=1180" alt="Atharva's streak"/>
+   <img width="100%" src="https://github-readme-streak-stats.herokuapp.com?user=atharva-thakur24&theme=ayu-light" alt="Atharva's streak"/>
 
  
 </picture>
