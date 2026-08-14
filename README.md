@@ -102,14 +102,14 @@
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="art/aboutdark.svg"
+    srcset="art/aboutdark1.svg"
   />
   <source
     media="(prefers-color-scheme: light)"
-    srcset="art/aboutlight.svg"
+    srcset="art/aboutlight1.svg"
   />
   <img
-    src="art/aboutlight.svg"
+    src="art/aboutlight1.svg"
     alt="About Atharva Thakur"
     width="100%"
   />
