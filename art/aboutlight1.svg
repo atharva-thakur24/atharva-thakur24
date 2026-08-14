@@ -1,0 +1,419 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="850" viewBox="0 0 1000 850">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f4f8"/>
+      <stop offset="50%" style="stop-color:#e8edf3"/>
+      <stop offset="100%" style="stop-color:#dce4ed"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4a9eff"/>
+      <stop offset="50%" style="stop-color:#6c5ce7"/>
+      <stop offset="100%" style="stop-color:#fd79a8"/>
+    </linearGradient>
+    <linearGradient id="solidBlueGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2196F3"/>
+      <stop offset="50%" style="stop-color:#1976D2"/>
+      <stop offset="100%" style="stop-color:#1565C0"/>
+    </linearGradient>
+    <linearGradient id="codeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a9eff;stop-opacity:0.06"/>
+      <stop offset="100%" style="stop-color:#6c5ce7;stop-opacity:0.03"/>
+    </linearGradient>
+    <linearGradient id="grid1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6c5ce7;stop-opacity:0.08"/>
+      <stop offset="100%" style="stop-color:#6c5ce7;stop-opacity:0.02"/>
+    </linearGradient>
+    <linearGradient id="grid2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a9eff;stop-opacity:0.08"/>
+      <stop offset="100%" style="stop-color:#4a9eff;stop-opacity:0.02"/>
+    </linearGradient>
+    <linearGradient id="grid3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fd79a8;stop-opacity:0.08"/>
+      <stop offset="100%" style="stop-color:#fd79a8;stop-opacity:0.02"/>
+    </linearGradient>
+    <linearGradient id="grid4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fdcb6e;stop-opacity:0.08"/>
+      <stop offset="100%" style="stop-color:#fdcb6e;stop-opacity:0.02"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Card Background -->
+  <rect x="0" y="0" width="1000" height="850" rx="24" ry="24" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="1000" height="850" rx="24" ry="24" fill="none" stroke="url(#accentGrad)" stroke-width="1.5" opacity="0.3"/>
+  <rect x="2" y="2" width="996" height="846" rx="22" ry="22" fill="none" stroke="#4a9eff" stroke-width="0.5" opacity="0.08"/>
+
+  <!-- ============ LEFT SECTION ============ -->
+  <rect x="0" y="0" width="370" height="850" rx="24" ry="24" fill="url(#codeGrad)"/>
+
+  <!-- System Panel -->
+  <rect x="25" y="25" width="320" height="800" rx="10" ry="10" fill="#ffffff" stroke="#4a9eff" stroke-width="0.8" opacity="0.9"/>
+
+  <!-- Panel Header -->
+  <rect x="25" y="25" width="320" height="32" rx="10" ry="10" fill="#eef2f7"/>
+  <rect x="25" y="43" width="320" height="14" fill="#eef2f7"/>
+  <circle cx="43" cy="41" r="4.5" fill="#ff5f56"/>
+  <circle cx="61" cy="41" r="4.5" fill="#ffbd2e"/>
+  <circle cx="79" cy="41" r="4.5" fill="#27c93f"/>
+  <text x="115" y="46" font-family="'Segoe UI', Arial, sans-serif" font-size="11" font-weight="600" fill="#4a9eff" opacity="0.7">ATHARVA DEV CYCLE</text>
+
+  <!-- ===== FLOW DIAGRAM ===== -->
+  
+  <!-- ===== ROW 1: IDEA & SCOPE | COMPLIANCE ===== -->
+  
+  <!-- IDEA & SCOPE Node -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.2s" fill="freeze"/>
+    <rect x="50" y="75" width="135" height="48" rx="24" fill="none" stroke="#4a9eff" stroke-width="1.5"/>
+    <rect x="50" y="75" width="135" height="48" rx="24" fill="#4a9eff" opacity="0.08"/>
+    <text x="117" y="94" font-family="'Segoe UI', Arial, sans-serif" font-size="9.5" font-weight="bold" fill="#4a9eff" text-anchor="middle">✦ IDEA &amp; SCOPE</text>
+    <text x="117" y="112" font-family="'Segoe UI', Arial, sans-serif" font-size="7" fill="#5a6a7a" text-anchor="middle">Purposeful Creation</text>
+  </g>
+
+  <!-- Arrow IDEA → COMPLIANCE -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.5s" fill="freeze"/>
+    <line x1="185" y1="99" x2="203" y2="99" stroke="#4a9eff" stroke-width="1.5" opacity="0.6"/>
+    <polygon points="203,95 211,99 203,103" fill="#4a9eff" opacity="0.6"/>
+  </g>
+
+  <!-- COMPLIANCE Node -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.7s" fill="freeze"/>
+    <rect x="215" y="75" width="120" height="48" rx="24" fill="none" stroke="#6c5ce7" stroke-width="1.5"/>
+    <rect x="215" y="75" width="120" height="48" rx="24" fill="#6c5ce7" opacity="0.08"/>
+    <text x="275" y="94" font-family="'Segoe UI', Arial, sans-serif" font-size="9" font-weight="bold" fill="#6c5ce7" text-anchor="middle">COMPLIANCE</text>
+    <text x="275" y="112" font-family="'Segoe UI', Arial, sans-serif" font-size="7" fill="#5a6a7a" text-anchor="middle">Risk Assessment</text>
+  </g>
+
+  <!-- Arrow IDEA → CORE -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.9s" fill="freeze"/>
+    <line x1="117" y1="123" x2="117" y2="148" stroke="#4a9eff" stroke-width="2" opacity="0.6"/>
+    <line x1="117" y1="148" x2="135" y2="148" stroke="#4a9eff" stroke-width="2" opacity="0.6"/>
+    <line x1="135" y1="148" x2="135" y2="184" stroke="#4a9eff" stroke-width="2" opacity="0.6"/>
+    <polygon points="131,184 135,192 139,184" fill="#4a9eff" opacity="0.6"/>
+    <circle cx="135" cy="184" r="4" fill="#4a9eff" opacity="0.4">
+      <animate attributeName="r" values="3;6;3" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;0.1;0.4" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Arrow COMPLIANCE → ARCHITECTURE -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.1s" fill="freeze"/>
+    <line x1="275" y1="123" x2="275" y2="183" stroke="#6c5ce7" stroke-width="2" opacity="0.6"/>
+    <polygon points="271,183 275,190 279,183" fill="#6c5ce7" opacity="0.6"/>
+    <circle cx="275" cy="193" r="4" fill="#6c5ce7" opacity="0.4">
+      <animate attributeName="r" values="3;6;3" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;0.1;0.4" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- ===== ROW 2: CORE ===== -->
+  
+  <!-- CORE Node -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.3s" fill="freeze"/>
+    <circle cx="135" cy="220" r="55" fill="none" stroke="url(#accentGrad)" stroke-width="1.5" opacity="0.2">
+      <animate attributeName="r" values="55;62;55" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;0.05;0.2" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="135" cy="220" r="48" fill="#ffffff" stroke="url(#accentGrad)" stroke-width="2.5"/>
+    <circle cx="135" cy="220" r="42" fill="none" stroke="#4a9eff" stroke-width="0.5" opacity="0.3"/>
+    <text x="135" y="205" font-family="'Segoe UI', Arial, sans-serif" font-size="10" font-weight="bold" fill="#4a9eff" text-anchor="middle">BUILT WITH</text>
+    <text x="135" y="225" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="bold" fill="#fd79a8" text-anchor="middle">PURPOSE</text>
+    <text x="135" y="244" font-family="'Segoe UI', Arial, sans-serif" font-size="7" fill="#6c5ce7" text-anchor="middle">✦ CORE ✦</text>
+  </g>
+
+  <!-- Arrow CORE → ARCHITECTURE -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.7s" fill="freeze"/>
+    <line x1="183" y1="208" x2="215" y2="208" stroke="#fd79a8" stroke-width="1.5" opacity="0.5"/>
+    <polygon points="213,204 218,208 213,212" fill="#fd79a8" opacity="0.5"/>
+  </g>
+
+  <!-- ===== ROW 3: ARCHITECTURE ===== -->
+  
+  <!-- ARCHITECTURE Node -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.9s" fill="freeze"/>
+    <rect x="218" y="193" width="90" height="44" rx="22" fill="none" stroke="#fd79a8" stroke-width="1.5"/>
+    <rect x="218" y="193" width="90" height="44" rx="22" fill="#fd79a8" opacity="0.08"/>
+    <text x="263" y="211" font-family="'Segoe UI', Arial, sans-serif" font-size="8.5" font-weight="bold" fill="#fd79a8" text-anchor="middle">ARCHITECTURE</text>
+    <text x="263" y="227" font-family="'Segoe UI', Arial, sans-serif" font-size="6.5" fill="#5a6a7a" text-anchor="middle">&amp; Schematic</text>
+  </g>
+
+  <!-- Arrow CORE → CODEBASE -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="2.2s" fill="freeze"/>
+    <line x1="135" y1="268" x2="135" y2="298" stroke="#fdcb6e" stroke-width="1.5" opacity="0.5"/>
+    <polygon points="131,298 135,290 139,298" fill="#fdcb6e" opacity="0.5"/>
+  </g>
+
+  <!-- ===== ROW 4: CODEBASE ===== -->
+  
+  <!-- CODEBASE Node -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.4s" fill="freeze"/>
+    <rect x="35" y="302" width="300" height="38" rx="19" fill="none" stroke="#fdcb6e" stroke-width="1.5"/>
+    <rect x="35" y="302" width="300" height="38" rx="19" fill="#fdcb6e" opacity="0.08"/>
+    <text x="185" y="325" font-family="'Segoe UI', Arial, sans-serif" font-size="10" font-weight="bold" fill="#fdcb6e" text-anchor="middle">WEB &amp; APP CODEBASE</text>
+  </g>
+
+  <!-- Arrows CODEBASE → FRONTEND & BACKEND -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="2.8s" fill="freeze"/>
+    <line x1="110" y1="340" x2="110" y2="368" stroke="#4fc3f7" stroke-width="1.5" opacity="0.5"/>
+    <polygon points="107,368 110,360 113,368" fill="#4fc3f7" opacity="0.5"/>
+    <line x1="260" y1="340" x2="260" y2="368" stroke="#81c784" stroke-width="1.5" opacity="0.5"/>
+    <polygon points="257,368 260,360 263,368" fill="#81c784" opacity="0.5"/>
+  </g>
+
+  <!-- ===== ROW 5: FRONTEND | BACKEND ===== -->
+  
+  <!-- FRONTEND Node -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3s" fill="freeze"/>
+    <rect x="35" y="372" width="145" height="52" rx="10" fill="none" stroke="#4fc3f7" stroke-width="1.2"/>
+    <rect x="35" y="372" width="145" height="52" rx="10" fill="#4fc3f7" opacity="0.06"/>
+    <text x="107" y="391" font-family="'Segoe UI', Arial, sans-serif" font-size="9" font-weight="bold" fill="#4fc3f7" text-anchor="middle">FRONTEND (UI)</text>
+    <text x="107" y="407" font-family="'Segoe UI', Arial, sans-serif" font-size="7" fill="#5a6a7a" text-anchor="middle">Thoughtful UX Design</text>
+    <text x="107" y="419" font-family="'Segoe UI', Arial, sans-serif" font-size="6.5" fill="#4a6a7a" text-anchor="middle">User-Centric Flows</text>
+  </g>
+
+  <!-- BACKEND Node -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3.2s" fill="freeze"/>
+    <rect x="195" y="372" width="145" height="52" rx="10" fill="none" stroke="#81c784" stroke-width="1.2"/>
+    <rect x="195" y="372" width="145" height="52" rx="10" fill="#81c784" opacity="0.06"/>
+    <text x="267" y="391" font-family="'Segoe UI', Arial, sans-serif" font-size="9" font-weight="bold" fill="#81c784" text-anchor="middle">BACKEND (API)</text>
+    <text x="267" y="407" font-family="'Segoe UI', Arial, sans-serif" font-size="7" fill="#5a6a7a" text-anchor="middle">Cross-Functional</text>
+    <text x="267" y="419" font-family="'Segoe UI', Arial, sans-serif" font-size="6.5" fill="#4a6a7a" text-anchor="middle">API Services</text>
+  </g>
+
+  <!-- Arrows FRONTEND → DEVOPS, BACKEND → TESTING -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="3.6s" fill="freeze"/>
+    <line x1="107" y1="424" x2="107" y2="448" stroke="#ffb74d" stroke-width="1.5" opacity="0.5"/>
+    <polygon points="104,448 107,440 110,448" fill="#ffb74d" opacity="0.5"/>
+    <line x1="267" y1="424" x2="267" y2="448" stroke="#ce93d8" stroke-width="1.5" opacity="0.5"/>
+    <polygon points="264,448 267,440 270,448" fill="#ce93d8" opacity="0.5"/>
+  </g>
+
+  <!-- ===== ROW 6: DEVOPS | TESTING ===== -->
+  
+  <!-- DEVOPS Node -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3.8s" fill="freeze"/>
+    <rect x="35" y="452" width="145" height="52" rx="10" fill="none" stroke="#ffb74d" stroke-width="1.2"/>
+    <rect x="35" y="452" width="145" height="52" rx="10" fill="#ffb74d" opacity="0.06"/>
+    <text x="107" y="471" font-family="'Segoe UI', Arial, sans-serif" font-size="9" font-weight="bold" fill="#ffb74d" text-anchor="middle">DEV OPS</text>
+    <text x="107" y="487" font-family="'Segoe UI', Arial, sans-serif" font-size="7" fill="#5a6a7a" text-anchor="middle">Cloud &amp; Automation</text>
+    <text x="107" y="499" font-family="'Segoe UI', Arial, sans-serif" font-size="6.5" fill="#4a6a7a" text-anchor="middle">Scalable Firebase</text>
+  </g>
+
+  <!-- TESTING Node -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="4s" fill="freeze"/>
+    <rect x="195" y="452" width="145" height="52" rx="10" fill="none" stroke="#ce93d8" stroke-width="1.2"/>
+    <rect x="195" y="452" width="145" height="52" rx="10" fill="#ce93d8" opacity="0.06"/>
+    <text x="267" y="471" font-family="'Segoe UI', Arial, sans-serif" font-size="9" font-weight="bold" fill="#ce93d8" text-anchor="middle">TEST &amp; VALIDATION</text>
+    <text x="267" y="487" font-family="'Segoe UI', Arial, sans-serif" font-size="7" fill="#5a6a7a" text-anchor="middle">Consistency</text>
+    <text x="267" y="499" font-family="'Segoe UI', Arial, sans-serif" font-size="6.5" fill="#4a6a7a" text-anchor="middle">Problem Solving</text>
+  </g>
+
+  <!-- Arrows DEVOPS → CI/CD, TESTING → USER FEEDBACK -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="4.4s" fill="freeze"/>
+    <line x1="107" y1="504" x2="107" y2="530" stroke="#4a9eff" stroke-width="1.5" opacity="0.5"/>
+    <polygon points="104,530 107,522 110,530" fill="#4a9eff" opacity="0.5"/>
+    <line x1="267" y1="504" x2="267" y2="530" stroke="#6c5ce7" stroke-width="1.5" opacity="0.5"/>
+    <polygon points="264,530 267,522 270,530" fill="#6c5ce7" opacity="0.5"/>
+  </g>
+
+  <!-- ===== ROW 7: CI/CD | USER FEEDBACK ===== -->
+  
+  <!-- CI/CD Node -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="4.6s" fill="freeze"/>
+    <rect x="35" y="534" width="145" height="44" rx="22" fill="none" stroke="#4a9eff" stroke-width="1.2"/>
+    <rect x="35" y="534" width="145" height="44" rx="22" fill="#4a9eff" opacity="0.06"/>
+    <text x="107" y="552" font-family="'Segoe UI', Arial, sans-serif" font-size="8.5" font-weight="bold" fill="#4a9eff" text-anchor="middle">CI/CD PIPELINE</text>
+    <text x="107" y="569" font-family="'Segoe UI', Arial, sans-serif" font-size="6.5" fill="#5a6a7a" text-anchor="middle">Thoughtful Iteration</text>
+  </g>
+
+  <!-- USER FEEDBACK Node -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="4.8s" fill="freeze"/>
+    <rect x="195" y="534" width="145" height="44" rx="22" fill="none" stroke="#6c5ce7" stroke-width="1.2"/>
+    <rect x="195" y="534" width="145" height="44" rx="22" fill="#6c5ce7" opacity="0.06"/>
+    <text x="267" y="552" font-family="'Segoe UI', Arial, sans-serif" font-size="8.5" font-weight="bold" fill="#6c5ce7" text-anchor="middle">USER FEEDBACK</text>
+    <text x="267" y="569" font-family="'Segoe UI', Arial, sans-serif" font-size="6.5" fill="#5a6a7a" text-anchor="middle">Learn by Doing</text>
+  </g>
+
+  <!-- Arrows CI/CD → METRICS, USER FEEDBACK → PROTECTION -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="5.2s" fill="freeze"/>
+    <line x1="107" y1="578" x2="107" y2="604" stroke="#fdcb6e" stroke-width="1.5" opacity="0.5"/>
+    <polygon points="104,604 107,596 110,604" fill="#fdcb6e" opacity="0.5"/>
+    <line x1="267" y1="578" x2="267" y2="604" stroke="#fd79a8" stroke-width="1.5" opacity="0.5"/>
+    <polygon points="264,604 267,596 270,604" fill="#fd79a8" opacity="0.5"/>
+  </g>
+
+  <!-- ===== ROW 8: METRICS | PROTECTION ===== -->
+  
+  <!-- METRICS Node -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="5.4s" fill="freeze"/>
+    <rect x="35" y="608" width="145" height="44" rx="22" fill="none" stroke="#fdcb6e" stroke-width="1.2"/>
+    <rect x="35" y="608" width="145" height="44" rx="22" fill="#fdcb6e" opacity="0.06"/>
+    <text x="107" y="626" font-family="'Segoe UI', Arial, sans-serif" font-size="8" font-weight="bold" fill="#fdcb6e" text-anchor="middle">MEASURABLE VALUE</text>
+    <text x="107" y="643" font-family="'Segoe UI', Arial, sans-serif" font-size="6.5" fill="#5a6a7a" text-anchor="middle">Real-World Impact</text>
+  </g>
+
+  <!-- PROTECTION Node -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="5.6s" fill="freeze"/>
+    <rect x="195" y="608" width="145" height="44" rx="22" fill="none" stroke="#fd79a8" stroke-width="1.2"/>
+    <rect x="195" y="608" width="145" height="44" rx="22" fill="#fd79a8" opacity="0.06"/>
+    <text x="267" y="626" font-family="'Segoe UI', Arial, sans-serif" font-size="8" font-weight="bold" fill="#fd79a8" text-anchor="middle">VERSATILE PROTECTION</text>
+    <text x="267" y="643" font-family="'Segoe UI', Arial, sans-serif" font-size="6.5" fill="#5a6a7a" text-anchor="middle">Secure &amp; Robust</text>
+  </g>
+
+  <!-- VERIFICATION BADGE -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="6s" fill="freeze"/>
+    <rect x="45" y="682" width="280" height="48" rx="24" fill="none" stroke="url(#accentGrad)" stroke-width="1" opacity="0.25"/>
+    <rect x="45" y="682" width="280" height="48" rx="24" fill="#ffffff" opacity="0.5"/>
+    <text x="185" y="701" font-family="'Segoe UI', Arial, sans-serif" font-size="9" font-weight="bold" fill="#4a9eff" text-anchor="middle">ATHARVA OPTIMIZATION: VERIFIED</text>
+    <text x="185" y="719" font-family="'Segoe UI', Arial, sans-serif" font-size="8" fill="#27c93f" text-anchor="middle">✦ USER EXPERIENCE: EXCELLENT ✦</text>
+  </g>
+
+  <!-- BOTTOM DECORATIVE -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="6.4s" fill="freeze"/>
+    <rect x="60" y="755" width="250" height="1" rx="0.5" fill="url(#accentGrad)" opacity="0.08"/>
+    <text x="185" y="780" font-family="'Courier New', monospace" font-size="7" fill="#7a8a9a" text-anchor="middle">DESIGNED WITH HEART ◆ BUILT WITH PURPOSE</text>
+    <text x="185" y="805" font-family="'Courier New', monospace" font-size="6" fill="#aabac" text-anchor="middle">v2.0 ◆ ATHARVA DEV CYCLE ◆ 2026</text>
+  </g>
+
+  <!-- Vertical divider -->
+  <line x1="370" y1="25" x2="370" y2="825" stroke="url(#accentGrad)" stroke-width="1" opacity="0.1"/>
+
+  <!-- ============ RIGHT SECTION ============ -->
+  <g transform="translate(400, 25)">
+    
+    <!-- About Me Heading -->
+    <g transform="translate(0, 20)" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.1s" fill="freeze"/>
+      <text x="0" y="28" font-family="'Courier New', monospace" font-size="32" fill="url(#solidBlueGrad)" opacity="0.4">[</text>
+      <text x="22" y="28" font-family="'Segoe UI', Arial, sans-serif" font-size="28" font-weight="bold" fill="url(#solidBlueGrad)" filter="url(#glow)">About Me</text>
+      <text x="158" y="28" font-family="'Courier New', monospace" font-size="32" fill="url(#solidBlueGrad)" opacity="0.4">]</text>
+      <rect x="22" y="38" width="130" height="2" rx="1" fill="url(#solidBlueGrad)" opacity="0.15"/>
+      <circle cx="22" cy="39" r="2" fill="#2196F3" opacity="0.3"/>
+      <circle cx="150" cy="39" r="2" fill="#1565C0" opacity="0.3"/>
+    </g>
+
+    <!-- Bio paragraphs -->
+    <g font-family="'Segoe UI', Arial, sans-serif" font-size="13.5" fill="#2a3a4a">
+      <text x="0" y="105">
+        <tspan x="0" dy="0" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.3s" fill="freeze"/>I'm Atharva Thakur, a developer passionate about building modern,</tspan>
+        <tspan x="0" dy="24" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.5s" fill="freeze"/>practical, and user-focused digital experiences.</tspan>
+      </text>
+      <text x="0" y="175">
+        <tspan x="0" dy="0" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.8s" fill="freeze"/>I work across web development, application development, UI/UX</tspan>
+        <tspan x="0" dy="24" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.0s" fill="freeze"/>design, and cloud technologies, with a focus on turning ideas</tspan>
+        <tspan x="0" dy="24" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.2s" fill="freeze"/>into polished and functional products.</tspan>
+      </text>
+      <text x="0" y="275">
+        <tspan x="0" dy="0" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.5s" fill="freeze"/>I work with technologies including JavaScript, Python, React,</tspan>
+        <tspan x="0" dy="24" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.7s" fill="freeze"/>Firebase, and modern web development tools, with an emphasis</tspan>
+        <tspan x="0" dy="24" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.9s" fill="freeze"/>on clean architecture, responsive interfaces, maintainable</tspan>
+        <tspan x="0" dy="24" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.6s" begin="2.1s" fill="freeze"/>code, and thoughtful user experiences.</tspan>
+      </text>
+    </g>
+
+    <rect x="0" y="380" width="570" height="3" rx="1.5" fill="url(#solidBlueGrad)" opacity="0.1"/>
+
+    <!-- 2x2 GRID -->
+    <g transform="translate(0, 400)">
+      
+      <!-- Box 1 -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.5s" fill="freeze"/>
+        <rect x="0" y="0" width="275" height="95" rx="10" ry="10" fill="url(#grid1)" stroke="#6c5ce7" stroke-width="0.8" opacity="0.6"/>
+        <text x="14" y="22" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="bold" fill="#6c5ce7">✦ My approach:</text>
+        <text x="14" y="48" font-family="'Segoe UI', Arial, sans-serif" font-size="11.5" fill="#2a3a4a">
+          <tspan x="14" dy="0">I believe in building with purpose,</tspan>
+          <tspan x="14" dy="18">learning by doing, and continuously</tspan>
+          <tspan x="14" dy="18">improving through every project.</tspan>
+        </text>
+      </g>
+
+      <!-- Box 2 -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.8s" fill="freeze"/>
+        <rect x="295" y="0" width="275" height="95" rx="10" ry="10" fill="url(#grid2)" stroke="#4a9eff" stroke-width="0.8" opacity="0.6"/>
+        <text x="309" y="22" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="bold" fill="#4a9eff">⟳ Currently:</text>
+        <text x="309" y="48" font-family="'Segoe UI', Arial, sans-serif" font-size="11.5" fill="#2a3a4a">
+          <tspan x="309" dy="0">I'm exploring modern web technologies,</tspan>
+          <tspan x="309" dy="18">scalable applications, automation, and</tspan>
+          <tspan x="309" dy="18">innovative solutions to real-world problems.</tspan>
+        </text>
+      </g>
+
+      <!-- Box 3 -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3.1s" fill="freeze"/>
+        <rect x="0" y="110" width="275" height="95" rx="10" ry="10" fill="url(#grid3)" stroke="#fd79a8" stroke-width="0.8" opacity="0.6"/>
+        <text x="14" y="132" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="bold" fill="#fd79a8">✦ Beyond coding:</text>
+        <text x="14" y="158" font-family="'Segoe UI', Arial, sans-serif" font-size="11.5" fill="#2a3a4a">
+          <tspan x="14" dy="0">I enjoy experimenting with new ideas,</tspan>
+          <tspan x="14" dy="18">exploring emerging technologies, and</tspan>
+          <tspan x="14" dy="18">transforming concepts into projects.</tspan>
+        </text>
+      </g>
+
+      <!-- Box 4 -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3.4s" fill="freeze"/>
+        <rect x="295" y="110" width="275" height="95" rx="10" ry="10" fill="url(#grid4)" stroke="#fdcb6e" stroke-width="0.8" opacity="0.6"/>
+        <text x="309" y="132" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="bold" fill="#fdcb6e">★ Long-term goal:</text>
+        <text x="309" y="158" font-family="'Segoe UI', Arial, sans-serif" font-size="11.5" fill="#2a3a4a">
+          <tspan x="309" dy="0">To become a versatile developer</tspan>
+          <tspan x="309" dy="18">capable of designing, building, and</tspan>
+          <tspan x="309" dy="18">scaling products with strong engineering.</tspan>
+        </text>
+      </g>
+    </g>
+
+    <!-- Future Section -->
+    <rect x="0" y="605" width="570" height="1.5" fill="url(#solidBlueGrad)" opacity="0.08" rx="0.75"/>
+    
+    <g transform="translate(0, 625)" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="3.8s" fill="freeze"/>
+      <rect x="0" y="12" width="40" height="2" rx="1" fill="url(#solidBlueGrad)" opacity="0.6"/>
+      <text x="50" y="18" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="bold" fill="url(#solidBlueGrad)">The Future I Envision</text>
+      <rect x="225" y="12" width="345" height="2" rx="1" fill="url(#solidBlueGrad)" opacity="0.3"/>
+      <circle cx="222" cy="12" r="2.5" fill="#2196F3" opacity="0.5"/>
+    </g>
+
+    <g font-family="'Segoe UI', Arial, sans-serif" font-size="13.5" fill="#2a3a4a">
+      <text x="0" y="675">
+        <tspan x="0" dy="0" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.6s" begin="4.2s" fill="freeze"/>I aim to grow as a well-rounded technology professional by continuously</tspan>
+        <tspan x="0" dy="24" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.6s" begin="4.4s" fill="freeze"/>strengthening my technical expertise, problem-solving abilities, and</tspan>
+        <tspan x="0" dy="24" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.6s" begin="4.6s" fill="freeze"/>understanding of product development. I value consistency, attention</tspan>
+        <tspan x="0" dy="24" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.6s" begin="4.8s" fill="freeze"/>to detail, and a practical approach to challenges, with the long-term</tspan>
+        <tspan x="0" dy="24" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.6s" begin="5.0s" fill="freeze"/>goal of contributing to innovative projects and building technology</tspan>
+        <tspan x="0" dy="24" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.6s" begin="5.2s" fill="freeze"/>that delivers measurable value.</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
