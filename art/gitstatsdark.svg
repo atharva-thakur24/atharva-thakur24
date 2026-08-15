@@ -81,19 +81,19 @@
   <!-- Stats Card - Left (55% width) - Much larger -->
   <g transform="translate(25, 75)">
     <rect width="630" height="545" rx="13.5" fill="#0d1b2a" stroke="#4a9eff" stroke-width="0.5" stroke-opacity="0.15" />
-    <image x="0" y="0" width="630" height="545" href="https://ghstats.dev/api/card?username=atharva-thakur24&amp;theme=midnight&amp;border_radius=13.5" preserveAspectRatio="xMidYMid slice" />
+    <image x="0" y="0" width="630" height="545" src="https://ghstats.dev/api/card?username=atharva-thakur24&amp;theme=midnight&amp;border_radius=13.5" preserveAspectRatio="xMidYMid slice" />
   </g>
 
   <!-- Stats Card - Right Top (Sparkline) - Much larger -->
   <g transform="translate(670, 75)">
     <rect width="505" height="266" rx="13.5" fill="#0d1b2a" stroke="#4a9eff" stroke-width="0.5" stroke-opacity="0.15" />
-    <image x="0" y="0" width="505" height="266" href="https://ghstats.dev/api/sparkline?username=atharva-thakur24&amp;theme=midnight&amp;days=30&amp;width=505&amp;height=266&amp;title=Contribution+Graph" preserveAspectRatio="xMidYMid slice" />
+    <image x="0" y="0" width="505" height="266" src="https://ghstats.dev/api/sparkline?username=atharva-thakur24&amp;theme=midnight&amp;days=30&amp;width=505&amp;height=266&amp;title=Contribution+Graph" preserveAspectRatio="xMidYMid slice" />
   </g>
 
   <!-- Stats Card - Right Bottom (Languages) - Much larger -->
   <g transform="translate(670, 354)">
     <rect width="505" height="266" rx="13.5" fill="#0d1b2a" stroke="#4a9eff" stroke-width="0.5" stroke-opacity="0.15" />
-    <image x="0" y="0" width="505" height="266" href="https://ghstats.dev/api/langs?username=atharva-thakur24&amp;theme=midnight&amp;max_langs=5&amp;layout=donut" preserveAspectRatio="xMidYMid slice" />
+    <image x="0" y="0" width="505" height="266" src="https://ghstats.dev/api/langs?username=atharva-thakur24&amp;theme=midnight&amp;max_langs=5&amp;layout=donut" preserveAspectRatio="xMidYMid slice" />
   </g>
 
   <!-- Bottom Status Bar -->
