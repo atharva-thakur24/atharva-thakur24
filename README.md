@@ -1,6 +1,6 @@
 <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="art/dar.png">
-   <img alt="Logo for Atharva Thakur Creates" src="art/lig.png">
+   <source media="(prefers-color-scheme: dark)" srcset="art/dar1.svg">
+   <img alt="Logo for Atharva Thakur Creates" src="art/lig1.svg">
 </picture>
 
 <picture>
