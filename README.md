@@ -13,13 +13,12 @@
 <div align="center">
   <a href="https://git.io/streak-stats">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=atharva-thakur24&theme=dark&hide_border=true&border_radius=10&card_width=1000&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakNum=58A6FF&sideNums=58A6FF&currStreakLabel=58A6FF&sideLabels=58A6FF&dates=8B949E" />
-      <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=atharva-thakur24&theme=light&hide_border=true&border_radius=10&card_width=1000&background=FFFFFF&stroke=2196F3&ring=2196F3&fire=FF6B6B&currStreakNum=1565C0&sideNums=1565C0&currStreakLabel=1565C0&sideLabels=1565C0&dates=5A6A7A" />
-      <img src="https://streak-stats.demolab.com?user=atharva-thakur24&theme=light&hide_border=true&border_radius=10&card_width=1000&background=FFFFFF&stroke=2196F3&ring=2196F3&fire=FF6B6B&currStreakNum=1565C0&sideNums=1565C0&currStreakLabel=1565C0&sideLabels=1565C0&dates=5A6A7A" alt="GitHub Streak Stats" width="100%" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=atharva-thakur24&theme=github-dark-blue&hide_border=true&border_radius=10&card_width=1000" />
+      <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=atharva-thakur24&theme=ayu-light&hide_border=true&border_radius=10&card_width=1000" />
+      <img src="https://streak-stats.demolab.com?user=atharva-thakur24&theme=ayu-light&hide_border=true&border_radius=10&card_width=1000" alt="GitHub Streak Stats" width="100%" />
     </picture>
   </a>
 </div>
-
 <div align="center">
 
 <table width="100%" style="border: 1px solid transparent !important; border-collapse: collapse !important;">
