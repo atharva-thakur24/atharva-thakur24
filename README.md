@@ -11,14 +11,6 @@
 </picture>
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=atharva-thakur24&theme=github-dark-blue" />
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=atharva-thakur24&theme=ayu-light" />
-    <img src="https://streak-stats.demolab.com?user=atharva-thakur24&theme=ayu-light" alt="GitHub Streak Stats" />
-  </picture>
-</div>
-
-<div align="center">
 
 <table width="100%" style="border: 1px solid transparent !important; border-collapse: collapse !important;">
 
