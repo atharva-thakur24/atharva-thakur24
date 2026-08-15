@@ -146,7 +146,6 @@
         <tspan fill="url(#lightBlueGrad)">Atharva</tspan>
         <tspan fill="url(#lightBlueGrad)"> Thakur</tspan>
       </text>
-      <!-- Static Underline -->
       <rect x="-160" y="0" width="320" height="2.5" rx="1.25" fill="url(#lightBlueGrad)" opacity="0.15" />
     </g>
 
@@ -166,7 +165,7 @@
     <!-- Description Paragraph from Image -->
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.8s" begin="1s" fill="freeze" />
-      <text x="0" y="62" font-family="'Segoe UI', 'SF Pro Display', sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle" line-height="1.8">
+      <text x="0" y="62" font-family="'Segoe UI', 'SF Pro Display', sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">
         <tspan x="0" dy="0">I build responsive progressive web apps and</tspan>
         <tspan x="0" dy="20">can code up to a different level using</tspan>
         <tspan x="0" dy="20" fill="#00d4ff" font-weight="600">AI</tspan>
@@ -191,7 +190,7 @@
   <!-- Bottom Status Bar -->
   <g transform="translate(0, 365)" opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.8s" begin="1.6s" fill="freeze" />
-    <rect x="40" y="0" width="1120" height="22" rx="11" fill="#0a0e1a" opacity="0.3" stroke="#4a9eff" stroke-width="0.5" opacity="0.08" />
+    <rect x="40" y="0" width="1120" height="22" rx="11" fill="#0a0e1a" opacity="0.3" stroke="#4a9eff" stroke-width="0.5" stroke-opacity="0.08" />
     
     <g font-family="'SF Mono', 'Courier New', monospace" font-size="7.5" fill="#4a6a7a">
       <text x="60" y="14" fill="#00d4ff" opacity="0.5">●</text>
