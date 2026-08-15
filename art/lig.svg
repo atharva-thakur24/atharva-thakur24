@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400">
   <defs>
-    <!-- Background Gradient - Light Mode -->
+    <!-- Background Gradient - Pure White -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#f1f5f9;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:1" />
     </linearGradient>
 
     <!-- Accent Gradients -->
@@ -45,16 +45,16 @@
 
     <!-- Grid Pattern - Light Mode -->
     <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
-      <line x1="80" y1="0" x2="80" y2="80" stroke="#2563eb" stroke-width="0.3" opacity="0.08" />
-      <line x1="0" y1="80" x2="80" y2="80" stroke="#2563eb" stroke-width="0.3" opacity="0.08" />
+      <line x1="80" y1="0" x2="80" y2="80" stroke="#2563eb" stroke-width="0.3" opacity="0.06" />
+      <line x1="0" y1="80" x2="80" y2="80" stroke="#2563eb" stroke-width="0.3" opacity="0.06" />
     </pattern>
 
     <!-- Circuit Pattern - Light Mode -->
     <pattern id="circuit" width="120" height="120" patternUnits="userSpaceOnUse">
-      <path d="M0 60 L30 60 L40 70 L40 90 L60 90 L70 80 L70 60 L90 60" fill="none" stroke="#0891b2" stroke-width="0.5" opacity="0.1" />
-      <path d="M80 0 L80 30 L70 40 L50 40 L40 30 L40 10 L20 10 L10 20 L10 40" fill="none" stroke="#7c3aed" stroke-width="0.5" opacity="0.1" />
-      <circle cx="40" cy="60" r="2" fill="#0891b2" opacity="0.1" />
-      <circle cx="80" cy="40" r="2" fill="#7c3aed" opacity="0.1" />
+      <path d="M0 60 L30 60 L40 70 L40 90 L60 90 L70 80 L70 60 L90 60" fill="none" stroke="#0891b2" stroke-width="0.5" opacity="0.08" />
+      <path d="M80 0 L80 30 L70 40 L50 40 L40 30 L40 10 L20 10 L10 20 L10 40" fill="none" stroke="#7c3aed" stroke-width="0.5" opacity="0.08" />
+      <circle cx="40" cy="60" r="2" fill="#0891b2" opacity="0.08" />
+      <circle cx="80" cy="40" r="2" fill="#7c3aed" opacity="0.08" />
     </pattern>
   </defs>
 
@@ -62,63 +62,63 @@
   <rect width="1200" height="400" fill="url(#bgGrad)" rx="20" />
   <rect width="1200" height="400" fill="url(#grid)" rx="20" />
   <rect width="1200" height="400" fill="url(#circuit)" rx="20" />
-  <rect x="3" y="3" width="1194" height="394" rx="18" fill="none" stroke="url(#primaryGrad)" stroke-width="1" opacity="0.2" />
-  <rect x="8" y="8" width="1184" height="384" rx="14" fill="none" stroke="#2563eb" stroke-width="0.5" opacity="0.15" />
+  <rect x="3" y="3" width="1194" height="394" rx="18" fill="none" stroke="url(#primaryGrad)" stroke-width="1" opacity="0.15" />
+  <rect x="8" y="8" width="1184" height="384" rx="14" fill="none" stroke="#2563eb" stroke-width="0.5" opacity="0.1" />
 
   <!-- Corner Accents -->
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.8s" begin="0.2s" fill="freeze" />
-    <rect x="30" y="30" width="30" height="3" rx="1.5" fill="#0891b2" opacity="0.3" />
-    <rect x="30" y="30" width="3" height="30" rx="1.5" fill="#0891b2" opacity="0.3" />
-    <rect x="1140" y="30" width="30" height="3" rx="1.5" fill="#db2777" opacity="0.3" />
-    <rect x="1167" y="30" width="3" height="30" rx="1.5" fill="#db2777" opacity="0.3" />
-    <rect x="30" y="340" width="30" height="3" rx="1.5" fill="#db2777" opacity="0.3" />
-    <rect x="30" y="337" width="3" height="30" rx="1.5" fill="#db2777" opacity="0.3" />
-    <rect x="1140" y="340" width="30" height="3" rx="1.5" fill="#0891b2" opacity="0.3" />
-    <rect x="1167" y="337" width="3" height="30" rx="1.5" fill="#0891b2" opacity="0.3" />
+    <rect x="30" y="30" width="30" height="3" rx="1.5" fill="#0891b2" opacity="0.25" />
+    <rect x="30" y="30" width="3" height="30" rx="1.5" fill="#0891b2" opacity="0.25" />
+    <rect x="1140" y="30" width="30" height="3" rx="1.5" fill="#db2777" opacity="0.25" />
+    <rect x="1167" y="30" width="3" height="30" rx="1.5" fill="#db2777" opacity="0.25" />
+    <rect x="30" y="340" width="30" height="3" rx="1.5" fill="#db2777" opacity="0.25" />
+    <rect x="30" y="337" width="3" height="30" rx="1.5" fill="#db2777" opacity="0.25" />
+    <rect x="1140" y="340" width="30" height="3" rx="1.5" fill="#0891b2" opacity="0.25" />
+    <rect x="1167" y="337" width="3" height="30" rx="1.5" fill="#0891b2" opacity="0.25" />
   </g>
 
   <!-- Static Particles -->
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="1.2s" begin="0.5s" fill="freeze" />
-    <circle cx="80" cy="70" r="3" fill="#0891b2" opacity="0.4" />
-    <circle cx="1120" cy="320" r="3" fill="#7c3aed" opacity="0.4" />
-    <circle cx="200" cy="330" r="2.5" fill="#2563eb" opacity="0.35" />
-    <circle cx="980" cy="60" r="2.5" fill="#db2777" opacity="0.35" />
-    <circle cx="400" cy="45" r="2" fill="#d97706" opacity="0.3" />
-    <circle cx="750" cy="360" r="2" fill="#0891b2" opacity="0.3" />
-    <circle cx="500" cy="100" r="1.8" fill="#2563eb" opacity="0.25" />
-    <circle cx="850" cy="90" r="1.8" fill="#7c3aed" opacity="0.25" />
-    <circle cx="150" cy="250" r="1.5" fill="#db2777" opacity="0.2" />
-    <circle cx="1050" cy="250" r="1.5" fill="#0891b2" opacity="0.2" />
+    <circle cx="80" cy="70" r="3" fill="#0891b2" opacity="0.35" />
+    <circle cx="1120" cy="320" r="3" fill="#7c3aed" opacity="0.35" />
+    <circle cx="200" cy="330" r="2.5" fill="#2563eb" opacity="0.3" />
+    <circle cx="980" cy="60" r="2.5" fill="#db2777" opacity="0.3" />
+    <circle cx="400" cy="45" r="2" fill="#d97706" opacity="0.25" />
+    <circle cx="750" cy="360" r="2" fill="#0891b2" opacity="0.25" />
+    <circle cx="500" cy="100" r="1.8" fill="#2563eb" opacity="0.2" />
+    <circle cx="850" cy="90" r="1.8" fill="#7c3aed" opacity="0.2" />
+    <circle cx="150" cy="250" r="1.5" fill="#db2777" opacity="0.15" />
+    <circle cx="1050" cy="250" r="1.5" fill="#0891b2" opacity="0.15" />
   </g>
 
   <!-- Static Glow Orbs -->
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="1.5s" begin="0.8s" fill="freeze" />
-    <circle cx="600" cy="200" r="130" fill="url(#primaryGrad)" opacity="0.06" filter="url(#intenseGlow)" />
-    <circle cx="600" cy="200" r="85" fill="url(#cyanGrad)" opacity="0.08" filter="url(#glow)" />
-    <circle cx="100" cy="340" r="45" fill="#0891b2" opacity="0.06" filter="url(#intenseGlow)" />
-    <circle cx="1100" cy="340" r="45" fill="#db2777" opacity="0.06" filter="url(#intenseGlow)" />
+    <circle cx="600" cy="200" r="130" fill="url(#primaryGrad)" opacity="0.04" filter="url(#intenseGlow)" />
+    <circle cx="600" cy="200" r="85" fill="url(#cyanGrad)" opacity="0.05" filter="url(#glow)" />
+    <circle cx="100" cy="340" r="45" fill="#0891b2" opacity="0.04" filter="url(#intenseGlow)" />
+    <circle cx="1100" cy="340" r="45" fill="#db2777" opacity="0.04" filter="url(#intenseGlow)" />
   </g>
 
   <!-- Static Waves -->
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="1s" begin="0.4s" fill="freeze" />
-    <path d="M0 215 Q150 205 300 215 T600 215 T900 215 T1200 215" fill="none" stroke="#0891b2" stroke-width="1.5" opacity="0.2" />
-    <path d="M0 230 Q150 240 300 230 T600 230 T900 230 T1200 230" fill="none" stroke="#7c3aed" stroke-width="1" opacity="0.15" />
-    <path d="M0 200 Q150 195 300 200 T600 200 T900 200 T1200 200" fill="none" stroke="#2563eb" stroke-width="0.8" opacity="0.1" />
+    <path d="M0 215 Q150 205 300 215 T600 215 T900 215 T1200 215" fill="none" stroke="#0891b2" stroke-width="1.5" opacity="0.15" />
+    <path d="M0 230 Q150 240 300 230 T600 230 T900 230 T1200 230" fill="none" stroke="#7c3aed" stroke-width="1" opacity="0.1" />
+    <path d="M0 200 Q150 195 300 200 T600 200 T900 200 T1200 200" fill="none" stroke="#2563eb" stroke-width="0.8" opacity="0.08" />
   </g>
 
   <!-- Static Particle Trail -->
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="1s" begin="1s" fill="freeze" />
-    <circle cx="150" cy="200" r="1.5" fill="#0891b2" opacity="0.25" />
-    <circle cx="250" cy="195" r="1.2" fill="#0891b2" opacity="0.15" />
-    <circle cx="350" cy="200" r="1" fill="#0891b2" opacity="0.1" />
-    <circle cx="1050" cy="200" r="1.5" fill="#db2777" opacity="0.25" />
-    <circle cx="950" cy="195" r="1.2" fill="#db2777" opacity="0.15" />
-    <circle cx="850" cy="200" r="1" fill="#db2777" opacity="0.1" />
+    <circle cx="150" cy="200" r="1.5" fill="#0891b2" opacity="0.2" />
+    <circle cx="250" cy="195" r="1.2" fill="#0891b2" opacity="0.12" />
+    <circle cx="350" cy="200" r="1" fill="#0891b2" opacity="0.08" />
+    <circle cx="1050" cy="200" r="1.5" fill="#db2777" opacity="0.2" />
+    <circle cx="950" cy="195" r="1.2" fill="#db2777" opacity="0.12" />
+    <circle cx="850" cy="200" r="1" fill="#db2777" opacity="0.08" />
   </g>
 
   <!-- Main Content -->
@@ -127,8 +127,8 @@
     <!-- Decorative Brackets -->
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.8s" begin="0.3s" fill="freeze" />
-      <text x="-380" y="-65" font-family="'Courier New', monospace" font-size="22" fill="#2563eb" opacity="0.3">&lt;/</text>
-      <text x="340" y="-65" font-family="'Courier New', monospace" font-size="22" fill="#db2777" opacity="0.3">&gt;</text>
+      <text x="-380" y="-65" font-family="'Courier New', monospace" font-size="22" fill="#2563eb" opacity="0.25">&lt;/</text>
+      <text x="340" y="-65" font-family="'Courier New', monospace" font-size="22" fill="#db2777" opacity="0.25">&gt;</text>
     </g>
 
     <!-- "Hi, I'm" Text -->
@@ -146,7 +146,7 @@
         <tspan fill="url(#lightBlueGrad)">Atharva</tspan>
         <tspan fill="url(#lightBlueGrad)"> Thakur</tspan>
       </text>
-      <rect x="-160" y="0" width="320" height="2.5" rx="1.25" fill="url(#lightBlueGrad)" opacity="0.25" />
+      <rect x="-160" y="0" width="320" height="2.5" rx="1.25" fill="url(#lightBlueGrad)" opacity="0.2" />
     </g>
 
     <!-- Title -->
@@ -175,7 +175,7 @@
     <!-- Divider -->
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.2s" fill="freeze" />
-      <rect x="-80" y="100" width="160" height="1.5" rx="0.75" fill="url(#primaryGrad)" opacity="0.2" />
+      <rect x="-80" y="100" width="160" height="1.5" rx="0.75" fill="url(#primaryGrad)" opacity="0.15" />
     </g>
 
     <!-- Bottom Tagline -->
@@ -190,7 +190,7 @@
   <!-- Bottom Status Bar -->
   <g transform="translate(0, 365)" opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.8s" begin="1.6s" fill="freeze" />
-    <rect x="40" y="0" width="1120" height="22" rx="11" fill="#ffffff" opacity="0.6" stroke="#2563eb" stroke-width="0.5" stroke-opacity="0.15" />
+    <rect x="40" y="0" width="1120" height="22" rx="11" fill="#f8fafc" opacity="0.7" stroke="#2563eb" stroke-width="0.5" stroke-opacity="0.12" />
     
     <g font-family="'SF Mono', 'Courier New', monospace" font-size="7.5" fill="#475569">
       <text x="60" y="14" fill="#0891b2" opacity="0.7">●</text>
@@ -218,6 +218,6 @@
   <!-- Static Cursor -->
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.8s" begin="0.8s" fill="freeze" />
-    <rect x="270" y="155" width="2" height="20" rx="1" fill="#0891b2" opacity="0.5" />
+    <rect x="270" y="155" width="2" height="20" rx="1" fill="#0891b2" opacity="0.45" />
   </g>
 </svg>
