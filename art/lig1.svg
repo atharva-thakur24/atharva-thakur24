@@ -1,74 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400">
   <defs>
-    <!-- Pure White Background -->
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#f8fafc;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#f1f5f9;stop-opacity:1" />
-    </linearGradient>
-
-    <!-- Accent Gradients -->
     <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#2563eb" />
-      <stop offset="50%" style="stop-color:#7c3aed" />
-      <stop offset="100%" style="stop-color:#ec4899" />
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="50%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#ec4899" />
     </linearGradient>
-
-    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#1e40af" />
-      <stop offset="50%" style="stop-color:#1d4ed8" />
-      <stop offset="100%" style="stop-color:#2563eb" />
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="40%" stop-color="#1d4ed8" />
+      <stop offset="70%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#1e40af" />
     </linearGradient>
-
-    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#0891b2" />
-      <stop offset="100%" style="stop-color:#0e7490" />
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#f1f5f9" />
     </linearGradient>
-
-    <linearGradient id="lightBlueGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
-      <stop offset="40%" style="stop-color:#1d4ed8;stop-opacity:1" />
-      <stop offset="70%" style="stop-color:#2563eb;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
-    </linearGradient>
-
-    <!-- Glow Filter -->
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="8" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-
-    <filter id="intenseGlow">
-      <feGaussianBlur stdDeviation="12" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
-
-    <!-- Grid Pattern - Darker Blue -->
-    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
-      <line x1="80" y1="0" x2="80" y2="80" stroke="#2563eb" stroke-width="0.3" opacity="0.06" />
-      <line x1="0" y1="80" x2="80" y2="80" stroke="#2563eb" stroke-width="0.3" opacity="0.06" />
-    </pattern>
-
-    <!-- Circuit Pattern - Darker Blue -->
-    <pattern id="circuit" width="120" height="120" patternUnits="userSpaceOnUse">
-      <path d="M0 60 L30 60 L40 70 L40 90 L60 90 L70 80 L70 60 L90 60" fill="none" stroke="#2563eb" stroke-width="0.5" opacity="0.06" />
-      <path d="M80 0 L80 30 L70 40 L50 40 L40 30 L40 10 L20 10 L10 20 L10 40" fill="none" stroke="#7c3aed" stroke-width="0.5" opacity="0.06" />
-      <circle cx="40" cy="60" r="2" fill="#2563eb" opacity="0.06" />
-      <circle cx="80" cy="40" r="2" fill="#7c3aed" opacity="0.06" />
-    </pattern>
   </defs>
 
   <!-- Background -->
-  <rect width="1200" height="400" fill="#ffffff" rx="20" />
-  <rect width="1200" height="400" fill="url(#grid)" rx="20" />
-  <rect width="1200" height="400" fill="url(#circuit)" rx="20" />
-  <rect x="3" y="3" width="1194" height="394" rx="18" fill="none" stroke="url(#primaryGrad)" stroke-width="1" opacity="0.15" />
+  <rect width="1200" height="400" fill="url(#bgGrad)" rx="20" />
+  <rect x="3" y="3" width="1194" height="394" rx="18" fill="none" stroke="#2563eb" stroke-width="1" opacity="0.15" />
   <rect x="8" y="8" width="1184" height="384" rx="14" fill="none" stroke="#2563eb" stroke-width="0.5" opacity="0.08" />
 
   <!-- Corner Accents -->
@@ -102,29 +54,18 @@
   <!-- Static Glow Orbs -->
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="1.5s" begin="0.8s" fill="freeze" />
-    <circle cx="600" cy="200" r="130" fill="url(#primaryGrad)" opacity="0.06" filter="url(#intenseGlow)" />
-    <circle cx="600" cy="200" r="85" fill="url(#blueGrad)" opacity="0.08" filter="url(#glow)" />
-    <circle cx="100" cy="340" r="45" fill="#2563eb" opacity="0.05" filter="url(#intenseGlow)" />
-    <circle cx="1100" cy="340" r="45" fill="#ec4899" opacity="0.05" filter="url(#intenseGlow)" />
+    <circle cx="600" cy="200" r="130" fill="url(#primaryGrad)" opacity="0.04" />
+    <circle cx="600" cy="200" r="85" fill="url(#nameGrad)" opacity="0.06" />
+    <circle cx="100" cy="340" r="45" fill="#2563eb" opacity="0.04" />
+    <circle cx="1100" cy="340" r="45" fill="#ec4899" opacity="0.04" />
   </g>
 
   <!-- Static Waves -->
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="1s" begin="0.4s" fill="freeze" />
-    <path d="M0 215 Q150 205 300 215 T600 215 T900 215 T1200 215" fill="none" stroke="#2563eb" stroke-width="1.5" opacity="0.2" />
-    <path d="M0 230 Q150 240 300 230 T600 230 T900 230 T1200 230" fill="none" stroke="#7c3aed" stroke-width="1" opacity="0.1" />
-    <path d="M0 200 Q150 195 300 200 T600 200 T900 200 T1200 200" fill="none" stroke="#1d4ed8" stroke-width="0.8" opacity="0.08" />
-  </g>
-
-  <!-- Static Particle Trail -->
-  <g opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="1s" begin="1s" fill="freeze" />
-    <circle cx="150" cy="200" r="1.5" fill="#2563eb" opacity="0.2" />
-    <circle cx="250" cy="195" r="1.2" fill="#2563eb" opacity="0.12" />
-    <circle cx="350" cy="200" r="1" fill="#2563eb" opacity="0.08" />
-    <circle cx="1050" cy="200" r="1.5" fill="#ec4899" opacity="0.2" />
-    <circle cx="950" cy="195" r="1.2" fill="#ec4899" opacity="0.12" />
-    <circle cx="850" cy="200" r="1" fill="#ec4899" opacity="0.08" />
+    <path d="M0 215 Q150 205 300 215 T600 215 T900 215 T1200 215" fill="none" stroke="#2563eb" stroke-width="1.5" opacity="0.15" />
+    <path d="M0 230 Q150 240 300 230 T600 230 T900 230 T1200 230" fill="none" stroke="#7c3aed" stroke-width="1" opacity="0.08" />
+    <path d="M0 200 Q150 195 300 200 T600 200 T900 200 T1200 200" fill="none" stroke="#1d4ed8" stroke-width="0.8" opacity="0.06" />
   </g>
 
   <!-- Main Content -->
@@ -140,20 +81,17 @@
     <!-- "Hi, I'm" Text -->
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.8s" begin="0.4s" fill="freeze" />
-      <text x="0" y="-65" font-family="'Segoe UI', 'SF Pro Display', sans-serif" font-size="14" fill="#4a5a6a" letter-spacing="4" opacity="0.7" text-anchor="middle">
-        ✦ HI, I'M ✦
-      </text>
+      <text x="0" y="-65" font-family="'Segoe UI', 'SF Pro Display', sans-serif" font-size="14" fill="#4a5a6a" letter-spacing="4" opacity="0.7" text-anchor="middle">✦ HI, I'M ✦</text>
     </g>
 
-    <!-- Name - Atharva Thakur with Deep Blue Gradient -->
+    <!-- Name -->
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.8s" begin="0.6s" fill="freeze" />
       <text x="0" y="-18" font-family="'Segoe UI', 'SF Pro Display', sans-serif" font-size="52" font-weight="700" letter-spacing="-1" text-anchor="middle">
-        <tspan fill="url(#lightBlueGrad)">Atharva</tspan>
-        <tspan fill="url(#lightBlueGrad)"> Thakur</tspan>
+        <tspan fill="url(#nameGrad)">Atharva</tspan>
+        <tspan fill="url(#nameGrad)"> Thakur</tspan>
       </text>
-      <!-- Static Underline -->
-      <rect x="-160" y="0" width="320" height="2.5" rx="1.25" fill="url(#lightBlueGrad)" opacity="0.25" />
+      <rect x="-160" y="0" width="320" height="2.5" rx="1.25" fill="url(#nameGrad)" opacity="0.2" />
     </g>
 
     <!-- Title -->
@@ -161,18 +99,18 @@
       <animate attributeName="opacity" values="0;1" dur="0.8s" begin="0.8s" fill="freeze" />
       <text x="0" y="30" font-family="'Segoe UI', 'SF Pro Display', sans-serif" font-size="16" fill="#4a5a6a" letter-spacing="2" text-anchor="middle">
         <tspan fill="#1d4ed8">AI</tspan>
-        <tspan fill="#4a5a6a"> Driven Coder</tspan>
+        <tspan> Driven Coder</tspan>
         <tspan fill="#7a8a9a" opacity="0.5"> • </tspan>
-        <tspan fill="#4a5a6a">Developer</tspan>
+        <tspan>Developer</tspan>
         <tspan fill="#7a8a9a" opacity="0.5"> • </tspan>
         <tspan fill="#2563eb">Innovator</tspan>
       </text>
     </g>
 
-    <!-- Description Paragraph -->
+    <!-- Description -->
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.8s" begin="1s" fill="freeze" />
-      <text x="0" y="62" font-family="'Segoe UI', 'SF Pro Display', sans-serif" font-size="12" fill="#4a5a6a" text-anchor="middle" line-height="1.8">
+      <text x="0" y="62" font-family="'Segoe UI', 'SF Pro Display', sans-serif" font-size="12" fill="#4a5a6a" text-anchor="middle">
         <tspan x="0" dy="0">I build responsive progressive web apps and</tspan>
         <tspan x="0" dy="20">can code up to a different level using</tspan>
         <tspan x="0" dy="20" fill="#1d4ed8" font-weight="600">AI</tspan>
@@ -182,15 +120,13 @@
     <!-- Divider -->
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.2s" fill="freeze" />
-      <rect x="-80" y="100" width="160" height="1.5" rx="0.75" fill="url(#primaryGrad)" opacity="0.2" />
+      <rect x="-80" y="100" width="160" height="1.5" rx="0.75" fill="url(#primaryGrad)" opacity="0.15" />
     </g>
 
     <!-- Bottom Tagline -->
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.4s" fill="freeze" />
-      <text x="0" y="120" font-family="'SF Mono', 'Courier New', monospace" font-size="8" fill="#7a8a9a" text-anchor="middle" letter-spacing="3" opacity="0.4">
-        ✦ INNOVATE • DEPLOY • SCALE ✦
-      </text>
+      <text x="0" y="120" font-family="'SF Mono', 'Courier New', monospace" font-size="8" fill="#7a8a9a" text-anchor="middle" letter-spacing="3" opacity="0.4">✦ INNOVATE • DEPLOY • SCALE ✦</text>
     </g>
   </g>
 
@@ -198,26 +134,19 @@
   <g transform="translate(0, 365)" opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.8s" begin="1.6s" fill="freeze" />
     <rect x="40" y="0" width="1120" height="22" rx="11" fill="#f1f5f9" opacity="0.8" stroke="#2563eb" stroke-width="0.5" opacity="0.12" />
-    
     <g font-family="'SF Mono', 'Courier New', monospace" font-size="7.5" fill="#5a6a7a">
       <text x="60" y="14" fill="#1d4ed8" opacity="0.6">●</text>
       <text x="72" y="14" fill="#4a5a6a" opacity="0.6">STATUS: ACTIVE</text>
-      
       <text x="250" y="14" opacity="0.3">|</text>
       <text x="265" y="14" opacity="0.5">BUILD: v3.2.1</text>
-      
       <text x="430" y="14" opacity="0.3">|</text>
       <text x="445" y="14" fill="#7c3aed" opacity="0.6">PROJECTS: 12</text>
-
       <text x="600" y="14" text-anchor="middle" opacity="0.3">●</text>
       <text x="615" y="14" text-anchor="middle" fill="#1d4ed8" opacity="0.5">CI/CD PIPELINE</text>
-
       <text x="850" y="14" text-anchor="end" opacity="0.5">COVERAGE: 94%</text>
-      
       <text x="980" y="14" opacity="0.3">|</text>
       <text x="995" y="14" fill="#27c93f" opacity="0.6">●</text>
       <text x="1005" y="14" opacity="0.5">DEPLOYED</text>
-      
       <text x="1115" y="14" text-anchor="end" fill="#7a8a9a" opacity="0.3">v2.0</text>
     </g>
   </g>
