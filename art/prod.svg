@@ -1,1 +1,197 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380">
+  <defs>
+    <!-- Simple Dark Background -->
+    <linearGradient id="bgMain" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#070712;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0a0a1e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#070712;stop-opacity:1" />
+    </linearGradient>
 
+    <!-- Primary Accent - Cyan/Blue -->
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0090ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00d4ff;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Secondary Accent - Purple -->
+    <linearGradient id="secondaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6d28d9;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Tertiary Accent - Pink -->
+    <linearGradient id="tertiaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ec4899;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#db2777;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Text Gradient -->
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e2e8f0;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#94a3b8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Highlight Text Gradient -->
+    <linearGradient id="highlightGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Simple Grid Pattern -->
+    <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+      <line x1="40" y1="0" x2="40" y2="40" stroke="#00d4ff" stroke-width="0.2" opacity="0.04" />
+      <line x1="0" y1="40" x2="40" y2="40" stroke="#00d4ff" stroke-width="0.2" opacity="0.04" />
+    </pattern>
+  </defs>
+
+  <!-- Background with fade-in -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.8s" begin="0s" fill="freeze" />
+    <rect width="1200" height="380" fill="url(#bgMain)" rx="16" />
+    <rect width="1200" height="380" fill="url(#gridPattern)" rx="16" />
+    <rect x="12" y="12" width="1176" height="356" rx="20" fill="none" stroke="#00d4ff" stroke-width="1" opacity="0.12" />
+    <rect x="16" y="16" width="1168" height="348" rx="16" fill="none" stroke="#00d4ff" stroke-width="0.5" opacity="0.06" />
+  </g>
+
+  <!-- Static Waves (no animation) -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="1s" begin="0.3s" fill="freeze" />
+    <path d="M0 200 Q150 185 300 200 T600 200 T900 200 T1200 200" fill="none" stroke="#00d4ff" stroke-width="1.5" opacity="0.15" />
+    <path d="M0 220 Q150 235 300 220 T600 220 T900 220 T1200 220" fill="none" stroke="#7c3aed" stroke-width="1" opacity="0.08" />
+  </g>
+
+  <!-- Static Particles (no animation) -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="1.2s" begin="0.5s" fill="freeze" />
+    <circle cx="120" cy="90" r="2.5" fill="#00d4ff" opacity="0.3" />
+    <circle cx="1080" cy="280" r="2.5" fill="#7c3aed" opacity="0.3" />
+    <circle cx="300" cy="300" r="2" fill="#00d4ff" opacity="0.25" />
+    <circle cx="900" cy="80" r="2" fill="#7c3aed" opacity="0.25" />
+    <circle cx="500" cy="50" r="1.5" fill="#ec4899" opacity="0.2" />
+    <circle cx="700" cy="340" r="1.5" fill="#00d4ff" opacity="0.2" />
+    <circle cx="200" cy="150" r="1.8" fill="#00d4ff" opacity="0.2" />
+    <circle cx="950" cy="200" r="1.8" fill="#ec4899" opacity="0.2" />
+  </g>
+
+  <!-- Main Hero Content -->
+  <g transform="translate(600, 185)">
+    
+    <!-- Main Tagline with Fade-in -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.8s" begin="0.4s" fill="freeze" />
+      <text x="0" y="-45" font-family="'SF Pro Display', 'Segoe UI', sans-serif" font-size="56" font-weight="700" fill="url(#textGrad)" text-anchor="middle" letter-spacing="-1">
+        <tspan fill="url(#highlightGrad)">BUILD</tspan>
+        <tspan fill="url(#textGrad)"> THE </tspan>
+        <tspan fill="url(#highlightGrad)">FUTURE</tspan>
+      </text>
+    </g>
+    
+    <!-- Subtitle -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.8s" begin="0.6s" fill="freeze" />
+      <text x="0" y="5" font-family="'SF Pro Display', 'Segoe UI', sans-serif" font-size="15" font-weight="300" fill="#94a3b8" text-anchor="middle" letter-spacing="4" opacity="0.7">
+        FULL-STACK DEVELOPMENT &amp; INNOVATION
+      </text>
+    </g>
+
+    <!-- Decorative Divider -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.8s" fill="freeze" />
+      <line x1="-180" y1="25" x2="180" y2="25" stroke="url(#primaryGrad)" stroke-width="0.5" opacity="0.15" />
+      <line x1="-110" y1="29" x2="110" y2="29" stroke="url(#secondaryGrad)" stroke-width="0.5" opacity="0.08" />
+    </g>
+
+    <!-- Tech Stack Pills -->
+    <g transform="translate(0, 52)" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.8s" begin="0.9s" fill="freeze" />
+      <g font-family="'SF Mono', 'Courier New', monospace" font-size="7" text-anchor="middle">
+        <!-- Firebase -->
+        <rect x="-240" y="-12" width="52" height="18" rx="9" fill="#0a0a1e" stroke="#FFCA28" stroke-width="0.5" opacity="0.3" />
+        <text x="-214" y="1" fill="#FFCA28" opacity="0.6" letter-spacing="0.5">Firebase</text>
+        
+        <!-- Python -->
+        <rect x="-184" y="-12" width="50" height="18" rx="9" fill="#0a0a1e" stroke="#3776AB" stroke-width="0.5" opacity="0.3" />
+        <text x="-159" y="1" fill="#3776AB" opacity="0.6" letter-spacing="0.5">Python</text>
+        
+        <!-- C Lang -->
+        <rect x="-130" y="-12" width="50" height="18" rx="9" fill="#0a0a1e" stroke="#00599C" stroke-width="0.5" opacity="0.3" />
+        <text x="-105" y="1" fill="#4a8fc4" opacity="0.6" letter-spacing="0.5">C Lang</text>
+        
+        <!-- Java -->
+        <rect x="-76" y="-12" width="46" height="18" rx="9" fill="#0a0a1e" stroke="#007396" stroke-width="0.5" opacity="0.3" />
+        <text x="-53" y="1" fill="#007396" opacity="0.6" letter-spacing="0.5">Java</text>
+
+        <!-- HTML -->
+        <rect x="-26" y="-12" width="46" height="18" rx="9" fill="#0a0a1e" stroke="#E34F26" stroke-width="0.5" opacity="0.3" />
+        <text x="-3" y="1" fill="#E34F26" opacity="0.6" letter-spacing="0.5">HTML</text>
+        
+        <!-- CSS -->
+        <rect x="24" y="-12" width="42" height="18" rx="9" fill="#0a0a1e" stroke="#1572B6" stroke-width="0.5" opacity="0.3" />
+        <text x="45" y="1" fill="#1572B6" opacity="0.6" letter-spacing="0.5">CSS</text>
+        
+        <!-- JavaScript -->
+        <rect x="70" y="-12" width="64" height="18" rx="9" fill="#0a0a1e" stroke="#F7DF1E" stroke-width="0.5" opacity="0.3" />
+        <text x="102" y="1" fill="#F7DF1E" opacity="0.6" letter-spacing="0.5">JavaScript</text>
+
+        <!-- React -->
+        <rect x="138" y="-12" width="46" height="18" rx="9" fill="#0a0a1e" stroke="#61DAFB" stroke-width="0.5" opacity="0.3" />
+        <text x="161" y="1" fill="#61DAFB" opacity="0.6" letter-spacing="0.5">React</text>
+
+        <!-- Node -->
+        <rect x="188" y="-12" width="48" height="18" rx="9" fill="#0a0a1e" stroke="#68A063" stroke-width="0.5" opacity="0.3" />
+        <text x="212" y="1" fill="#68A063" opacity="0.6" letter-spacing="0.5">Node</text>
+      </g>
+    </g>
+
+    <!-- Bottom Tagline -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="1.2s" fill="freeze" />
+      <text x="0" y="90" font-family="'SF Mono', 'Courier New', monospace" font-size="8" fill="#94a3b8" text-anchor="middle" letter-spacing="3" opacity="0.2">
+        INNOVATE • DEPLOY • SCALE
+      </text>
+    </g>
+  </g>
+
+  <!-- Bottom Bar -->
+  <g transform="translate(0, 355)" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.8s" begin="1s" fill="freeze" />
+    <rect x="50" y="0" width="1100" height="18" rx="9" fill="#0a0a1e" opacity="0.4" />
+    
+    <g font-family="'SF Mono', 'Courier New', monospace" font-size="6.5" fill="#94a3b8" opacity="0.4">
+      <text x="65" y="12">●</text>
+      <text x="75" y="12" fill="#00d4ff" opacity="0.6">PRODUCTION</text>
+      <text x="165" y="12" fill="#94a3b8" opacity="0.2">|</text>
+      <text x="175" y="12" fill="#94a3b8" opacity="0.4">v3.2.1</text>
+      <text x="235" y="12" fill="#94a3b8" opacity="0.2">|</text>
+      <text x="245" y="12" fill="#7c3aed" opacity="0.4">branch: main</text>
+    </g>
+
+    <g font-family="'SF Mono', 'Courier New', monospace" font-size="6.5" fill="#94a3b8" opacity="0.3">
+      <text x="540" y="12" text-anchor="middle">●</text>
+      <text x="550" y="12" text-anchor="middle" fill="#00d4ff" opacity="0.4">CI/CD PIPELINE • PASSED</text>
+    </g>
+
+    <g font-family="'SF Mono', 'Courier New', monospace" font-size="6.5" fill="#94a3b8" opacity="0.4">
+      <text x="950" y="12" text-anchor="end">coverage: 94%</text>
+      <text x="1030" y="12" fill="#94a3b8" opacity="0.2">|</text>
+      <text x="1040" y="12" text-anchor="end" fill="#00d4ff" opacity="0.4">●</text>
+      <text x="1050" y="12" text-anchor="end" fill="#94a3b8" opacity="0.4">deployed</text>
+    </g>
+  </g>
+
+  <!-- Corner Accents with Staggered Entrance -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.2s" fill="freeze" />
+    <rect x="25" y="25" width="20" height="2" rx="1" fill="#00d4ff" opacity="0.1" />
+    <rect x="25" y="25" width="2" height="20" rx="1" fill="#00d4ff" opacity="0.1" />
+    <rect x="1155" y="25" width="20" height="2" rx="1" fill="#ec4899" opacity="0.1" />
+    <rect x="1173" y="25" width="2" height="20" rx="1" fill="#ec4899" opacity="0.1" />
+    <rect x="25" y="335" width="20" height="2" rx="1" fill="#ec4899" opacity="0.1" />
+    <rect x="25" y="333" width="2" height="20" rx="1" fill="#ec4899" opacity="0.1" />
+    <rect x="1155" y="335" width="20" height="2" rx="1" fill="#00d4ff" opacity="0.1" />
+    <rect x="1173" y="333" width="2" height="20" rx="1" fill="#00d4ff" opacity="0.1" />
+  </g>
+</svg>
