@@ -100,6 +100,176 @@
 
 </div>
 
+<div align="center">
+
+<style>
+  /* Light mode (default) */
+  .stats-wrapper {
+    --bg-color: #ffffff;
+    --text-color: #2563eb;
+    --border-color: rgba(37, 99, 235, 0.15);
+    --status-bg: #f8fafc;
+    --status-text: #475569;
+    --accent-color: #0891b2;
+    --active-color: #16a34a;
+    --shadow-color: rgba(37, 99, 235, 0.05);
+  }
+  
+  /* Dark mode */
+  @media (prefers-color-scheme: dark) {
+    .stats-wrapper {
+      --bg-color: #0a0e1a;
+      --text-color: #00d4ff;
+      --border-color: rgba(74, 158, 255, 0.15);
+      --status-bg: #0d1b2a;
+      --status-text: #4a6a7a;
+      --accent-color: #00d4ff;
+      --active-color: #27c93f;
+      --shadow-color: rgba(74, 158, 255, 0.05);
+    }
+  }
+  
+  .stats-wrapper {
+    background: var(--bg-color);
+    border-radius: 20px;
+    padding: 30px;
+    border: 1px solid var(--border-color);
+    display: inline-block;
+    max-width: 1200px;
+    box-shadow: 0 0 80px var(--shadow-color);
+    transition: all 0.3s ease;
+  }
+  
+  .stats-title {
+    color: var(--text-color);
+    font-family: 'Segoe UI', sans-serif;
+    margin-top: 0;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    font-size: 24px;
+  }
+  
+  .status-bar {
+    margin-top: 15px;
+    padding: 10px 25px;
+    background: var(--status-bg);
+    border-radius: 16px;
+    border: 0.5px solid rgba(74, 158, 255, 0.08);
+    font-family: 'SF Mono', monospace;
+    font-size: 10px;
+    color: var(--status-text);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    transition: all 0.3s ease;
+  }
+  
+  .status-accent {
+    color: var(--accent-color);
+  }
+  
+  .status-active {
+    color: var(--active-color);
+  }
+  
+  .stats-table {
+    border: 1px solid transparent !important;
+    border-collapse: collapse !important;
+    width: 100%;
+  }
+  
+  .stats-table td {
+    border: 1px solid transparent !important;
+    padding: 5px;
+  }
+  
+  .stats-image {
+    border-radius: 13.5px;
+    max-width: 100%;
+    height: auto;
+  }
+</style>
+
+
+<div class="stats-wrapper">
+
+  <h3 class="stats-title">📊 GITHUB STATS</h3>
+
+  <table class="stats-table">
+
+    <tr>
+
+ <td width="55%" align="center" valign="middle">
+        <picture>
+          <source
+            media="(prefers-color-scheme: dark)"
+            srcset="https://ghstats.dev/api/card?username=atharva-thakur24&theme=midnight&border_radius=13.5"
+          />
+          <source
+            media="(prefers-color-scheme: light)"
+            srcset="https://ghstats.dev/api/card?username=atharva-thakur24&theme=light&border_radius=13.5"
+          />
+          <img
+            class="stats-image"
+            src="https://ghstats.dev/api/card?username=atharva-thakur24&theme=midnight&border_radius=13.5"
+            alt="GitHub Stats Card"
+            style="max-width: 620px;"
+          />
+        </picture>
+      </td>
+
+   <td width="45%" align="center" valign="middle">
+   <picture>
+          <source
+            media="(prefers-color-scheme: dark)"
+            srcset="https://ghstats.dev/api/sparkline?username=atharva-thakur24&theme=midnight&days=30&width=505&height=266&title=Contribution+Graph"
+          />
+          <source
+            media="(prefers-color-scheme: light)"
+            srcset="https://ghstats.dev/api/sparkline?username=atharva-thakur24&theme=light&days=30&width=505&height=266&title=Contribution+Graph"
+          />
+          <img
+            class="stats-image"
+            src="https://ghstats.dev/api/sparkline?username=atharva-thakur24&theme=midnight&days=30&width=505&height=266&title=Contribution+Graph"
+            alt="Contribution Graph"
+            style="max-width: 505px; margin-bottom: 10px;"
+          />
+        </picture>
+
+ <br />
+
+ <picture>
+          <source
+            media="(prefers-color-scheme: dark)"
+            srcset="https://ghstats.dev/api/langs?username=atharva-thakur24&theme=midnight&max_langs=5&layout=donut"
+       />
+        <source
+            media="(prefers-color-scheme: light)"
+            srcset="https://ghstats.dev/api/langs?username=atharva-thakur24&theme=light&max_langs=5&layout=donut"
+          />
+  <img
+            class="stats-image"
+            src="https://ghstats.dev/api/langs?username=atharva-thakur24&theme=midnight&max_langs=5&layout=donut"
+            alt="Top Languages"
+            style="max-width: 505px;"
+          />
+        </picture>
+      </td>
+
+   </tr>
+
+  </table>
+
+  <div class="status-bar">
+    <span class="status-accent">● STATUS: SYNCED</span>
+    <span>| UPDATED: LIVE</span>
+    <span>| <span class="status-active">●</span> ACTIVE</span>
+    <span style="opacity: 0.4;">v2.0</span>
+  </div>
+
+</div>
+</div>
+
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
