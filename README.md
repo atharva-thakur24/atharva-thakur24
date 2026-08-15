@@ -11,15 +11,11 @@
 </picture>
 
 <div align="center">
-<picture>
-
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=atharva-thakur24&hide_border=true&background=0A101F&stroke=22D3EE&ring=A78BFA&fire=10B981&currStreakLabel=22D3EE&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&titleColor=22D3EE&card_width=1180" />
-
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=atharva-thakur24&hide_border=true&background=0A101F&stroke=22D3EE&ring=A78BFA&fire=10B981&currStreakLabel=22D3EE&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&titleColor=22D3EE&card_width=1180" />
-    
-  <img width="100%" src="https://streak-stats.demolab.com/?user=atharva-thakur24&hide_border=true&background=0A101F&stroke=22D3EE&ring=A78BFA&fire=10B981&currStreakLabel=22D3EE&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&titleColor=22D3EE&card_width=1180" alt="Atharva's streak" />
-</picture>
-
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=atharva-thakur24&theme=dark&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakNum=58A6FF&sideNums=58A6FF&currStreakLabel=58A6FF&sideLabels=58A6FF&dates=8B949E" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=atharva-thakur24&theme=light&hide_border=true&background=FFFFFF&stroke=2196F3&ring=2196F3&fire=FF6B6B&currStreakNum=1565C0&sideNums=1565C0&currStreakLabel=1565C0&sideLabels=1565C0&dates=5A6A7A" />
+    <img src="https://streak-stats.demolab.com?user=atharva-thakur24&theme=light&hide_border=true&background=FFFFFF&stroke=2196F3&ring=2196F3&fire=FF6B6B&currStreakNum=1565C0&sideNums=1565C0&currStreakLabel=1565C0&sideLabels=1565C0&dates=5A6A7A" alt="GitHub Streak Stats" />
+  </picture>
 </div>
 
 <div align="center">
