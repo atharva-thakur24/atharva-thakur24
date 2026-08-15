@@ -74,7 +74,7 @@
   <g transform="translate(10, 45)">
     <foreignObject width="1180" height="195">
       <div xmlns="http://www.w3.org/1999/xhtml" style="width: 100%; height: 100%; display: flex; justify-content: center; align-items: center;">
-        <img width="100%" src="https://streak-stats.demolab.com/?user=atharva-thakur24&amp;hide_border=true&amp;background=0A101F&amp;stroke=22D3EE&amp;ring=A78BFA&amp;fire=10B981&amp;currStreakLabel=22D3EE&amp;sideLabels=94A3B8&amp;currStreakNum=F8FAFC&amp;sideNums=F8FAFC&amp;dates=64748B&amp;titleColor=22D3EE&amp;card_width=1180" alt="Atharva's streak stats" />
+        <img width="100%" src="https://streak-stats.demolab.com?user=atharva-thakur24&theme=github-dark-blue" alt="Atharva's streak stats" />
       </div>
     </foreignObject>
   </g>
