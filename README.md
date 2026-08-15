@@ -118,14 +118,14 @@
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="art/prod1.svg"
+    srcset="art/prod.svg"
   />
   <source
     media="(prefers-color-scheme: light)"
-    srcset="art/prol1.svg"
+    srcset="art/prol.svg"
   />
   <img
-    src="art/prol1.svg"
+    src="art/prol.svg"
     alt="Projects Banner"
     width="100%"
   />
