@@ -14,7 +14,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=atharva-thakur24&theme=github-dark-blue&hide_border=true&card_width=1180&background=0D1117&stroke=00000000&ring=58A6FF&fire=FF6B6B&currStreakNum=58A6FF&sideNums=58A6FF&currStreakLabel=58A6FF&sideLabels=58A6FF&dates=8B949E&currStreakLabelSize=12&sideLabelsSize=11&datesSize=10" />
     <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=atharva-thakur24&theme=ayu-light&hide_border=true&card_width=1180&background=00000000&stroke=00000000&currStreakLabelSize=12&sideLabelsSize=11&datesSize=10" />
-    <img src="https://streak-stats.demolab.com?user=atharva-thakur24&theme=ayu-light&hide_border=true&card_width=1180&background=00000000&stroke=00000000&currStreakLabelSize=12&sideLabelsSize=11&datesSize=10" alt="GitHub Streak Stats" style="width: 100%; height: 115px; object-fit: cover; display: block;" />
+    <img src="https://streak-stats.demolab.com?user=atharva-thakur24&theme=ayu-light&hide_border=true&card_width=1180&background=00000000&stroke=00000000&currStreakLabelSize=12&sideLabelsSize=11&datesSize=10" alt="GitHub Streak Stats" style="width: 100%; height: 185px; object-fit: cover; display: block;" />
   </picture>
 </div>
 
