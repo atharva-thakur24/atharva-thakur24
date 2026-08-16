@@ -10,12 +10,11 @@
   <img src="light.svg" alt="Thakur Atharva Mahadev - Profile Card">
 </picture>
 
-<div align="center" style="width: 100%; max-width: 1180px; margin: 0 auto; line-height: 0;">
+<div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=atharva-thakur24&theme=github-dark-blue&hide_border=true&card_width=1180&background=0D1117&stroke=00000000&ring=58A6FF&fire=FF6B6B&currStreakNum=58A6FF&sideNums=58A6FF&currStreakLabel=58A6FF&sideLabels=58A6FF&dates=8B949E&currStreakLabelSize=12&sideLabelsSize=11&datesSize=10&v=1" />
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=atharva-thakur24&theme=ayu-light&hide_border=true&card_width=1180&background=00000000&stroke=00000000&currStreakLabelSize=12&sideLabelsSize=11&datesSize=10&v=1" />
-    <img src="https://streak-stats.demolab.com?user=atharva-thakur24&theme=ayu-light&hide_border=true&card_width=1180&background=00000000&stroke=00000000&currStreakLabelSize=12&sideLabelsSize=11&datesSize=10&v=1" alt="GitHub Streak Stats" style="width: 100%; height: 185px; object-fit: cover; display: block;" />
-  </picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=atharva-thakur24&hide_border=true&background=0A101F&stroke=22D3EE&ring=A78BFA&fire=10B981&currStreakLabel=22D3EE&sideLabels=94A3B8&currStreakNum=F8FAFC&sideNums=F8FAFC&dates=64748B&titleColor=22D3EE&card_width=1180" />
+  <img width="100%" src="https://streak-stats.demolab.com/?user=atharva-thakur24&hide_border=true&background=FFFFFF&stroke=0891B2&ring=7C3AED&fire=059669&currStreakLabel=0891B2&sideLabels=475569&currStreakNum=0F172A&sideNums=0F172A&dates=94A3B8&titleColor=0891B2&card_width=1180" alt="Atharva's streak" />
+</picture>
 </div>
 
 <div align="center">
