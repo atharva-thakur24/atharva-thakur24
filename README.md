@@ -10,11 +10,11 @@
   <img src="light.svg" alt="Thakur Atharva Mahadev - Profile Card">
 </picture>
 
-<div align="center">
+<div align="center" style="width: 100%; max-width: 1180px; margin: 0 auto;">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=atharva-thakur24&theme=github-dark-blue" />
     <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=atharva-thakur24&theme=ayu-light" />
-    <img src="https://streak-stats.demolab.com?user=atharva-thakur24&theme=ayu-light" alt="GitHub Streak Stats" width="100%" />
+    <img src="https://streak-stats.demolab.com?user=atharva-thakur24&theme=ayu-light" alt="GitHub Streak Stats" style="width: 100%; height: auto; max-width: 1180px;" />
   </picture>
 </div>
 
