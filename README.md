@@ -1,5 +1,5 @@
 <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="art/dar1.svg">
+   <source media="(prefers-color-scheme: dark)" srcset="art/dar.svg">
    <source media="(prefers-color-scheme: light)" srcset="art/lig.svg">
    <img alt="Atharva Thakur ReadMe" src="art/lig.svg">
 </picture>
