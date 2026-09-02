@@ -7,6 +7,7 @@ Para
 Elite
 Code
 Maskeffect
+Torque
 Time
 Complex 
 Analytics 
