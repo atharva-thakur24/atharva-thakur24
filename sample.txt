@@ -11,6 +11,7 @@ Torque
 Time
 Complex 
 Analytics 
+Timelapse
 Info
 Stats
 Qurey
