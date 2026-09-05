@@ -16,6 +16,7 @@ Stats
 Qurey
 Ecom
 Data field
+Read
 Commit
 Start task
 Syntax
