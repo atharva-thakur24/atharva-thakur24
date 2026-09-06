@@ -15,6 +15,7 @@ Complex
 Analytics 
 Timelapse
 Info
+Case
 Stats
 Qurey
 Ecom
