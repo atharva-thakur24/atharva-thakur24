@@ -11,6 +11,7 @@ Maskeffect
 Torque
 known
 Digital
+Equation
 Time
 Sync
 Readonly
