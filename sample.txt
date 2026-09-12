@@ -10,6 +10,7 @@ Memory
 Maskeffect
 Reach
 Torque
+Frequency
 known
 Digital
 Equation
