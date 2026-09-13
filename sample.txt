@@ -11,6 +11,7 @@ Maskeffect
 Reach
 Torque
 Frequency
+Verify
 known
 Digital
 Equation
