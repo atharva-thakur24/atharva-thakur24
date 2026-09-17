@@ -3,3 +3,4 @@ Banner
 Title
 Syntax
 Image
+Mask
