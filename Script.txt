@@ -4,3 +4,4 @@ Title
 Syntax
 Image
 Mask
+Effect
