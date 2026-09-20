@@ -5,4 +5,5 @@ Syntax
 Image
 Mask
 Card
+Motion
 Effect
