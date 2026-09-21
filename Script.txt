@@ -6,4 +6,5 @@ Image
 Mask
 Card
 Motion
+Logo
 Effect
