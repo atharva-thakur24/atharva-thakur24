@@ -5,6 +5,7 @@ Syntax
 Image
 Mask
 Card
+Textarea
 Syntax
 Motion
 Logo
