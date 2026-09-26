@@ -10,6 +10,7 @@ Ontop
 Syntax
 Motion
 Speed
+Game
 Logo
 Effect
 Interact
