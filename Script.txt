@@ -13,5 +13,6 @@ Motion
 Speed
 Game
 Logo
+Gitrepo
 Effect
 Interact
