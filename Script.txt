@@ -5,6 +5,7 @@ Syntax
 Image
 Mask
 Card
+Subscription 
 Textarea
 Github
 Ontop
