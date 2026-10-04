@@ -98,6 +98,22 @@
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
+    srcset="constellation-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="constellation-light.svg"
+  />
+  <img
+    src="constellation-light.svg"
+    alt="About Atharva Thakur"
+    width="100%"
+  />
+</picture>
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
     srcset="art/aboutdark1.svg"
   />
   <source
