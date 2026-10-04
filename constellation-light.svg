@@ -1,1 +1,690 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -130 1200 1160" width="100%" height="100%">
+  <defs>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&amp;family=Montserrat:wght@300;400;600&amp;family=Cormorant+Garamond:wght@400;500;600&amp;display=swap');
+      
+      .title-font { font-family: 'Cinzel', serif; }
+      .heading-font { font-family: 'Cinzel', serif; }
+      .body-font { font-family: 'Cormorant Garamond', serif; }
 
+      @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+
+      .fade-in { animation: fadeIn 1s ease-out both; }
+      .title-fade { animation: fadeIn 1.2s ease-out both; }
+      
+      .delay-1 { animation-delay: 0.4s; }
+      .delay-2 { animation-delay: 1.0s; }
+      .delay-3 { animation-delay: 1.6s; }
+      .delay-4 { animation-delay: 2.2s; }
+      .delay-5 { animation-delay: 2.8s; }
+      .delay-6 { animation-delay: 3.4s; }
+      .delay-7 { animation-delay: 4.0s; }
+      .delay-8 { animation-delay: 4.6s; }
+      
+      .delay-node-1 { animation-delay: 0.6s; }
+      .delay-node-2 { animation-delay: 1.2s; }
+      .delay-node-3 { animation-delay: 1.8s; }
+      .delay-node-4 { animation-delay: 2.4s; }
+      .delay-node-5 { animation-delay: 3.0s; }
+      .delay-node-6 { animation-delay: 3.6s; }
+      .delay-node-7 { animation-delay: 4.2s; }
+      .delay-node-8 { animation-delay: 4.8s; }</style>
+    
+    <radialGradient id="spaceGradient" cx="50%" cy="50%" r="75%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#FFFDF7"/>
+      <stop offset="35%" stop-color="#FBF6EC"/>
+      <stop offset="100%" stop-color="#F5EDDF"/>
+    </radialGradient>
+    
+    <radialGradient id="nebulaGold" cx="15%" cy="10%" r="40%">
+      <stop offset="0%" stop-color="#FFE9A8" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#FFF5D8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#FBF6EC" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebulaRose" cx="85%" cy="15%" r="42%">
+      <stop offset="0%" stop-color="#F5C8DC" stop-opacity="0.5"/>
+      <stop offset="60%" stop-color="#FBE0EC" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#FBF6EC" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebulaAzure" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#C8E0F8" stop-opacity="0.4"/>
+      <stop offset="60%" stop-color="#E0EDF8" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#FBF6EC" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebulaMint" cx="50%" cy="95%" r="45%">
+      <stop offset="0%" stop-color="#C8ECE0" stop-opacity="0.5"/>
+      <stop offset="60%" stop-color="#E0F5EE" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#FBF6EC" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebulaViolet" cx="95%" cy="60%" r="38%">
+      <stop offset="0%" stop-color="#DCC8F0" stop-opacity="0.45"/>
+      <stop offset="60%" stop-color="#EDE0F8" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#FBF6EC" stop-opacity="0"/>
+    </radialGradient>
+    
+    <radialGradient id="nebula1" cx="20%" cy="20%" r="45%">
+      <stop offset="0%" stop-color="#B8D4F0" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#D4E4F5" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#FBF6EC" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebula2" cx="80%" cy="75%" r="50%">
+      <stop offset="0%" stop-color="#E0C4E8" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#EDD8F0" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#FBF6EC" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebula3" cx="50%" cy="90%" r="40%">
+      <stop offset="0%" stop-color="#B8E0DC" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#FBF6EC" stop-opacity="0"/>
+    </radialGradient>
+    
+    <linearGradient id="goldBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37"/>
+      <stop offset="40%" stop-color="#B8860B"/>
+      <stop offset="60%" stop-color="#8C6C1E"/>
+      <stop offset="100%" stop-color="#6B4F14"/>
+    </linearGradient>
+    
+    <!-- NEW: Blue gradient for main title (matches Atharva Thakur reference) -->
+    <linearGradient id="titleBlueGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="50%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#1E40AF"/>
+    </linearGradient>
+    
+    <linearGradient id="boxBg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE9B8" stop-opacity="0.98"/>
+      <stop offset="35%" stop-color="#FFD98A" stop-opacity="0.98"/>
+      <stop offset="70%" stop-color="#FFC857" stop-opacity="0.98"/>
+      <stop offset="100%" stop-color="#FFB347" stop-opacity="0.98"/>
+    </linearGradient>
+    <linearGradient id="boxBg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C8E4F5" stop-opacity="0.98"/>
+      <stop offset="35%" stop-color="#A8D0EE" stop-opacity="0.98"/>
+      <stop offset="70%" stop-color="#7EB8E0" stop-opacity="0.98"/>
+      <stop offset="100%" stop-color="#5CA8D8" stop-opacity="0.98"/>
+    </linearGradient>
+    <linearGradient id="boxBg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5D0E0" stop-opacity="0.98"/>
+      <stop offset="35%" stop-color="#F0B0C8" stop-opacity="0.98"/>
+      <stop offset="70%" stop-color="#E890B0" stop-opacity="0.98"/>
+      <stop offset="100%" stop-color="#D87098" stop-opacity="0.98"/>
+    </linearGradient>
+    <linearGradient id="boxBg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C8E8D0" stop-opacity="0.98"/>
+      <stop offset="35%" stop-color="#A0D8B0" stop-opacity="0.98"/>
+      <stop offset="70%" stop-color="#78C890" stop-opacity="0.98"/>
+      <stop offset="100%" stop-color="#50B870" stop-opacity="0.98"/>
+    </linearGradient>
+    <linearGradient id="boxBg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD9C0" stop-opacity="0.98"/>
+      <stop offset="35%" stop-color="#FFC0A0" stop-opacity="0.98"/>
+      <stop offset="70%" stop-color="#FFA880" stop-opacity="0.98"/>
+      <stop offset="100%" stop-color="#FF9060" stop-opacity="0.98"/>
+    </linearGradient>
+    <linearGradient id="boxBg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DCD0F5" stop-opacity="0.98"/>
+      <stop offset="35%" stop-color="#C8B8EE" stop-opacity="0.98"/>
+      <stop offset="70%" stop-color="#B098E0" stop-opacity="0.98"/>
+      <stop offset="100%" stop-color="#9878D0" stop-opacity="0.98"/>
+    </linearGradient>
+    <linearGradient id="boxBg7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C0E8E0" stop-opacity="0.98"/>
+      <stop offset="35%" stop-color="#98D8D0" stop-opacity="0.98"/>
+      <stop offset="70%" stop-color="#70C8B8" stop-opacity="0.98"/>
+      <stop offset="100%" stop-color="#48B8A0" stop-opacity="0.98"/>
+    </linearGradient>
+    <linearGradient id="boxBg8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D0D8F5" stop-opacity="0.98"/>
+      <stop offset="35%" stop-color="#B8C8EE" stop-opacity="0.98"/>
+      <stop offset="70%" stop-color="#A0B0E0" stop-opacity="0.98"/>
+      <stop offset="100%" stop-color="#8898D0" stop-opacity="0.98"/>
+    </linearGradient>
+
+    <linearGradient id="iconCuriosity" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFB3C1"/>
+      <stop offset="50%" stop-color="#FF6B8A"/>
+      <stop offset="100%" stop-color="#B81846"/>
+    </linearGradient>
+    <linearGradient id="iconCraft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD59E"/>
+      <stop offset="50%" stop-color="#FF8C42"/>
+      <stop offset="100%" stop-color="#C1440E"/>
+    </linearGradient>
+    <linearGradient id="iconLogic" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#80D8FF"/>
+      <stop offset="50%" stop-color="#2196F3"/>
+      <stop offset="100%" stop-color="#0D47A1"/>
+    </linearGradient>
+    <linearGradient id="iconIteration" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B9F6CA"/>
+      <stop offset="50%" stop-color="#00E676"/>
+      <stop offset="100%" stop-color="#00A152"/>
+    </linearGradient>
+    <linearGradient id="iconResilience" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF8A80"/>
+      <stop offset="50%" stop-color="#FF3D00"/>
+      <stop offset="100%" stop-color="#B71C1C"/>
+    </linearGradient>
+    <linearGradient id="iconEmpathy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF80AB"/>
+      <stop offset="50%" stop-color="#F50057"/>
+      <stop offset="100%" stop-color="#880E4F"/>
+    </linearGradient>
+    <linearGradient id="iconFocus" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EA80FC"/>
+      <stop offset="50%" stop-color="#AA00FF"/>
+      <stop offset="100%" stop-color="#4A148C"/>
+    </linearGradient>
+    <linearGradient id="iconVision" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A7FFEB"/>
+      <stop offset="50%" stop-color="#00BFA5"/>
+      <stop offset="100%" stop-color="#00695C"/>
+    </linearGradient>
+
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD700" stop-opacity="0.3"/>
+      <stop offset="40%" stop-color="#F0E0B0" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#FBF6EC" stop-opacity="0"/>
+    </radialGradient>
+    
+    <radialGradient id="centerAuraLight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFE9A8" stop-opacity="0.5"/>
+      <stop offset="40%" stop-color="#FFF5D8" stop-opacity="0.25"/>
+      <stop offset="70%" stop-color="#FBF6EC" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#FBF6EC" stop-opacity="0"/>
+    </radialGradient>
+    
+    <radialGradient id="starBlue1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="30%" stop-color="#9DD8FF"/>
+      <stop offset="70%" stop-color="#4A90E2"/>
+      <stop offset="100%" stop-color="#1E5BA8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="starBlue2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="30%" stop-color="#B8E8FF"/>
+      <stop offset="70%" stop-color="#5CA8E8"/>
+      <stop offset="100%" stop-color="#2A6BC0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="starCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="30%" stop-color="#A0F0F0"/>
+      <stop offset="70%" stop-color="#48D1CC"/>
+      <stop offset="100%" stop-color="#1E9090" stop-opacity="0"/>
+    </radialGradient>
+    
+    <linearGradient id="placeholderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8E0D0"/>
+      <stop offset="100%" stop-color="#D8D0C0"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="headingShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1A2A4A" flood-opacity="0.4"/>
+    </filter>
+    <filter id="starGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="starGlowBlue" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="boxShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#8C6C1E" flood-opacity="0.25"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#D4AF37" flood-opacity="0.2"/>
+    </filter>
+    <filter id="innerGlow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    
+    <filter id="iconGlow" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0.6" result="innerGlow"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.8" result="midGlow"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3.5" result="outerGlow"/>
+      <feMerge>
+        <feMergeNode in="outerGlow"/>
+        <feMergeNode in="midGlow"/>
+        <feMergeNode in="innerGlow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="labelGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="0" stdDeviation="1.5" flood-color="#FFFFFF" flood-opacity="0.9"/>
+      <feDropShadow dx="0" dy="1" stdDeviation="1.5" flood-color="#1A2A4A" flood-opacity="0.4"/>
+    </filter>
+    
+    <filter id="nodeGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#D4AF37" flood-opacity="0.5"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#8C6C1E" flood-opacity="0.4"/>
+    </filter>
+    
+    <radialGradient id="iconHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.7"/>
+      <stop offset="60%" stop-color="#FFF8E1" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    
+    <clipPath id="profileClip">
+      <circle cx="600" cy="500" r="85"/>
+    </clipPath>
+  </defs>
+  
+  <rect x="0" y="-130" width="1200" height="1160" fill="url(#spaceGradient)"/>
+  <rect x="0" y="-130" width="1200" height="1160" fill="url(#nebula1)"/>
+  <rect x="0" y="-130" width="1200" height="1160" fill="url(#nebula2)"/>
+  <rect x="0" y="-130" width="1200" height="1160" fill="url(#nebula3)"/>
+  <rect x="0" y="-130" width="1200" height="1160" fill="url(#nebulaGold)"/>
+  <rect x="0" y="-130" width="1200" height="1160" fill="url(#nebulaRose)"/>
+  <rect x="0" y="-130" width="1200" height="1160" fill="url(#nebulaAzure)"/>
+  <rect x="0" y="-130" width="1200" height="1160" fill="url(#nebulaMint)"/>
+  <rect x="0" y="-130" width="1200" height="1160" fill="url(#nebulaViolet)"/>
+  
+  <g fill="#B8860B" class="fade-in">
+    <circle cx="100" cy="-100" r="2.5" filter="url(#starGlow)" opacity="0.7"/>
+    <circle cx="280" cy="-60" r="3" filter="url(#starGlow)" opacity="0.6"/>
+    <circle cx="480" cy="-110" r="2" filter="url(#starGlow)" opacity="0.5"/>
+    <circle cx="700" cy="-50" r="2.5" filter="url(#starGlow)" opacity="0.7"/>
+    <circle cx="920" cy="-90" r="3" filter="url(#starGlow)" opacity="0.6"/>
+    <circle cx="1120" cy="-40" r="2" filter="url(#starGlow)" opacity="0.7"/>
+    <circle cx="180" cy="-20" r="1.5" opacity="0.5"/>
+    <circle cx="380" cy="-80" r="1.5" opacity="0.6"/>
+    <circle cx="580" cy="-30" r="1.5" opacity="0.5"/>
+    <circle cx="800" cy="-90" r="1.5" opacity="0.6"/>
+    <circle cx="1020" cy="-20" r="1.5" opacity="0.5"/>
+    <circle cx="120" cy="-60" r="0.8" opacity="0.35"/>
+    <circle cx="250" cy="-100" r="0.8" opacity="0.4"/>
+    <circle cx="420" cy="-40" r="0.8" opacity="0.35"/>
+    <circle cx="620" cy="-90" r="0.8" opacity="0.4"/>
+    <circle cx="780" cy="-20" r="0.8" opacity="0.35"/>
+    <circle cx="950" cy="-70" r="0.8" opacity="0.4"/>
+    <circle cx="1080" cy="-110" r="0.8" opacity="0.35"/>
+    <circle cx="50" cy="80" r="2.5" filter="url(#starGlow)" opacity="0.7"/>
+    <circle cx="180" cy="220" r="3" filter="url(#starGlow)" opacity="0.6"/>
+    <circle cx="300" cy="120" r="2" filter="url(#starGlow)" opacity="0.5"/>
+    <circle cx="450" cy="80" r="2.5" filter="url(#starGlow)" opacity="0.7"/>
+    <circle cx="600" cy="150" r="2" filter="url(#starGlow)" opacity="0.6"/>
+    <circle cx="750" cy="100" r="3" filter="url(#starGlow)" opacity="0.7"/>
+    <circle cx="900" cy="200" r="2.5" filter="url(#starGlow)" opacity="0.6"/>
+    <circle cx="1050" cy="120" r="2" filter="url(#starGlow)" opacity="0.5"/>
+    <circle cx="1150" cy="280" r="3" filter="url(#starGlow)" opacity="0.7"/>
+    <circle cx="80" cy="400" r="2" filter="url(#starGlow)" opacity="0.6"/>
+    <circle cx="200" cy="600" r="2.5" filter="url(#starGlow)" opacity="0.7"/>
+    <circle cx="1100" cy="550" r="2" filter="url(#starGlow)" opacity="0.6"/>
+    <circle cx="1150" cy="750" r="3" filter="url(#starGlow)" opacity="0.7"/>
+    <circle cx="100" cy="850" r="2.5" filter="url(#starGlow)" opacity="0.6"/>
+    <circle cx="300" cy="950" r="2" filter="url(#starGlow)" opacity="0.5"/>
+    <circle cx="500" cy="900" r="3" filter="url(#starGlow)" opacity="0.7"/>
+    <circle cx="700" cy="950" r="2.5" filter="url(#starGlow)" opacity="0.6"/>
+    <circle cx="850" cy="880" r="2" filter="url(#starGlow)" opacity="0.5"/>
+    <circle cx="1050" cy="920" r="3" filter="url(#starGlow)" opacity="0.7"/>
+    <circle cx="120" cy="180" r="1.5" opacity="0.5"/>
+    <circle cx="250" cy="300" r="1.5" opacity="0.6"/>
+    <circle cx="380" cy="200" r="1.5" opacity="0.4"/>
+    <circle cx="520" cy="250" r="1.5" opacity="0.6"/>
+    <circle cx="680" cy="280" r="1.5" opacity="0.5"/>
+    <circle cx="820" cy="150" r="1.5" opacity="0.6"/>
+    <circle cx="950" cy="300" r="1.5" opacity="0.4"/>
+    <circle cx="1080" cy="400" r="1.5" opacity="0.6"/>
+    <circle cx="150" cy="500" r="1.5" opacity="0.5"/>
+    <circle cx="280" cy="700" r="1.5" opacity="0.6"/>
+    <circle cx="400" cy="850" r="1.5" opacity="0.4"/>
+    <circle cx="550" cy="750" r="1.5" opacity="0.6"/>
+    <circle cx="700" cy="800" r="1.5" opacity="0.5"/>
+    <circle cx="850" cy="700" r="1.5" opacity="0.6"/>
+    <circle cx="980" cy="600" r="1.5" opacity="0.4"/>
+    <circle cx="1100" cy="650" r="1.5" opacity="0.6"/>
+    <circle cx="60" cy="250" r="0.8" opacity="0.35"/>
+    <circle cx="160" cy="350" r="0.8" opacity="0.4"/>
+    <circle cx="280" cy="450" r="0.8" opacity="0.35"/>
+    <circle cx="400" cy="350" r="0.8" opacity="0.4"/>
+    <circle cx="500" cy="450" r="0.8" opacity="0.35"/>
+    <circle cx="600" cy="350" r="0.8" opacity="0.4"/>
+    <circle cx="700" cy="450" r="0.8" opacity="0.35"/>
+    <circle cx="800" cy="350" r="0.8" opacity="0.4"/>
+    <circle cx="900" cy="450" r="0.8" opacity="0.35"/>
+    <circle cx="1000" cy="350" r="0.8" opacity="0.4"/>
+    <circle cx="1100" cy="450" r="0.8" opacity="0.35"/>
+    <circle cx="50" cy="650" r="0.8" opacity="0.4"/>
+    <circle cx="150" cy="750" r="0.8" opacity="0.35"/>
+    <circle cx="250" cy="850" r="0.8" opacity="0.4"/>
+    <circle cx="350" cy="950" r="0.8" opacity="0.35"/>
+    <circle cx="450" cy="650" r="0.8" opacity="0.4"/>
+    <circle cx="550" cy="850" r="0.8" opacity="0.35"/>
+    <circle cx="650" cy="650" r="0.8" opacity="0.4"/>
+    <circle cx="750" cy="850" r="0.8" opacity="0.35"/>
+    <circle cx="850" cy="650" r="0.8" opacity="0.4"/>
+    <circle cx="950" cy="750" r="0.8" opacity="0.35"/>
+    <circle cx="1050" cy="850" r="0.8" opacity="0.4"/>
+    <circle cx="1150" cy="650" r="0.8" opacity="0.35"/>
+    <circle cx="90" cy="550" r="1.2" opacity="0.5"/>
+    <circle cx="220" cy="430" r="0.9" opacity="0.4"/>
+    <circle cx="340" cy="600" r="1.5" opacity="0.6"/>
+    <circle cx="480" cy="520" r="0.9" opacity="0.35"/>
+    <circle cx="620" cy="580" r="1.2" opacity="0.5"/>
+    <circle cx="760" cy="520" r="0.9" opacity="0.4"/>
+    <circle cx="880" cy="580" r="1.5" opacity="0.6"/>
+    <circle cx="1020" cy="480" r="0.9" opacity="0.35"/>
+    <circle cx="1130" cy="520" r="1.2" opacity="0.5"/>
+    <circle cx="70" cy="720" r="0.9" opacity="0.4"/>
+    <circle cx="190" cy="800" r="1.5" opacity="0.6"/>
+    <circle cx="320" cy="680" r="0.9" opacity="0.35"/>
+    <circle cx="440" cy="780" r="1.2" opacity="0.5"/>
+    <circle cx="580" cy="700" r="0.9" opacity="0.4"/>
+    <circle cx="720" cy="780" r="1.5" opacity="0.6"/>
+    <circle cx="840" cy="680" r="0.9" opacity="0.35"/>
+    <circle cx="960" cy="800" r="1.2" opacity="0.5"/>
+    <circle cx="1080" cy="720" r="0.9" opacity="0.4"/>
+    <circle cx="40" cy="180" r="1.2" opacity="0.5"/>
+    <circle cx="130" cy="60" r="0.9" opacity="0.35"/>
+    <circle cx="260" cy="150" r="1.5" opacity="0.6"/>
+    <circle cx="410" cy="220" r="0.9" opacity="0.4"/>
+    <circle cx="540" cy="120" r="1.2" opacity="0.5"/>
+    <circle cx="660" cy="200" r="0.9" opacity="0.35"/>
+    <circle cx="790" cy="180" r="1.5" opacity="0.6"/>
+    <circle cx="920" cy="100" r="0.9" opacity="0.4"/>
+    <circle cx="1040" cy="200" r="1.2" opacity="0.5"/>
+  </g>
+  
+  <g class="fade-in">
+    <circle cx="150" cy="50" r="3" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="350" cy="-20" r="2.5" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="550" cy="30" r="3.5" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="780" cy="-40" r="2.8" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="1000" cy="30" r="3" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="250" cy="450" r="2.5" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="950" cy="480" r="3" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="400" cy="700" r="2.5" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="800" cy="650" r="3.2" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="120" cy="620" r="2.8" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="1080" cy="380" r="2.5" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="450" cy="320" r="2" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="720" cy="420" r="2.2" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="280" cy="800" r="2.5" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="620" cy="880" r="2.3" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="820" cy="820" r="2.8" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="150" cy="240" r="2" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="380" cy="420" r="2.2" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="880" cy="160" r="2.5" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="1120" cy="620" r="2.3" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+  </g>
+  
+  <g stroke="#8C6C1E" stroke-width="0.8" opacity="0.4" fill="none" class="fade-in delay-2">
+    <circle cx="600" cy="500" r="180" stroke-width="1.5"/>
+    <circle cx="600" cy="500" r="320"/>
+  </g>
+  
+  <g class="fade-in delay-1">
+    <circle cx="600" cy="500" r="200" fill="url(#centerAuraLight)"/>
+    <circle cx="600" cy="500" r="150" fill="url(#centerGlow)"/>
+    <circle cx="600" cy="500" r="130" fill="none" stroke="#B8860B" stroke-width="1.5" opacity="0.5"/>
+    <circle cx="600" cy="500" r="115" fill="none" stroke="#8C6C1E" stroke-width="2" opacity="0.7" filter="url(#glow)"/>
+    <circle cx="600" cy="500" r="100" fill="none" stroke="url(#goldBorder)" stroke-width="5" opacity="1"/>
+    <g>
+      <image href="https://plain-apac-prod-public.komododecks.com/202610/03/va87abiKBEGLbw9TW5BZ/image.png" x="520" y="422" width="170" height="170" clip-path="url(#profileClip)" preserveAspectRatio="xMidYMid slice"/>
+      <circle cx="600" cy="500" r="85" fill="none" stroke="#8C6C1E" stroke-width="4" filter="url(#glow)"/>
+    </g>
+  </g>
+  
+  <g fill="#1A2A4A" font-family="'Montserrat', sans-serif" font-size="11" text-anchor="middle" font-weight="600" letter-spacing="0.5">
+    
+    <g transform="translate(600, 320)" class="fade-in delay-node-1">
+      <circle cx="0" cy="0" r="22" fill="#FFFDF7" stroke="url(#goldBorder)" stroke-width="2" filter="url(#nodeGlow)"/>
+      <circle cx="0" cy="0" r="16" fill="url(#iconHalo)"/>
+      <g transform="translate(-9, -9)" filter="url(#iconGlow)">
+        <svg viewBox="0 0 24 24" width="18" height="18" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 4 Q8.5 4 7 6 Q5 6 4.5 8 Q4 10 5.5 11 Q4.5 12.5 5.5 14 Q4.5 16 6.5 17 Q7 19 9 19 Q10.5 20 12 19 L12 4 Z" stroke="url(#iconCuriosity)" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M12 4 Q15.5 4 17 6 Q19 6 19.5 8 Q20 10 18.5 11 Q19.5 12.5 18.5 14 Q19.5 16 17.5 17 Q17 19 15 19 Q13.5 20 12 19 L12 4 Z" stroke="url(#iconCuriosity)" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="12" y1="5" x2="12" y2="19" stroke="url(#iconCuriosity)" stroke-width="1.2" opacity="0.9"/>
+          <path d="M7.5 9 Q9 9.5 8 11" stroke="url(#iconCuriosity)" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+          <path d="M7 13 Q9 13.5 8 15.5" stroke="url(#iconCuriosity)" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+          <path d="M16.5 9 Q15 9.5 16 11" stroke="url(#iconCuriosity)" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+          <path d="M17 13 Q15 13.5 16 15.5" stroke="url(#iconCuriosity)" stroke-width="1.1" fill="none" stroke-linecap="round"/>
+          <circle cx="19.5" cy="5" r="1" fill="url(#iconCuriosity)"/>
+        </svg>
+      </g>
+      <text x="0" y="-55" fill="#1A2A4A" font-size="13" filter="url(#labelGlow)">Curiosity</text>
+    </g>
+
+    <g transform="translate(730, 370)" class="fade-in delay-node-2">
+      <circle cx="0" cy="0" r="22" fill="#FFFDF7" stroke="url(#goldBorder)" stroke-width="2" filter="url(#nodeGlow)"/>
+      <circle cx="0" cy="0" r="16" fill="url(#iconHalo)"/>
+      <g transform="translate(-7, -7)" filter="url(#iconGlow)">
+        <svg viewBox="0 0 24 24" width="14" height="14" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6 3 L18 3 L22 10 L12 21 L2 10 Z" stroke="url(#iconCraft)" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="2" y1="10" x2="22" y2="10" stroke="url(#iconCraft)" stroke-width="1.3" stroke-linecap="round"/>
+          <line x1="6" y1="3" x2="9" y2="10" stroke="url(#iconCraft)" stroke-width="1.2" stroke-linecap="round"/>
+          <line x1="18" y1="3" x2="15" y2="10" stroke="url(#iconCraft)" stroke-width="1.2" stroke-linecap="round"/>
+          <line x1="9" y1="10" x2="12" y2="21" stroke="url(#iconCraft)" stroke-width="1.2" stroke-linecap="round"/>
+          <line x1="15" y1="10" x2="12" y2="21" stroke="url(#iconCraft)" stroke-width="1.2" stroke-linecap="round"/>
+          <path d="M8 5 L8.5 6.5 L10 7 L8.5 7.5 L8 9 L7.5 7.5 L6 7 L7.5 6.5 Z" fill="url(#iconCraft)"/>
+        </svg>
+      </g>
+      <text x="65" y="-35" fill="#1A2A4A" font-size="13" filter="url(#labelGlow)">Craft</text>
+    </g>
+
+    <g transform="translate(780, 500)" class="fade-in delay-node-3">
+      <circle cx="0" cy="0" r="22" fill="#FFFDF7" stroke="url(#goldBorder)" stroke-width="2" filter="url(#nodeGlow)"/>
+      <circle cx="0" cy="0" r="16" fill="url(#iconHalo)"/>
+      <g transform="translate(-7, -7)" filter="url(#iconGlow)">
+        <svg viewBox="0 0 24 24" width="14" height="14" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 4 L10 4 L10 8 Q10 9.5 11.5 9.5 Q13 9.5 13 8 L13 4 L21 4 L21 12 L17 12 Q15.5 12 15.5 13.5 Q15.5 15 17 15 L21 15 L21 21 L12 21 L12 17 Q12 15.5 10.5 15.5 Q9 15.5 9 17 L9 21 L3 21 L3 14 L7 14 Q8.5 14 8.5 12.5 Q8.5 11 7 11 L3 11 Z" stroke="url(#iconLogic)" stroke-width="1.7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </g>
+      <text x="65" y="-0" fill="#1A2A4A" font-size="13" filter="url(#labelGlow)">Logic</text>
+    </g>
+
+    <g transform="translate(730, 630)" class="fade-in delay-node-4">
+      <circle cx="0" cy="0" r="22" fill="#FFFDF7" stroke="url(#goldBorder)" stroke-width="2" filter="url(#nodeGlow)"/>
+      <circle cx="0" cy="0" r="16" fill="url(#iconHalo)"/>
+      <g transform="translate(-7, -7)" filter="url(#iconGlow)">
+        <svg viewBox="0 0 24 24" width="14" height="14" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20 8 Q20 3 13 3 Q5 3 4 11" stroke="url(#iconIteration)" stroke-width="1.9" fill="none" stroke-linecap="round"/>
+          <polyline points="2,8 4,11 7,9" stroke="url(#iconIteration)" stroke-width="1.9" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M4 16 Q4 21 11 21 Q19 21 20 13" stroke="url(#iconIteration)" stroke-width="1.9" fill="none" stroke-linecap="round"/>
+          <polyline points="22,16 20,13 17,15" stroke="url(#iconIteration)" stroke-width="1.9" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </g>
+      <text x="65" y="45" fill="#1A2A4A" font-size="13" filter="url(#labelGlow)">Iteration</text>
+    </g>
+
+    <g transform="translate(600, 680)" class="fade-in delay-node-5">
+      <circle cx="0" cy="0" r="22" fill="#FFFDF7" stroke="url(#goldBorder)" stroke-width="2" filter="url(#nodeGlow)"/>
+      <circle cx="0" cy="0" r="16" fill="url(#iconHalo)"/>
+      <g transform="translate(-7, -7)" filter="url(#iconGlow)">
+        <svg viewBox="0 0 24 24" width="14" height="14" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2 20 L9 9 L13 14 L16 8 L22 20 Z" stroke="url(#iconResilience)" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M4 20 L10 12 M19 20 L16 14" stroke="url(#iconResilience)" stroke-width="1.1" opacity="0.6" fill="none" stroke-linecap="round"/>
+          <line x1="16" y1="3" x2="16" y2="8" stroke="url(#iconResilience)" stroke-width="1.8" stroke-linecap="round"/>
+          <path d="M16 3 L20 4.5 L16 6 Z" stroke="url(#iconResilience)" stroke-width="1.6" fill="url(#iconResilience)" stroke-linejoin="round"/>
+          <path d="M8 11 L9 9 L10 11" stroke="url(#iconResilience)" stroke-width="1.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </g>
+      <text x="0" y="60" fill="#1A2A4A" font-size="13" filter="url(#labelGlow)">Resilience</text>
+    </g>
+
+    <g transform="translate(470, 630)" class="fade-in delay-node-6">
+      <circle cx="0" cy="0" r="22" fill="#FFFDF7" stroke="url(#goldBorder)" stroke-width="2" filter="url(#nodeGlow)"/>
+      <circle cx="0" cy="0" r="16" fill="url(#iconHalo)"/>
+      <g transform="translate(-7, -7)" filter="url(#iconGlow)">
+        <svg viewBox="0 0 24 24" width="14" height="14" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 8 Q10.5 5.5 8 5.5 Q5 5.5 5 8.5 Q5 12 12 16 Q19 12 19 8.5 Q19 5.5 16 5.5 Q13.5 5.5 12 8 Z" stroke="url(#iconEmpathy)" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M9 8 Q8.5 7 9.5 6.5" stroke="url(#iconEmpathy)" stroke-width="1.1" opacity="0.8" fill="none" stroke-linecap="round"/>
+          <path d="M3 18 Q7 21 12 21 Q17 21 21 18" stroke="url(#iconEmpathy)" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+          <path d="M3 18 L4 19 M21 18 L20 19" stroke="url(#iconEmpathy)" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+        </svg>
+      </g>
+      <text x="-60" y="45" fill="#1A2A4A" font-size="13" filter="url(#labelGlow)">Empathy</text>
+    </g>
+
+    <g transform="translate(420, 500)" class="fade-in delay-node-7">
+      <circle cx="0" cy="0" r="22" fill="#FFFDF7" stroke="url(#goldBorder)" stroke-width="2" filter="url(#nodeGlow)"/>
+      <circle cx="0" cy="0" r="16" fill="url(#iconHalo)"/>
+      <g transform="translate(-7, -7)" filter="url(#iconGlow)">
+        <svg viewBox="0 0 24 24" width="14" height="14" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="12" r="9.5" stroke="url(#iconFocus)" stroke-width="1.6" fill="none"/>
+          <circle cx="12" cy="12" r="6" stroke="url(#iconFocus)" stroke-width="1.7" fill="none"/>
+          <circle cx="12" cy="12" r="3" stroke="url(#iconFocus)" stroke-width="1.8" fill="none"/>
+          <circle cx="12" cy="12" r="1.4" fill="url(#iconFocus)"/>
+          <line x1="12" y1="1" x2="12" y2="3" stroke="url(#iconFocus)" stroke-width="1.6" stroke-linecap="round"/>
+          <line x1="12" y1="21" x2="12" y2="23" stroke="url(#iconFocus)" stroke-width="1.6" stroke-linecap="round"/>
+          <line x1="1" y1="12" x2="3" y2="12" stroke="url(#iconFocus)" stroke-width="1.6" stroke-linecap="round"/>
+          <line x1="21" y1="12" x2="23" y2="12" stroke="url(#iconFocus)" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+      </g>
+      <text x="-70" y="-0" fill="#1A2A4A" font-size="13" filter="url(#labelGlow)">Focus</text>
+    </g>
+
+    <g transform="translate(470, 370)" class="fade-in delay-node-8">
+      <circle cx="0" cy="0" r="22" fill="#FFFDF7" stroke="url(#goldBorder)" stroke-width="2" filter="url(#nodeGlow)"/>
+      <circle cx="0" cy="0" r="16" fill="url(#iconHalo)"/>
+      <g transform="translate(-9, -9)" filter="url(#iconGlow)">
+        <svg viewBox="0 0 24 24" width="18" height="18" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2 12 Q6 6 12 6 Q18 6 22 12 Q18 18 12 18 Q6 18 2 12 Z" stroke="url(#iconVision)" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="12" cy="12" r="3.5" stroke="url(#iconVision)" stroke-width="1.7" fill="none"/>
+          <circle cx="12" cy="12" r="1.4" fill="url(#iconVision)"/>
+          <line x1="5" y1="8" x2="6" y2="9" stroke="url(#iconVision)" stroke-width="1.4" stroke-linecap="round"/>
+          <line x1="19" y1="8" x2="18" y2="9" stroke="url(#iconVision)" stroke-width="1.4" stroke-linecap="round"/>
+          <path d="M20 3 L20.5 4.5 L22 5 L20.5 5.5 L20 7 L19.5 5.5 L18 5 L19.5 4.5 Z" fill="url(#iconVision)"/>
+          <circle cx="4" cy="4" r="0.9" fill="url(#iconVision)"/>
+        </svg>
+      </g>
+      <text x="-60" y="-35" fill="#1A2A4A" font-size="13" filter="url(#labelGlow)">Vision</text>
+    </g>
+  </g>
+  
+  <g transform="translate(490, 80)" class="fade-in delay-1">
+    <rect x="0" y="-55" width="220" height="140" rx="12" fill="url(#boxBg1)" stroke="url(#goldBorder)" stroke-width="1.5" filter="url(#boxShadow)"/>
+    <rect x="8" y="-45" width="204" height="124" rx="8" fill="none" stroke="#8C6C1E" stroke-width="0.5" opacity="0.5"/>
+    <text x="110" y="-20" fill="#1A2A4A" font-family="'Cinzel', serif" font-size="16" font-weight="800" text-anchor="middle" filter="url(#headingShadow)">Zero to One</text>
+    <line x1="40" y1="-11" x2="180" y2="-11" stroke="#8C6C1E" stroke-width="1" opacity="0.6"/>
+    <text x="110" y="10" fill="#1A2A4A" font-family="'Cormorant Garamond', serif" font-size="11" text-anchor="middle" font-weight="600" letter-spacing="0.3">
+      <tspan x="110" dy="0">From concept to deployment</tspan>
+      <tspan x="110" dy="16">I design, build, and ship</tspan>
+      <tspan x="110" dy="16"> software that works and</tspan>
+      <tspan x="110" dy="16">iterate with intention.</tspan>
+    </text>
+  </g>
+  
+  <g transform="translate(830, 140)" class="fade-in delay-2">
+    <rect x="0" y="0" width="220" height="140" rx="12" fill="url(#boxBg2)" stroke="url(#goldBorder)" stroke-width="1.5" filter="url(#boxShadow)"/>
+    <rect x="8" y="8" width="204" height="124" rx="8" fill="none" stroke="#8C6C1E" stroke-width="0.5" opacity="0.5"/>
+    <text x="110" y="32" fill="#1A2A4A" font-family="'Cinzel', serif" font-size="16" font-weight="800" text-anchor="middle" filter="url(#headingShadow)">Behind the Code</text>
+    <line x1="40" y1="42" x2="180" y2="42" stroke="#8C6C1E" stroke-width="1" opacity="0.6"/>
+    <text x="110" y="65" fill="#1A2A4A" font-family="'Cormorant Garamond', serif" font-size="11" text-anchor="middle" font-weight="600" letter-spacing="0.3">
+      <tspan x="110" dy="0">Self-taught builder, lifelong learner.</tspan>
+      <tspan x="110" dy="16">I believe great creativity and solution</tspan>
+      <tspan x="110" dy="16">come from curiosity and interest.</tspan>
+      <tspan x="110" dy="16">Developer by day, designer by instinct.</tspan>
+    </text>
+  </g>
+  
+  <g transform="translate(940, 430)" class="fade-in delay-3">
+    <rect x="0" y="0" width="220" height="140" rx="12" fill="url(#boxBg3)" stroke="url(#goldBorder)" stroke-width="1.5" filter="url(#boxShadow)"/>
+    <rect x="8" y="8" width="204" height="124" rx="8" fill="none" stroke="#8C6C1E" stroke-width="0.5" opacity="0.5"/>
+    <text x="110" y="32" fill="#1A2A4A" font-family="'Cinzel', serif" font-size="16" font-weight="800" text-anchor="middle" filter="url(#headingShadow)">Smart Workflows</text>
+    <line x1="40" y1="42" x2="180" y2="42" stroke="#8C6C1E" stroke-width="1" opacity="0.6"/>
+    <text x="110" y="65" fill="#1A2A4A" font-family="'Cormorant Garamond', serif" font-size="11" text-anchor="middle" font-weight="600" letter-spacing="0.3">
+      <tspan x="110" dy="0">I design systems that reduce </tspan>
+      <tspan x="110" dy="16">through AI driven automation.</tspan>
+      <tspan x="110" dy="16">Reducing manual effort and</tspan>
+      <tspan x="110" dy="16">increasing operational efficiency.</tspan>
+    </text>
+  </g>
+  
+  <g transform="translate(830, 720)" class="fade-in delay-4">
+    <rect x="0" y="0" width="220" height="140" rx="12" fill="url(#boxBg4)" stroke="url(#goldBorder)" stroke-width="1.5" filter="url(#boxShadow)"/>
+    <rect x="8" y="8" width="204" height="124" rx="8" fill="none" stroke="#8C6C1E" stroke-width="0.5" opacity="0.5"/>
+    <text x="110" y="32" fill="#1A2A4A" font-family="'Cinzel', serif" font-size="16" font-weight="800" text-anchor="middle" filter="url(#headingShadow)">The Ripple Effect</text>
+    <line x1="40" y1="42" x2="180" y2="42" stroke="#8C6C1E" stroke-width="1" opacity="0.6"/>
+    <text x="110" y="65" fill="#1A2A4A" font-family="'Cormorant Garamond', serif" font-size="11" text-anchor="middle" font-weight="600" letter-spacing="0.3">
+      <tspan x="110" dy="0">Evaluating the broader impact</tspan>
+      <tspan x="110" dy="16">I measure success not in</tspan>
+      <tspan x="110" dy="16">lines of code, but in lives</tspan>
+      <tspan x="110" dy="16">improved and problems solved.</tspan>
+    </text>
+  </g>
+  
+  <g transform="translate(490, 820)" class="fade-in delay-5">
+    <rect x="0" y="18" width="220" height="140" rx="12" fill="url(#boxBg5)" stroke="url(#goldBorder)" stroke-width="1.5" filter="url(#boxShadow)"/>
+    <rect x="8" y="26" width="204" height="124" rx="8" fill="none" stroke="#8C6C1E" stroke-width="0.5" opacity="0.5"/>
+    <text x="110" y="52" fill="#1A2A4A" font-family="'Cinzel', serif" font-size="16" font-weight="800" text-anchor="middle" filter="url(#headingShadow)">The Final Mile</text>
+    <line x1="40" y1="62" x2="180" y2="62" stroke="#8C6C1E" stroke-width="1" opacity="0.6"/>
+    <text x="110" y="85" fill="#1A2A4A" font-family="'Cormorant Garamond', serif" font-size="11" text-anchor="middle" font-weight="600" letter-spacing="0.3">
+      <tspan x="110" dy="0">The bridge from local to live</tspan>
+      <tspan x="110" dy="16">the last step matters most</tspan>
+      <tspan x="110" dy="16">code is only as good as the </tspan>
+      <tspan x="110" dy="16">moment it reaches users.</tspan>
+    </text>
+  </g>
+  
+  <g transform="translate(150, 720)" class="fade-in delay-6">
+    <rect x="0" y="0" width="220" height="140" rx="12" fill="url(#boxBg6)" stroke="url(#goldBorder)" stroke-width="1.5" filter="url(#boxShadow)"/>
+    <rect x="8" y="8" width="204" height="124" rx="8" fill="none" stroke="#8C6C1E" stroke-width="0.5" opacity="0.5"/>
+    <text x="110" y="32" fill="#1A2A4A" font-family="'Cinzel', serif" font-size="16" font-weight="800" text-anchor="middle" filter="url(#headingShadow)">Built to Last</text>
+    <line x1="40" y1="42" x2="180" y2="42" stroke="#8C6C1E" stroke-width="1" opacity="0.6"/>
+    <text x="110" y="65" fill="#1A2A4A" font-family="'Cormorant Garamond', serif" font-size="11" text-anchor="middle" font-weight="600" letter-spacing="0.3">
+      <tspan x="110" dy="0">Rigorous testing frameworks, code</tspan>
+      <tspan x="110" dy="16">reviews, and automated QA </tspan>
+      <tspan x="110" dy="16">because 'it works on my</tspan>
+      <tspan x="110" dy="16">machine' is never enough.</tspan>
+    </text>
+  </g>
+  
+  <g transform="translate(40, 430)" class="fade-in delay-7">
+    <rect x="0" y="0" width="220" height="140" rx="12" fill="url(#boxBg7)" stroke="url(#goldBorder)" stroke-width="1.5" filter="url(#boxShadow)"/>
+    <rect x="8" y="8" width="204" height="124" rx="8" fill="none" stroke="#8C6C1E" stroke-width="0.5" opacity="0.5"/>
+    <text x="110" y="32" fill="#1A2A4A" font-family="'Cinzel', serif" font-size="16" font-weight="800" text-anchor="middle" filter="url(#headingShadow)">Data Systems</text>
+    <line x1="40" y1="42" x2="180" y2="42" stroke="#8C6C1E" stroke-width="1" opacity="0.6"/>
+    <text x="110" y="65" fill="#1A2A4A" font-family="'Cormorant Garamond', serif" font-size="11" text-anchor="middle" font-weight="600" letter-spacing="0.3">
+      <tspan x="110" dy="0">Architecting resilient data pipelines</tspan>
+      <tspan x="110" dy="16">and scalable storage solutions.</tspan>
+      <tspan x="110" dy="16">Ensuring integrity, low latency,</tspan>
+      <tspan x="110" dy="16">and high availability.</tspan>
+    </text>
+  </g>
+  
+  <g transform="translate(150, 140)" class="fade-in delay-8">
+    <rect x="0" y="0" width="220" height="140" rx="12" fill="url(#boxBg8)" stroke="url(#goldBorder)" stroke-width="1.5" filter="url(#boxShadow)"/>
+    <rect x="8" y="8" width="204" height="124" rx="8" fill="none" stroke="#8C6C1E" stroke-width="0.5" opacity="0.5"/>
+    <text x="110" y="32" fill="#1A2A4A" font-family="'Cinzel', serif" font-size="16" font-weight="800" text-anchor="middle" filter="url(#headingShadow)">The Vision</text>
+    <line x1="40" y1="42" x2="180" y2="42" stroke="#8C6C1E" stroke-width="1" opacity="0.6"/>
+    <text x="110" y="65" fill="#1A2A4A" font-family="'Cormorant Garamond', serif" font-size="11" text-anchor="middle" font-weight="600" letter-spacing="0.3">
+      <tspan x="110" dy="0">Driven by a vision of technology </tspan>
+      <tspan x="110" dy="16">I build tools that empower creators</tspan>
+      <tspan x="110" dy="16"> simplify complexity, and leave the</tspan>
+      <tspan x="110" dy="16">web a little better than I found it.</tspan>
+    </text>
+  </g>
+  
+  <!-- Main Title — ONLY color changed to blue gradient -->
+  <text x="600" y="-40" fill="url(#titleBlueGradient)" font-family="'Cinzel', serif" font-size="35" font-weight="800" text-anchor="middle" class="title-fade" letter-spacing="4">ATHARVA'S CONSTELLATION</text>
+  
+  <g opacity="0.9" class="fade-in delay-8">
+    <circle cx="600" cy="380" r="4" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="320" cy="500" r="3.5" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="880" cy="500" r="3.5" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="600" cy="800" r="4" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+  </g>
+  
+  <g class="fade-in delay-8" opacity="0.6">
+    <circle cx="200" cy="320" r="1.2" fill="#9DD8FF" filter="url(#starGlowBlue)"/>
+    <circle cx="420" cy="200" r="1" fill="#48D1CC" filter="url(#starGlowBlue)"/>
+    <circle cx="780" cy="280" r="1.2" fill="#9DD8FF" filter="url(#starGlowBlue)"/>
+    <circle cx="1020" cy="420" r="1" fill="#48D1CC" filter="url(#starGlowBlue)"/>
+    <circle cx="180" cy="620" r="1.2" fill="#9DD8FF" filter="url(#starGlowBlue)"/>
+    <circle cx="980" cy="720" r="1" fill="#48D1CC" filter="url(#starGlowBlue)"/>
+    <circle cx="320" cy="880" r="1.2" fill="#9DD8FF" filter="url(#starGlowBlue)"/>
+    <circle cx="880" cy="900" r="1" fill="#48D1CC" filter="url(#starGlowBlue)"/>
+    <circle cx="540" cy="280" r="1.1" fill="#D4AF37" filter="url(#starGlow)"/>
+    <circle cx="660" cy="720" r="1.1" fill="#D4AF37" filter="url(#starGlow)"/>
+    <circle cx="260" cy="240" r="0.9" fill="#D4AF37" filter="url(#starGlow)"/>
+    <circle cx="940" cy="280" r="0.9" fill="#D4AF37" filter="url(#starGlow)"/>
+  </g>
+</svg>
