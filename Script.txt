@@ -6,6 +6,7 @@ Image
 Mask
 Card
 Subscription 
+Plans
 Textarea
 Cards
 Github
