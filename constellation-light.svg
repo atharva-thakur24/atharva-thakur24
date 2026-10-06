@@ -1,82 +1,88 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -130 1200 1160" width="100%" height="100%">
   <defs>
     <style>@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&amp;family=Montserrat:wght@300;400;600&amp;family=Cormorant+Garamond:wght@400;500;600&amp;display=swap');
-      
       .title-font { font-family: 'Cinzel', serif; }
       .heading-font { font-family: 'Cinzel', serif; }
       .body-font { font-family: 'Cormorant Garamond', serif; }
 
-      @keyframes fadeIn {
-        0% { opacity: 0; }
-        100% { opacity: 1; }
-      }
-
+      /* === BASE FADE-IN === */
+      @keyframes fadeIn { 0% { opacity: 0; } 100% { opacity: 1; } }
       .fade-in { animation: fadeIn 1s ease-out both; }
       .title-fade { animation: fadeIn 1.2s ease-out both; }
       
-      .delay-1 { animation-delay: 0.4s; }
-      .delay-2 { animation-delay: 1.0s; }
-      .delay-3 { animation-delay: 1.6s; }
-      .delay-4 { animation-delay: 2.2s; }
-      .delay-5 { animation-delay: 2.8s; }
-      .delay-6 { animation-delay: 3.4s; }
-      .delay-7 { animation-delay: 4.0s; }
-      .delay-8 { animation-delay: 4.6s; }
+      .delay-1 { animation-delay: 0.4s; } .delay-2 { animation-delay: 1.0s; }
+      .delay-3 { animation-delay: 1.6s; } .delay-4 { animation-delay: 2.2s; }
+      .delay-5 { animation-delay: 2.8s; } .delay-6 { animation-delay: 3.4s; }
+      .delay-7 { animation-delay: 4.0s; } .delay-8 { animation-delay: 4.6s; }
       
-      .delay-node-1 { animation-delay: 0.6s; }
-      .delay-node-2 { animation-delay: 1.2s; }
-      .delay-node-3 { animation-delay: 1.8s; }
-      .delay-node-4 { animation-delay: 2.4s; }
-      .delay-node-5 { animation-delay: 3.0s; }
-      .delay-node-6 { animation-delay: 3.6s; }
-      .delay-node-7 { animation-delay: 4.2s; }
-      .delay-node-8 { animation-delay: 4.8s; }</style>
+      .delay-node-1 { animation-delay: 0.6s; } .delay-node-2 { animation-delay: 1.2s; }
+      .delay-node-3 { animation-delay: 1.8s; } .delay-node-4 { animation-delay: 2.4s; }
+      .delay-node-5 { animation-delay: 3.0s; } .delay-node-6 { animation-delay: 3.6s; }
+      .delay-node-7 { animation-delay: 4.2s; } .delay-node-8 { animation-delay: 4.8s; }
+
+      /* === MERKABA PETAL FADE-IN — synced with nodes === */
+      @keyframes starPetalFade {
+        0%   { opacity: 0; }
+        100% { opacity: 1; }
+      }
+      .star-petal-1 { animation: starPetalFade 1s ease-out 0.6s both; }
+      .star-petal-2 { animation: starPetalFade 1s ease-out 1.2s both; }
+      .star-petal-3 { animation: starPetalFade 1s ease-out 1.8s both; }
+      .star-petal-4 { animation: starPetalFade 1s ease-out 2.4s both; }
+      .star-petal-5 { animation: starPetalFade 1s ease-out 3.0s both; }
+      .star-petal-6 { animation: starPetalFade 1s ease-out 3.6s both; }
+      .star-petal-7 { animation: starPetalFade 1s ease-out 4.2s both; }
+      .star-petal-8 { animation: starPetalFade 1s ease-out 4.8s both; }
+      .star-core    { animation: starPetalFade 1s ease-out 5.4s both; }
+    </style>
     
+    <!-- WHITE BACKGROUND -->
     <radialGradient id="spaceGradient" cx="50%" cy="50%" r="75%" fx="50%" fy="50%">
-      <stop offset="0%" stop-color="#FFFDF7"/>
-      <stop offset="35%" stop-color="#FBF6EC"/>
-      <stop offset="100%" stop-color="#F5EDDF"/>
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#FDFCFA"/>
+      <stop offset="100%" stop-color="#FAF7F2"/>
     </radialGradient>
     
+    <!-- Very soft pastel nebulas (barely visible on white) -->
     <radialGradient id="nebulaGold" cx="15%" cy="10%" r="40%">
-      <stop offset="0%" stop-color="#FFE9A8" stop-opacity="0.55"/>
-      <stop offset="60%" stop-color="#FFF5D8" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#FBF6EC" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#FFF4CC" stop-opacity="0.5"/>
+      <stop offset="60%" stop-color="#FFFBF0" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="nebulaRose" cx="85%" cy="15%" r="42%">
-      <stop offset="0%" stop-color="#F5C8DC" stop-opacity="0.5"/>
-      <stop offset="60%" stop-color="#FBE0EC" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="#FBF6EC" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#FBE0EC" stop-opacity="0.4"/>
+      <stop offset="60%" stop-color="#FEF2F7" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="nebulaAzure" cx="50%" cy="45%" r="55%">
-      <stop offset="0%" stop-color="#C8E0F8" stop-opacity="0.4"/>
-      <stop offset="60%" stop-color="#E0EDF8" stop-opacity="0.15"/>
-      <stop offset="100%" stop-color="#FBF6EC" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#E0EDF8" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#F2F7FC" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="nebulaMint" cx="50%" cy="95%" r="45%">
-      <stop offset="0%" stop-color="#C8ECE0" stop-opacity="0.5"/>
-      <stop offset="60%" stop-color="#E0F5EE" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="#FBF6EC" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#E0F5EE" stop-opacity="0.4"/>
+      <stop offset="60%" stop-color="#F5FBF9" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="nebulaViolet" cx="95%" cy="60%" r="38%">
-      <stop offset="0%" stop-color="#DCC8F0" stop-opacity="0.45"/>
-      <stop offset="60%" stop-color="#EDE0F8" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#FBF6EC" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#EDE0F8" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#F9F2FD" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </radialGradient>
     
     <radialGradient id="nebula1" cx="20%" cy="20%" r="45%">
-      <stop offset="0%" stop-color="#B8D4F0" stop-opacity="0.5"/>
-      <stop offset="50%" stop-color="#D4E4F5" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#FBF6EC" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#D4E4F5" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#E8F0FA" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="nebula2" cx="80%" cy="75%" r="50%">
-      <stop offset="0%" stop-color="#E0C4E8" stop-opacity="0.4"/>
-      <stop offset="50%" stop-color="#EDD8F0" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="#FBF6EC" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#EDD8F0" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#F6ECF8" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="nebula3" cx="50%" cy="90%" r="40%">
-      <stop offset="0%" stop-color="#B8E0DC" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#FBF6EC" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#D8EEE8" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </radialGradient>
     
     <linearGradient id="goldBorder" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -86,7 +92,6 @@
       <stop offset="100%" stop-color="#6B4F14"/>
     </linearGradient>
     
-    <!-- NEW: Blue gradient for main title (matches Atharva Thakur reference) -->
     <linearGradient id="titleBlueGradient" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#3B82F6"/>
       <stop offset="50%" stop-color="#2563EB"/>
@@ -184,18 +189,19 @@
     </linearGradient>
 
     <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#FFD700" stop-opacity="0.3"/>
-      <stop offset="40%" stop-color="#F0E0B0" stop-opacity="0.15"/>
-      <stop offset="100%" stop-color="#FBF6EC" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#FFD700" stop-opacity="0.25"/>
+      <stop offset="40%" stop-color="#F0E0B0" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </radialGradient>
     
     <radialGradient id="centerAuraLight" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#FFE9A8" stop-opacity="0.5"/>
-      <stop offset="40%" stop-color="#FFF5D8" stop-opacity="0.25"/>
-      <stop offset="70%" stop-color="#FBF6EC" stop-opacity="0.1"/>
-      <stop offset="100%" stop-color="#FBF6EC" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#FFE9A8" stop-opacity="0.35"/>
+      <stop offset="40%" stop-color="#FFF5D8" stop-opacity="0.15"/>
+      <stop offset="70%" stop-color="#FFFFFF" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </radialGradient>
     
+    <!-- BLUE STAR GRADIENTS -->
     <radialGradient id="starBlue1" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#FFFFFF"/>
       <stop offset="30%" stop-color="#9DD8FF"/>
@@ -214,11 +220,13 @@
       <stop offset="70%" stop-color="#48D1CC"/>
       <stop offset="100%" stop-color="#1E9090" stop-opacity="0"/>
     </radialGradient>
+    <radialGradient id="starDeepBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="30%" stop-color="#80B0FF"/>
+      <stop offset="70%" stop-color="#3060D0"/>
+      <stop offset="100%" stop-color="#1A3A8A" stop-opacity="0"/>
+    </radialGradient>
     
-    <linearGradient id="placeholderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#E8E0D0"/>
-      <stop offset="100%" stop-color="#D8D0C0"/>
-    </linearGradient>
     <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
       <feGaussianBlur stdDeviation="4" result="blur"/>
       <feComposite in="SourceGraphic" in2="blur" operator="over"/>
@@ -230,7 +238,7 @@
       <feGaussianBlur stdDeviation="1.5" result="blur"/>
       <feComposite in="SourceGraphic" in2="blur" operator="over"/>
     </filter>
-    <filter id="starGlowBlue" x="-100%" y="-100%" width="300%" height="300%">
+    <filter id="starGlowBlue" x="-150%" y="-150%" width="400%" height="400%">
       <feGaussianBlur stdDeviation="2.5" result="blur"/>
       <feComposite in="SourceGraphic" in2="blur" operator="over"/>
     </filter>
@@ -242,7 +250,6 @@
       <feGaussianBlur stdDeviation="2" result="blur"/>
       <feComposite in="SourceGraphic" in2="blur" operator="over"/>
     </filter>
-    
     <filter id="iconGlow" x="-200%" y="-200%" width="500%" height="500%">
       <feGaussianBlur in="SourceGraphic" stdDeviation="0.6" result="innerGlow"/>
       <feGaussianBlur in="SourceGraphic" stdDeviation="1.8" result="midGlow"/>
@@ -254,15 +261,24 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    
     <filter id="labelGlow" x="-40%" y="-40%" width="180%" height="180%">
       <feDropShadow dx="0" dy="0" stdDeviation="1.5" flood-color="#FFFFFF" flood-opacity="0.9"/>
       <feDropShadow dx="0" dy="1" stdDeviation="1.5" flood-color="#1A2A4A" flood-opacity="0.4"/>
     </filter>
-    
     <filter id="nodeGlow" x="-50%" y="-50%" width="200%" height="200%">
       <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#D4AF37" flood-opacity="0.5"/>
       <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#8C6C1E" flood-opacity="0.4"/>
+    </filter>
+    
+    <!-- Petal glow -->
+    <filter id="starPetalGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.5" result="innerGlow"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="outerGlow"/>
+      <feMerge>
+        <feMergeNode in="outerGlow"/>
+        <feMergeNode in="innerGlow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
     
     <radialGradient id="iconHalo" cx="50%" cy="50%" r="50%">
@@ -270,12 +286,9 @@
       <stop offset="60%" stop-color="#FFF8E1" stop-opacity="0.3"/>
       <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
     </radialGradient>
-    
-    <clipPath id="profileClip">
-      <circle cx="600" cy="500" r="85"/>
-    </clipPath>
   </defs>
   
+  <!-- WHITE BACKGROUND -->
   <rect x="0" y="-130" width="1200" height="1160" fill="url(#spaceGradient)"/>
   <rect x="0" y="-130" width="1200" height="1160" fill="url(#nebula1)"/>
   <rect x="0" y="-130" width="1200" height="1160" fill="url(#nebula2)"/>
@@ -286,152 +299,227 @@
   <rect x="0" y="-130" width="1200" height="1160" fill="url(#nebulaMint)"/>
   <rect x="0" y="-130" width="1200" height="1160" fill="url(#nebulaViolet)"/>
   
-  <g fill="#B8860B" class="fade-in">
-    <circle cx="100" cy="-100" r="2.5" filter="url(#starGlow)" opacity="0.7"/>
-    <circle cx="280" cy="-60" r="3" filter="url(#starGlow)" opacity="0.6"/>
-    <circle cx="480" cy="-110" r="2" filter="url(#starGlow)" opacity="0.5"/>
-    <circle cx="700" cy="-50" r="2.5" filter="url(#starGlow)" opacity="0.7"/>
-    <circle cx="920" cy="-90" r="3" filter="url(#starGlow)" opacity="0.6"/>
-    <circle cx="1120" cy="-40" r="2" filter="url(#starGlow)" opacity="0.7"/>
-    <circle cx="180" cy="-20" r="1.5" opacity="0.5"/>
-    <circle cx="380" cy="-80" r="1.5" opacity="0.6"/>
-    <circle cx="580" cy="-30" r="1.5" opacity="0.5"/>
-    <circle cx="800" cy="-90" r="1.5" opacity="0.6"/>
-    <circle cx="1020" cy="-20" r="1.5" opacity="0.5"/>
-    <circle cx="120" cy="-60" r="0.8" opacity="0.35"/>
-    <circle cx="250" cy="-100" r="0.8" opacity="0.4"/>
-    <circle cx="420" cy="-40" r="0.8" opacity="0.35"/>
-    <circle cx="620" cy="-90" r="0.8" opacity="0.4"/>
-    <circle cx="780" cy="-20" r="0.8" opacity="0.35"/>
-    <circle cx="950" cy="-70" r="0.8" opacity="0.4"/>
-    <circle cx="1080" cy="-110" r="0.8" opacity="0.35"/>
-    <circle cx="50" cy="80" r="2.5" filter="url(#starGlow)" opacity="0.7"/>
-    <circle cx="180" cy="220" r="3" filter="url(#starGlow)" opacity="0.6"/>
-    <circle cx="300" cy="120" r="2" filter="url(#starGlow)" opacity="0.5"/>
-    <circle cx="450" cy="80" r="2.5" filter="url(#starGlow)" opacity="0.7"/>
-    <circle cx="600" cy="150" r="2" filter="url(#starGlow)" opacity="0.6"/>
-    <circle cx="750" cy="100" r="3" filter="url(#starGlow)" opacity="0.7"/>
-    <circle cx="900" cy="200" r="2.5" filter="url(#starGlow)" opacity="0.6"/>
-    <circle cx="1050" cy="120" r="2" filter="url(#starGlow)" opacity="0.5"/>
-    <circle cx="1150" cy="280" r="3" filter="url(#starGlow)" opacity="0.7"/>
-    <circle cx="80" cy="400" r="2" filter="url(#starGlow)" opacity="0.6"/>
-    <circle cx="200" cy="600" r="2.5" filter="url(#starGlow)" opacity="0.7"/>
-    <circle cx="1100" cy="550" r="2" filter="url(#starGlow)" opacity="0.6"/>
-    <circle cx="1150" cy="750" r="3" filter="url(#starGlow)" opacity="0.7"/>
-    <circle cx="100" cy="850" r="2.5" filter="url(#starGlow)" opacity="0.6"/>
-    <circle cx="300" cy="950" r="2" filter="url(#starGlow)" opacity="0.5"/>
-    <circle cx="500" cy="900" r="3" filter="url(#starGlow)" opacity="0.7"/>
-    <circle cx="700" cy="950" r="2.5" filter="url(#starGlow)" opacity="0.6"/>
-    <circle cx="850" cy="880" r="2" filter="url(#starGlow)" opacity="0.5"/>
-    <circle cx="1050" cy="920" r="3" filter="url(#starGlow)" opacity="0.7"/>
-    <circle cx="120" cy="180" r="1.5" opacity="0.5"/>
-    <circle cx="250" cy="300" r="1.5" opacity="0.6"/>
-    <circle cx="380" cy="200" r="1.5" opacity="0.4"/>
-    <circle cx="520" cy="250" r="1.5" opacity="0.6"/>
-    <circle cx="680" cy="280" r="1.5" opacity="0.5"/>
-    <circle cx="820" cy="150" r="1.5" opacity="0.6"/>
-    <circle cx="950" cy="300" r="1.5" opacity="0.4"/>
-    <circle cx="1080" cy="400" r="1.5" opacity="0.6"/>
-    <circle cx="150" cy="500" r="1.5" opacity="0.5"/>
-    <circle cx="280" cy="700" r="1.5" opacity="0.6"/>
-    <circle cx="400" cy="850" r="1.5" opacity="0.4"/>
-    <circle cx="550" cy="750" r="1.5" opacity="0.6"/>
-    <circle cx="700" cy="800" r="1.5" opacity="0.5"/>
-    <circle cx="850" cy="700" r="1.5" opacity="0.6"/>
-    <circle cx="980" cy="600" r="1.5" opacity="0.4"/>
-    <circle cx="1100" cy="650" r="1.5" opacity="0.6"/>
-    <circle cx="60" cy="250" r="0.8" opacity="0.35"/>
-    <circle cx="160" cy="350" r="0.8" opacity="0.4"/>
-    <circle cx="280" cy="450" r="0.8" opacity="0.35"/>
-    <circle cx="400" cy="350" r="0.8" opacity="0.4"/>
-    <circle cx="500" cy="450" r="0.8" opacity="0.35"/>
-    <circle cx="600" cy="350" r="0.8" opacity="0.4"/>
-    <circle cx="700" cy="450" r="0.8" opacity="0.35"/>
-    <circle cx="800" cy="350" r="0.8" opacity="0.4"/>
-    <circle cx="900" cy="450" r="0.8" opacity="0.35"/>
-    <circle cx="1000" cy="350" r="0.8" opacity="0.4"/>
-    <circle cx="1100" cy="450" r="0.8" opacity="0.35"/>
-    <circle cx="50" cy="650" r="0.8" opacity="0.4"/>
-    <circle cx="150" cy="750" r="0.8" opacity="0.35"/>
-    <circle cx="250" cy="850" r="0.8" opacity="0.4"/>
-    <circle cx="350" cy="950" r="0.8" opacity="0.35"/>
-    <circle cx="450" cy="650" r="0.8" opacity="0.4"/>
-    <circle cx="550" cy="850" r="0.8" opacity="0.35"/>
-    <circle cx="650" cy="650" r="0.8" opacity="0.4"/>
-    <circle cx="750" cy="850" r="0.8" opacity="0.35"/>
-    <circle cx="850" cy="650" r="0.8" opacity="0.4"/>
-    <circle cx="950" cy="750" r="0.8" opacity="0.35"/>
-    <circle cx="1050" cy="850" r="0.8" opacity="0.4"/>
-    <circle cx="1150" cy="650" r="0.8" opacity="0.35"/>
-    <circle cx="90" cy="550" r="1.2" opacity="0.5"/>
-    <circle cx="220" cy="430" r="0.9" opacity="0.4"/>
-    <circle cx="340" cy="600" r="1.5" opacity="0.6"/>
-    <circle cx="480" cy="520" r="0.9" opacity="0.35"/>
-    <circle cx="620" cy="580" r="1.2" opacity="0.5"/>
-    <circle cx="760" cy="520" r="0.9" opacity="0.4"/>
-    <circle cx="880" cy="580" r="1.5" opacity="0.6"/>
-    <circle cx="1020" cy="480" r="0.9" opacity="0.35"/>
-    <circle cx="1130" cy="520" r="1.2" opacity="0.5"/>
-    <circle cx="70" cy="720" r="0.9" opacity="0.4"/>
-    <circle cx="190" cy="800" r="1.5" opacity="0.6"/>
-    <circle cx="320" cy="680" r="0.9" opacity="0.35"/>
-    <circle cx="440" cy="780" r="1.2" opacity="0.5"/>
-    <circle cx="580" cy="700" r="0.9" opacity="0.4"/>
-    <circle cx="720" cy="780" r="1.5" opacity="0.6"/>
-    <circle cx="840" cy="680" r="0.9" opacity="0.35"/>
-    <circle cx="960" cy="800" r="1.2" opacity="0.5"/>
-    <circle cx="1080" cy="720" r="0.9" opacity="0.4"/>
-    <circle cx="40" cy="180" r="1.2" opacity="0.5"/>
-    <circle cx="130" cy="60" r="0.9" opacity="0.35"/>
-    <circle cx="260" cy="150" r="1.5" opacity="0.6"/>
-    <circle cx="410" cy="220" r="0.9" opacity="0.4"/>
-    <circle cx="540" cy="120" r="1.2" opacity="0.5"/>
-    <circle cx="660" cy="200" r="0.9" opacity="0.35"/>
-    <circle cx="790" cy="180" r="1.5" opacity="0.6"/>
-    <circle cx="920" cy="100" r="0.9" opacity="0.4"/>
-    <circle cx="1040" cy="200" r="1.2" opacity="0.5"/>
-  </g>
-  
+  <!-- BLUE GLOWING STARS — varying sizes, scattered across canvas -->
   <g class="fade-in">
-    <circle cx="150" cy="50" r="3" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
-    <circle cx="350" cy="-20" r="2.5" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
-    <circle cx="550" cy="30" r="3.5" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
-    <circle cx="780" cy="-40" r="2.8" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
-    <circle cx="1000" cy="30" r="3" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
-    <circle cx="250" cy="450" r="2.5" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
-    <circle cx="950" cy="480" r="3" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
-    <circle cx="400" cy="700" r="2.5" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
-    <circle cx="800" cy="650" r="3.2" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
-    <circle cx="120" cy="620" r="2.8" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
-    <circle cx="1080" cy="380" r="2.5" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
-    <circle cx="450" cy="320" r="2" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
-    <circle cx="720" cy="420" r="2.2" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
-    <circle cx="280" cy="800" r="2.5" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
-    <circle cx="620" cy="880" r="2.3" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
-    <circle cx="820" cy="820" r="2.8" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
-    <circle cx="150" cy="240" r="2" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
-    <circle cx="380" cy="420" r="2.2" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
-    <circle cx="880" cy="160" r="2.5" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
-    <circle cx="1120" cy="620" r="2.3" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <!-- Large blue stars -->
+    <circle cx="150" cy="50" r="4" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="350" cy="-20" r="3.5" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="550" cy="30" r="4.5" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="780" cy="-40" r="3.8" fill="url(#starDeepBlue)" filter="url(#starGlowBlue)"/>
+    <circle cx="1000" cy="30" r="4" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="250" cy="450" r="3.5" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="950" cy="480" r="4" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="400" cy="700" r="3.5" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="800" cy="650" r="4.2" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="120" cy="620" r="3.8" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="1080" cy="380" r="3.5" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="100" cy="-100" r="3.5" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="280" cy="-60" r="4" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="480" cy="-110" r="3" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="700" cy="-50" r="3.5" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="920" cy="-90" r="4" fill="url(#starDeepBlue)" filter="url(#starGlowBlue)"/>
+    <circle cx="1120" cy="-40" r="3" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    
+    <!-- Medium blue stars -->
+    <circle cx="180" cy="-20" r="2.5" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="380" cy="-80" r="2.5" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="580" cy="-30" r="2.5" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="800" cy="-90" r="2.5" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="1020" cy="-20" r="2.5" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="50" cy="80" r="3" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="180" cy="220" r="3.2" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="300" cy="120" r="2.8" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="450" cy="80" r="3" fill="url(#starDeepBlue)" filter="url(#starGlowBlue)"/>
+    <circle cx="600" cy="150" r="2.8" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="750" cy="100" r="3.2" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="900" cy="200" r="3" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="1050" cy="120" r="2.8" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="1150" cy="280" r="3.2" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="80" cy="400" r="2.8" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="200" cy="600" r="3" fill="url(#starDeepBlue)" filter="url(#starGlowBlue)"/>
+    <circle cx="1100" cy="550" r="2.8" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="1150" cy="750" r="3.2" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="100" cy="850" r="3" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="300" cy="950" r="2.8" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="500" cy="900" r="3.2" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="700" cy="950" r="3" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="850" cy="880" r="2.8" fill="url(#starDeepBlue)" filter="url(#starGlowBlue)"/>
+    <circle cx="1050" cy="920" r="3.2" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    
+    <!-- Small blue stars -->
+    <circle cx="120" cy="-60" r="2" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="250" cy="-100" r="2" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="420" cy="-40" r="2" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="620" cy="-90" r="2" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="780" cy="-20" r="2" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="950" cy="-70" r="2" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="1080" cy="-110" r="2" fill="url(#starDeepBlue)" filter="url(#starGlowBlue)"/>
+    <circle cx="120" cy="180" r="2.2" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="250" cy="300" r="2.2" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="380" cy="200" r="2" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="520" cy="250" r="2.2" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="680" cy="280" r="2.2" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="820" cy="150" r="2.2" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="950" cy="300" r="2" fill="url(#starDeepBlue)" filter="url(#starGlowBlue)"/>
+    <circle cx="1080" cy="400" r="2.2" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="150" cy="500" r="2.2" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="280" cy="700" r="2.2" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="400" cy="850" r="2" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="550" cy="750" r="2.2" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="700" cy="800" r="2.2" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="850" cy="700" r="2.2" fill="url(#starDeepBlue)" filter="url(#starGlowBlue)"/>
+    <circle cx="980" cy="600" r="2" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="1100" cy="650" r="2.2" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    
+    <!-- Tiny blue stars -->
+    <circle cx="60" cy="250" r="1.5" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="160" cy="350" r="1.5" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="280" cy="450" r="1.5" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="400" cy="350" r="1.5" fill="url(#starDeepBlue)" filter="url(#starGlowBlue)"/>
+    <circle cx="500" cy="450" r="1.5" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="600" cy="350" r="1.5" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="700" cy="450" r="1.5" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="800" cy="350" r="1.5" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="900" cy="450" r="1.5" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="1000" cy="350" r="1.5" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="1100" cy="450" r="1.5" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="50" cy="650" r="1.5" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="150" cy="750" r="1.5" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="250" cy="850" r="1.5" fill="url(#starDeepBlue)" filter="url(#starGlowBlue)"/>
+    <circle cx="350" cy="950" r="1.5" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="450" cy="650" r="1.5" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="550" cy="850" r="1.5" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="650" cy="650" r="1.5" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="750" cy="850" r="1.5" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="850" cy="650" r="1.5" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="950" cy="750" r="1.5" fill="url(#starDeepBlue)" filter="url(#starGlowBlue)"/>
+    <circle cx="1050" cy="850" r="1.5" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="1150" cy="650" r="1.5" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    
+    <!-- Small colored accent stars -->
+    <circle cx="90" cy="550" r="1.8" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="220" cy="430" r="1.6" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="340" cy="600" r="1.8" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="480" cy="520" r="1.6" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="620" cy="580" r="1.8" fill="url(#starDeepBlue)" filter="url(#starGlowBlue)"/>
+    <circle cx="760" cy="520" r="1.6" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="880" cy="580" r="1.8" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="1020" cy="480" r="1.6" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="1130" cy="520" r="1.8" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="70" cy="720" r="1.6" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="190" cy="800" r="1.8" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="320" cy="680" r="1.6" fill="url(#starDeepBlue)" filter="url(#starGlowBlue)"/>
+    <circle cx="440" cy="780" r="1.8" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="580" cy="700" r="1.6" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="720" cy="780" r="1.8" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="840" cy="680" r="1.6" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="960" cy="800" r="1.8" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="1080" cy="720" r="1.6" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="40" cy="180" r="1.8" fill="url(#starDeepBlue)" filter="url(#starGlowBlue)"/>
+    <circle cx="130" cy="60" r="1.6" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="260" cy="150" r="1.8" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="410" cy="220" r="1.6" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="540" cy="120" r="1.8" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
+    <circle cx="660" cy="200" r="1.6" fill="url(#starBlue2)" filter="url(#starGlowBlue)"/>
+    <circle cx="790" cy="180" r="1.8" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
+    <circle cx="920" cy="100" r="1.6" fill="url(#starDeepBlue)" filter="url(#starGlowBlue)"/>
+    <circle cx="1040" cy="200" r="1.8" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
   </g>
   
+  <!-- ORBITAL RINGS -->
   <g stroke="#8C6C1E" stroke-width="0.8" opacity="0.4" fill="none" class="fade-in delay-2">
     <circle cx="600" cy="500" r="180" stroke-width="1.5"/>
     <circle cx="600" cy="500" r="320"/>
   </g>
   
+  <!-- ============ CENTRAL HUB with ANIMATED MERKABA STAR ============ -->
   <g class="fade-in delay-1">
     <circle cx="600" cy="500" r="200" fill="url(#centerAuraLight)"/>
     <circle cx="600" cy="500" r="150" fill="url(#centerGlow)"/>
     <circle cx="600" cy="500" r="130" fill="none" stroke="#B8860B" stroke-width="1.5" opacity="0.5"/>
     <circle cx="600" cy="500" r="115" fill="none" stroke="#8C6C1E" stroke-width="2" opacity="0.7" filter="url(#glow)"/>
     <circle cx="600" cy="500" r="100" fill="none" stroke="url(#goldBorder)" stroke-width="5" opacity="1"/>
-    <g>
-      <image href="https://plain-apac-prod-public.komododecks.com/202610/03/va87abiKBEGLbw9TW5BZ/image.png" x="520" y="422" width="170" height="170" clip-path="url(#profileClip)" preserveAspectRatio="xMidYMid slice"/>
-      <circle cx="600" cy="500" r="85" fill="none" stroke="#8C6C1E" stroke-width="4" filter="url(#glow)"/>
+    
+    <!-- MERKABA STAR -->
+    <g transform="translate(600, 500)">
+      
+      <!-- Soft amber halo -->
+      <circle cx="0" cy="0" r="90" fill="#FFD700" opacity="0.06" filter="url(#glow)"/>
+      <circle cx="0" cy="0" r="70" fill="#FFD700" opacity="0.08" filter="url(#glow)"/>
+      
+      <!-- 8 PETALS — fade in one-by-one -->
+      <g class="star-petal-1">
+        <g filter="url(#starPetalGlow)">
+          <polygon points="0,0 -10,-25 0,-78 10,-25" fill="url(#iconCuriosity)" opacity="0.95"/>
+          <polygon points="0,0 -4,-25 0,-72 4,-25" fill="#FFFFFF" opacity="0.35"/>
+        </g>
+      </g>
+      <g class="star-petal-2">
+        <g transform="rotate(45)" filter="url(#starPetalGlow)">
+          <polygon points="0,0 -10,-25 0,-78 10,-25" fill="url(#iconCraft)" opacity="0.95"/>
+          <polygon points="0,0 -4,-25 0,-72 4,-25" fill="#FFFFFF" opacity="0.35"/>
+        </g>
+      </g>
+      <g class="star-petal-3">
+        <g transform="rotate(90)" filter="url(#starPetalGlow)">
+          <polygon points="0,0 -10,-25 0,-78 10,-25" fill="url(#iconLogic)" opacity="0.95"/>
+          <polygon points="0,0 -4,-25 0,-72 4,-25" fill="#FFFFFF" opacity="0.35"/>
+        </g>
+      </g>
+      <g class="star-petal-4">
+        <g transform="rotate(135)" filter="url(#starPetalGlow)">
+          <polygon points="0,0 -10,-25 0,-78 10,-25" fill="url(#iconIteration)" opacity="0.95"/>
+          <polygon points="0,0 -4,-25 0,-72 4,-25" fill="#FFFFFF" opacity="0.35"/>
+        </g>
+      </g>
+      <g class="star-petal-5">
+        <g transform="rotate(180)" filter="url(#starPetalGlow)">
+          <polygon points="0,0 -10,-25 0,-78 10,-25" fill="url(#iconResilience)" opacity="0.95"/>
+          <polygon points="0,0 -4,-25 0,-72 4,-25" fill="#FFFFFF" opacity="0.35"/>
+        </g>
+      </g>
+      <g class="star-petal-6">
+        <g transform="rotate(225)" filter="url(#starPetalGlow)">
+          <polygon points="0,0 -10,-25 0,-78 10,-25" fill="url(#iconEmpathy)" opacity="0.95"/>
+          <polygon points="0,0 -4,-25 0,-72 4,-25" fill="#FFFFFF" opacity="0.35"/>
+        </g>
+      </g>
+      <g class="star-petal-7">
+        <g transform="rotate(270)" filter="url(#starPetalGlow)">
+          <polygon points="0,0 -10,-25 0,-78 10,-25" fill="url(#iconFocus)" opacity="0.95"/>
+          <polygon points="0,0 -4,-25 0,-72 4,-25" fill="#FFFFFF" opacity="0.35"/>
+        </g>
+      </g>
+      <g class="star-petal-8">
+        <g transform="rotate(315)" filter="url(#starPetalGlow)">
+          <polygon points="0,0 -10,-25 0,-78 10,-25" fill="url(#iconVision)" opacity="0.95"/>
+          <polygon points="0,0 -4,-25 0,-72 4,-25" fill="#FFFFFF" opacity="0.35"/>
+        </g>
+      </g>
+      
+      <!-- Merkaba wireframe overlay -->
+      <g stroke="#8C6C1E" stroke-width="0.5" fill="none" opacity="0.4" class="star-petal-8">
+        <polygon points="0,-78 55.2,-55.2 78,0 55.2,55.2 0,78 -55.2,55.2 -78,0 -55.2,-55.2"/>
+        <polygon points="0,-52 36.8,-36.8 52,0 36.8,36.8 0,52 -36.8,36.8 -52,0 -36.8,-36.8" opacity="0.6"/>
+        <line x1="0" y1="0" x2="0" y2="-78"/><line x1="0" y1="0" x2="55.2" y2="-55.2"/>
+        <line x1="0" y1="0" x2="78" y2="0"/><line x1="0" y1="0" x2="55.2" y2="55.2"/>
+        <line x1="0" y1="0" x2="0" y2="78"/><line x1="0" y1="0" x2="-55.2" y2="55.2"/>
+        <line x1="0" y1="0" x2="-78" y2="0"/><line x1="0" y1="0" x2="-55.2" y2="-55.2"/>
+      </g>
+      
+      <!-- Radiant center core -->
+      <g class="star-core">
+        <circle cx="0" cy="0" r="18" fill="#FFE9A8" opacity="0.6" filter="url(#glow)"/>
+        <circle cx="0" cy="0" r="11" fill="#FFF5D8" opacity="0.9" filter="url(#glow)"/>
+        <circle cx="0" cy="0" r="5" fill="#FFFFFF"/>
+      </g>
     </g>
+    
+    <!-- Gold outer ring -->
+    <circle cx="600" cy="500" r="85" fill="none" stroke="#8C6C1E" stroke-width="4" filter="url(#glow)"/>
   </g>
   
+  <!-- INNER CIRCLE NODES -->
   <g fill="#1A2A4A" font-family="'Montserrat', sans-serif" font-size="11" text-anchor="middle" font-weight="600" letter-spacing="0.5">
     
     <g transform="translate(600, 320)" class="fade-in delay-node-1">
@@ -559,6 +647,7 @@
     </g>
   </g>
   
+  <!-- OUTER CARDS -->
   <g transform="translate(490, 80)" class="fade-in delay-1">
     <rect x="0" y="-55" width="220" height="140" rx="12" fill="url(#boxBg1)" stroke="url(#goldBorder)" stroke-width="1.5" filter="url(#boxShadow)"/>
     <rect x="8" y="-45" width="204" height="124" rx="8" fill="none" stroke="#8C6C1E" stroke-width="0.5" opacity="0.5"/>
@@ -571,7 +660,6 @@
       <tspan x="110" dy="16">iterate with intention.</tspan>
     </text>
   </g>
-  
   <g transform="translate(830, 140)" class="fade-in delay-2">
     <rect x="0" y="0" width="220" height="140" rx="12" fill="url(#boxBg2)" stroke="url(#goldBorder)" stroke-width="1.5" filter="url(#boxShadow)"/>
     <rect x="8" y="8" width="204" height="124" rx="8" fill="none" stroke="#8C6C1E" stroke-width="0.5" opacity="0.5"/>
@@ -584,7 +672,6 @@
       <tspan x="110" dy="16">Developer by day, designer by instinct.</tspan>
     </text>
   </g>
-  
   <g transform="translate(940, 430)" class="fade-in delay-3">
     <rect x="0" y="0" width="220" height="140" rx="12" fill="url(#boxBg3)" stroke="url(#goldBorder)" stroke-width="1.5" filter="url(#boxShadow)"/>
     <rect x="8" y="8" width="204" height="124" rx="8" fill="none" stroke="#8C6C1E" stroke-width="0.5" opacity="0.5"/>
@@ -597,7 +684,6 @@
       <tspan x="110" dy="16">increasing operational efficiency.</tspan>
     </text>
   </g>
-  
   <g transform="translate(830, 720)" class="fade-in delay-4">
     <rect x="0" y="0" width="220" height="140" rx="12" fill="url(#boxBg4)" stroke="url(#goldBorder)" stroke-width="1.5" filter="url(#boxShadow)"/>
     <rect x="8" y="8" width="204" height="124" rx="8" fill="none" stroke="#8C6C1E" stroke-width="0.5" opacity="0.5"/>
@@ -610,7 +696,6 @@
       <tspan x="110" dy="16">improved and problems solved.</tspan>
     </text>
   </g>
-  
   <g transform="translate(490, 820)" class="fade-in delay-5">
     <rect x="0" y="18" width="220" height="140" rx="12" fill="url(#boxBg5)" stroke="url(#goldBorder)" stroke-width="1.5" filter="url(#boxShadow)"/>
     <rect x="8" y="26" width="204" height="124" rx="8" fill="none" stroke="#8C6C1E" stroke-width="0.5" opacity="0.5"/>
@@ -623,7 +708,6 @@
       <tspan x="110" dy="16">moment it reaches users.</tspan>
     </text>
   </g>
-  
   <g transform="translate(150, 720)" class="fade-in delay-6">
     <rect x="0" y="0" width="220" height="140" rx="12" fill="url(#boxBg6)" stroke="url(#goldBorder)" stroke-width="1.5" filter="url(#boxShadow)"/>
     <rect x="8" y="8" width="204" height="124" rx="8" fill="none" stroke="#8C6C1E" stroke-width="0.5" opacity="0.5"/>
@@ -636,7 +720,6 @@
       <tspan x="110" dy="16">machine' is never enough.</tspan>
     </text>
   </g>
-  
   <g transform="translate(40, 430)" class="fade-in delay-7">
     <rect x="0" y="0" width="220" height="140" rx="12" fill="url(#boxBg7)" stroke="url(#goldBorder)" stroke-width="1.5" filter="url(#boxShadow)"/>
     <rect x="8" y="8" width="204" height="124" rx="8" fill="none" stroke="#8C6C1E" stroke-width="0.5" opacity="0.5"/>
@@ -649,7 +732,6 @@
       <tspan x="110" dy="16">and high availability.</tspan>
     </text>
   </g>
-  
   <g transform="translate(150, 140)" class="fade-in delay-8">
     <rect x="0" y="0" width="220" height="140" rx="12" fill="url(#boxBg8)" stroke="url(#goldBorder)" stroke-width="1.5" filter="url(#boxShadow)"/>
     <rect x="8" y="8" width="204" height="124" rx="8" fill="none" stroke="#8C6C1E" stroke-width="0.5" opacity="0.5"/>
@@ -663,9 +745,10 @@
     </text>
   </g>
   
-  <!-- Main Title — ONLY color changed to blue gradient -->
+  <!-- Main Title -->
   <text x="600" y="-40" fill="url(#titleBlueGradient)" font-family="'Cinzel', serif" font-size="35" font-weight="800" text-anchor="middle" class="title-fade" letter-spacing="4">ATHARVA'S CONSTELLATION</text>
   
+  <!-- Sparkle accents -->
   <g opacity="0.9" class="fade-in delay-8">
     <circle cx="600" cy="380" r="4" fill="url(#starBlue1)" filter="url(#starGlowBlue)"/>
     <circle cx="320" cy="500" r="3.5" fill="url(#starCyan)" filter="url(#starGlowBlue)"/>
@@ -682,9 +765,9 @@
     <circle cx="980" cy="720" r="1" fill="#48D1CC" filter="url(#starGlowBlue)"/>
     <circle cx="320" cy="880" r="1.2" fill="#9DD8FF" filter="url(#starGlowBlue)"/>
     <circle cx="880" cy="900" r="1" fill="#48D1CC" filter="url(#starGlowBlue)"/>
-    <circle cx="540" cy="280" r="1.1" fill="#D4AF37" filter="url(#starGlow)"/>
-    <circle cx="660" cy="720" r="1.1" fill="#D4AF37" filter="url(#starGlow)"/>
-    <circle cx="260" cy="240" r="0.9" fill="#D4AF37" filter="url(#starGlow)"/>
-    <circle cx="940" cy="280" r="0.9" fill="#D4AF37" filter="url(#starGlow)"/>
+    <circle cx="540" cy="280" r="1.1" fill="#9DD8FF" filter="url(#starGlowBlue)"/>
+    <circle cx="660" cy="720" r="1.1" fill="#48D1CC" filter="url(#starGlowBlue)"/>
+    <circle cx="260" cy="240" r="0.9" fill="#9DD8FF" filter="url(#starGlowBlue)"/>
+    <circle cx="940" cy="280" r="0.9" fill="#48D1CC" filter="url(#starGlowBlue)"/>
   </g>
 </svg>
