@@ -10,6 +10,7 @@ Plans
 Textarea
 Cards
 Github
+Co trol
 Ontop
 Syntax
 Read
