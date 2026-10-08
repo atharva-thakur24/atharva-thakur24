@@ -13,6 +13,7 @@ Github
 Ontop
 Syntax
 Read
+edit
 Make it
 Motion
 Text
