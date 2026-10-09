@@ -8,6 +8,7 @@ Card
 Subscription 
 Plans
 Textarea
+Micro 
 Cards
 Github
 Game
