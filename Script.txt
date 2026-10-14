@@ -9,6 +9,7 @@ Subscription
 Plans
 Textarea
 Micro 
+Time
 Info
 Cards
 Github
