@@ -4,6 +4,7 @@ Title
 Syntax
 Image
 Mask
+Clutch
 Card
 Subscription 
 Plans
