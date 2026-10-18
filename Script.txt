@@ -8,6 +8,7 @@ Clutch
 Card
 Subscription 
 Plans
+Data
 Flim
 Textarea
 Micro 
