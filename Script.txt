@@ -10,6 +10,7 @@ Subscription
 Art
 Plans
 break
+edit
 Data
 Flim
 Textarea
