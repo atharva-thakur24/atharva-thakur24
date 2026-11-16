@@ -9,6 +9,7 @@ final
 Hakl
 wait
 Heroo
+shell
 Gamss
 No
 y
