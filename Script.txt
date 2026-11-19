@@ -13,7 +13,3 @@ file
 cool
 Heroo
 shell
-Gamss
-No
-y
-Tc
