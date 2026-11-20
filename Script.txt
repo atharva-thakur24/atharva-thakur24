@@ -4,7 +4,6 @@ AI
 Claoud
 Software
 sure
-why
 final
 leet
 Hakl
