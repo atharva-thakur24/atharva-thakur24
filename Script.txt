@@ -10,6 +10,7 @@ Hakl
 stdy
 game
 wait
+sw
 file
 cool
 Heroo
