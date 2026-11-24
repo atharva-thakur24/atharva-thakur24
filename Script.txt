@@ -9,6 +9,7 @@ leet
 Hakl
 stdy
 game
+cloud
 wait
 sw
 file
