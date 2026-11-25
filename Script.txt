@@ -10,6 +10,7 @@ Hakl
 stdy
 game
 cloud
+dam
 wait
 sw
 file
