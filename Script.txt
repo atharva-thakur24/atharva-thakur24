@@ -9,6 +9,7 @@ leet
 Hakl
 stdy
 game
+Cur
 cloud
 dam
 to
